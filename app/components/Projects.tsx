@@ -3,28 +3,25 @@ import Image from "next/image";
 
 function Projects() {
   return (
-    <section className="">
-      <div className="flex flex-wrap">
+    <section id="projects" className="py-16 bg-slate-100">
+      <div className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {ProjectsData.map((project) => {
           return (
-            <div className="w-[350] h-[470]" key={project.title}>
+            <div className="project-card bg-slate-300 p-4" key={project.title}>
               <Image
                 src={project.src}
-                height={400}
-                width={100}
+                height={150}
+                width={300}
                 alt={project.title}
-                layout="responsive"
-                className="w-24 h-16"
-                // style={{
-                //   width: 350,
-                //   height: 200,
-                // }} 
+                className="object-cover w-full"
               />
-              <div className="information">
-                <p>{project.title}</p>
-                <p>{project.description}</p>
-                <button className="p-4 bg-black text-white">Button</button>
-
+              <div className="">
+                <p className="text-3xl font-bold">{project.title}</p>
+                <p className="py-4">{project.description}</p>
+                <div className="buttons flex justify-between">
+                  <button className="p-4 bg-black text-white">Live Site</button>
+                  <button className="p-4 bg-black text-white">View Code</button>
+                </div>
               </div>
             </div>
           );
