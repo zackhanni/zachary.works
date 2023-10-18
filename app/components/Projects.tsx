@@ -3,30 +3,40 @@ import Image from "next/image";
 
 function Projects() {
   return (
-    <section id="projects" className="py-16 bg-slate-100">
-      <div className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+    <section id="projects" className="py-16 bg-slate-300">
+      <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {ProjectsData.map((project) => {
           return (
-            <div className="project-card bg-slate-300 p-4" key={project.title}>
+            <li
+              id="project-card"
+              className="md:max-w-[350px] bg-slate-400 p-4 rounded-lg shadow-2xl"
+              key={project.title}
+            >
               <Image
                 src={project.src}
-                height={150}
-                width={300}
+                height={175}
+                width={350}
                 alt={project.title}
-                className="object-cover w-full"
+                className="object-cover w-full h-[175px] rounded-sm"
               />
-              <div className="">
-                <p className="text-3xl font-bold">{project.title}</p>
-                <p className="py-4">{project.description}</p>
-                <div className="buttons flex justify-between">
-                  <button className="p-4 bg-black text-white">Live Site</button>
-                  <button className="p-4 bg-black text-white">View Code</button>
+              <div className="py-4">
+                <div>
+                  <p className="text-2xl font-bold">{project.title}</p>
+                  <p className="pb-4">{project.description}</p>
+                </div>
+                <div id="project-buttons" className="flex justify-between">
+                  <button className="px-6 py-3 bg-black text-white rounded-sm font-semibold">
+                    Live Page
+                  </button>
+                  <button className="px-6 py-3 bg-black text-white rounded-sm font-semibold">
+                    View Code
+                  </button>
                 </div>
               </div>
-            </div>
+            </li>
           );
         })}
-      </div>
+      </ul>
     </section>
   );
 }
