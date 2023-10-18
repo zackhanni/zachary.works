@@ -3,14 +3,14 @@ import Image from "next/image";
 
 function Projects() {
   return (
-    <section id="projects" className=" bg-slate-300">
+    <section id="projects" className=" bg-slate-300 flex flex-col justify-center items-center">
       <h2 className="text-5xl text-center font-bold py-16">Projects</h2>
-      <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
         {ProjectsData.map((project) => {
           return (
             <li
               id="project-card"
-              className="md:max-w-[350px] bg-slate-400 p-4 rounded-lg shadow-2xl"
+              className="md:max-w-[350px] min-w-[300px] bg-slate-400 p-4 rounded-lg shadow-2xl"
               key={project.title}
             >
               <Image
