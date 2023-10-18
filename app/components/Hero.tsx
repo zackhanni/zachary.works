@@ -18,7 +18,7 @@ function Hero() {
           priority={true}
           alt="Working at a computer"
           style={{}}
-          className=" opacity-20 absolute top-0 left-0"
+          className=" opacity-20 absolute object-cover top-0 left-0"
         />
         <div className="content absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
           <p className="text-7xl text-white ">{HeroContent[0].largeText}</p>
