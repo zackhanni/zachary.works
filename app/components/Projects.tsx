@@ -25,10 +25,10 @@ function Projects() {
                   <p className="pb-4">{project.description}</p>
                 </div>
                 <div id="project-buttons" className="flex justify-between">
-                  <button className="px-6 py-3 bg-black text-white rounded-sm font-semibold">
+                  <button className="px-6 py-3 bg-black hover:bg-zinc-800 text-white rounded-sm font-semibold">
                     Live Page
                   </button>
-                  <button className="px-6 py-3 bg-black text-white rounded-sm font-semibold">
+                  <button className="px-6 py-3 bg-black hover:bg-zinc-800 text-white rounded-sm font-semibold">
                     View Code
                   </button>
                 </div>
