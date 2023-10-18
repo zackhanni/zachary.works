@@ -3,7 +3,8 @@ import Image from "next/image";
 
 function Projects() {
   return (
-    <section id="projects" className="py-16 bg-slate-300">
+    <section id="projects" className=" bg-slate-300">
+      <h2 className="text-5xl text-center font-bold py-16">Projects</h2>
       <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {ProjectsData.map((project) => {
           return (
