@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* rainbow text for hero text */
 #rainbow {
     background-image: 
     linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red); 
