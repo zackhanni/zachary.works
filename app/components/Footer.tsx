@@ -53,7 +53,7 @@ function Footer() {
 
   return (
     <footer className="flex items-center justify-center  bg-slate-600 text-white py-20">
-      <div className="flex flex-col md:flex-row justify-between w-full max-w-[1200px] p-8 xl:p-0 ">
+      <div className="flex flex-col md:flex-row justify-between w-full max-w-[1100px] p-8 xl:p-0 ">
         <div className="left-side pb-8 md:pb-0 text-lg">
           <div className="title font-bold text-2xl py-2">Contact</div>
 
