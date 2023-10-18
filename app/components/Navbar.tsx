@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="bg-black w-full h-24 text-white fixed top-0 z-50">
       <div className="">
         <Link href="/">
-          <h2 className="text-5xl text-center">Navbar</h2>
+          <h2 className="text-4xl sm:text-5xl text-center pt-6 font-semibold">Hire Zack Hanni</h2>
         </Link>
       </div>
     </nav>
