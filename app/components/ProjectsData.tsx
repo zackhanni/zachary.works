@@ -1,8 +1,8 @@
 const ProjectsData = [
   {
     src: "/soma-website.png",
-    title: "Recording Studio Website",
-    description: "I was hired by Soma to create a responsive service based website with SEO and load speed tests in mind. I deployed the page on netlify and handled DNS",
+    title: "Sounds Like Soma",
+    description: "Soma is a Philadelphia based recording studio. I was hired to create a responsive, service based, website with SEO and load speeds in mind.",
     liveWebsite: "https://www.soundslikesoma.com/",
     github: "https://github.com/zackhanni/soundslikesoma",
   },
