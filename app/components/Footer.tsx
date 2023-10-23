@@ -59,7 +59,7 @@ function Footer() {
 
           {ContactData.map((data) => {
             return (
-              <Link href={data.href} key={data.label}>
+              <Link href={data.href} key={data.label} target="_blank">
                 <div className="flex">
                   {data.icon}
                   <p className="pl-2">{data.label}</p>
@@ -77,7 +77,7 @@ function Footer() {
           <div className="social media flex ">
             {SocialData.map((social) => {
               return (
-                <Link href={social.href} key={social.label}>
+                <Link href={social.href} key={social.label} target="_blank" >
                   <div className="pr-4 pt-4 text-3xl">{social.icon}</div>
                 </Link>
               );
