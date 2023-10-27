@@ -59,7 +59,7 @@ function Footer() {
 
           {ContactData.map((data) => {
             return (
-              <Link href={data.href} key={data.label} target="_blank">
+              <Link href={data.href} key={data.label}>
                 <div className="flex">
                   {data.icon}
                   <p className="pl-2">{data.label}</p>
