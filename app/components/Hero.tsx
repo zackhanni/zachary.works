@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 
 function Hero() {
@@ -23,6 +22,9 @@ function Hero() {
           </p>
           <p className="text-5xl md:text-7xl text-white font-bold">
             I built this site with Next.js
+          </p>
+          <p>
+            I&apos;m a software engineer based in Philadelphia, Pennsylvania. I&apos;m eager to try and learn new things and help 
           </p>
         </div>
       </div>
