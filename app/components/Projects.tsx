@@ -1,6 +1,9 @@
+"use client";
+
 import ProjectsData from "./ProjectsData";
 import Image from "next/image";
 import "../components/ProjectsStyles.css";
+import { useInView } from "react-intersection-observer";
 
 function Projects() {
   // const observer = new IntersectionObserver(
@@ -30,10 +33,18 @@ function Projects() {
       </h2>
       <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
         {ProjectsData.map((project) => {
+          const { ref, inView } = useInView({
+            threshold: 0.25,
+            // triggerOnce: true,
+          });
+
           return (
             <li
-              className="card md:max-w-[350px] min-w-[300px] bg-slate-400/20 p-4 rounded-lg shadow-2xl"
+              className={`card md:max-w-[350px] min-w-[300px] bg-slate-400/20 p-4 rounded-lg shadow-2xl ${
+                inView ? "show" : "hide"
+              }`}
               key={project.title}
+              ref={ref}
             >
               <Image
                 src={project.src}
@@ -44,6 +55,7 @@ function Projects() {
               />
               <div className="py-3 text-white">
                 <div>
+                  <p>{inView.toString()}</p>
                   <p className="text-2xl font-bold">{project.title}</p>
                   <p className="py-6">{project.description}</p>
                   <div className="flex flex-wrap pb-6">
