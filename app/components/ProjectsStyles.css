@@ -1,11 +1,11 @@
 .show {
-    /* transform: translateY(0); */
+    transform: translateX(0);
     opacity: 1;
-    transition: 500ms;
+    transition: 300ms;
 }
 
 .hide {
-    /* transform: translateY(100px); */
+    transform: translateX(100px);
     opacity: 0;
-    transition: 500ms;
+    transition: 300ms;
 }
