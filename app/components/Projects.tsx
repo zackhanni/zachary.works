@@ -6,23 +6,6 @@ import "../components/ProjectsStyles.css";
 import { useInView } from "react-intersection-observer";
 
 function Projects() {
-  // const observer = new IntersectionObserver(
-  //   (entries) => {
-  //     entries.forEach((entry) => {
-  //       entry.target.classList.toggle("show", entry.isIntersecting);
-  //       if (entry.isIntersecting) observer.unobserve(entry.target);
-  //     });
-  //   },
-  //   {
-  //     threshold: 0.75,
-  //   }
-  // );
-
-  // const cards = document.querySelectorAll(".card")
-  // cards.forEach(card => {
-  //   observer.observe(card)
-  // })
-
   return (
     <section
       id="projects"
@@ -32,10 +15,12 @@ function Projects() {
         Noteable Projects
       </h2>
       <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+        
         {ProjectsData.map((project) => {
+          // eslint-disable-next-line react-hooks/rules-of-hooks
           const { ref, inView } = useInView({
-            threshold: 0.25,
-            // triggerOnce: true,
+            threshold: 0.15,
+            triggerOnce: true,
           });
 
           return (
