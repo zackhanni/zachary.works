@@ -40,8 +40,9 @@ function Projects() {
               />
               <div className="py-3 text-white">
                 <div>
-                  <p>{inView.toString()}</p>
+                  {/* <p>{inView.toString()}</p> */}
                   <p className="text-2xl font-bold">{project.title}</p>
+                  <p className="text-blue-600">View on github</p>
                   <p className="py-6">{project.description}</p>
                   <div className="flex flex-wrap pb-6">
                     {project.tools?.map((tool) => {
@@ -57,11 +58,8 @@ function Projects() {
                   </div>
                 </div>
                 <div id="project-buttons" className="flex justify-between">
-                  <button className="px-6 py-3 bg-black hover:bg-zinc-800 rounded-sm font-semibold">
-                    Live Page
-                  </button>
-                  <button className="px-6 py-3 bg-black hover:bg-zinc-800 rounded-sm font-semibold">
-                    View Code
+                  <button className="py-2 w-full bg-blue-800 hover:bg-blue-900 rounded-sm font-semibold">
+                    View Live Page
                   </button>
                 </div>
               </div>
