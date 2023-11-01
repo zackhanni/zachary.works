@@ -1,6 +1,7 @@
 "use client";
 
 import ProjectsData from "./ProjectsData";
+import Link from "next/link";
 import Image from "next/image";
 import "../components/ProjectsStyles.css";
 import { useInView } from "react-intersection-observer";
@@ -15,7 +16,6 @@ function Projects() {
         Noteable Projects
       </h2>
       <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
-        
         {ProjectsData.map((project) => {
           // eslint-disable-next-line react-hooks/rules-of-hooks
           const { ref, inView } = useInView({
@@ -42,13 +42,15 @@ function Projects() {
                 <div>
                   {/* <p>{inView.toString()}</p> */}
                   <p className="text-2xl font-bold">{project.title}</p>
-                  <p className="text-blue-600">View on github</p>
+                  <Link href={project.github}>
+                    <p className="text-blue-600 hover:text-blue-900">View on github</p>
+                  </Link>
                   <p className="py-6">{project.description}</p>
                   <div className="flex flex-wrap pb-6">
                     {project.tools?.map((tool) => {
                       return (
                         <p
-                          className="text-white bg-blue-800 rounded-full py-1 px-4 mx-1"
+                          className="text-white bg-blue-800 rounded-full py-1 px-4 m-1"
                           key={tool}
                         >
                           {tool}
@@ -57,11 +59,11 @@ function Projects() {
                     })}
                   </div>
                 </div>
-                <div id="project-buttons" className="flex justify-between">
+                <Link href={project.liveWebsite}>
                   <button className="py-2 w-full bg-blue-800 hover:bg-blue-900 rounded-sm font-semibold">
                     View Live Page
                   </button>
-                </div>
+                </Link>
               </div>
             </li>
           );
