@@ -3,11 +3,9 @@ import {
   FaHome,
   FaPhone,
   FaRegFileAlt,
-  FaLinkedin,
-  FaGithub,
-  FaDribbble,
 } from "react-icons/fa";
 import Link from "next/link";
+import SocialData from "./SocialData";
 
 function Footer() {
   const ContactData = [
@@ -30,24 +28,6 @@ function Footer() {
       href: "https://drive.google.com/file/d/1XJAk8fHctsLu_8d6r15THYBmJV-uro1E/view?usp=sharing",
       label: "Zack's Resume",
       icon: <FaRegFileAlt />,
-    },
-  ];
-
-  const SocialData = [
-    {
-      label: "Linkedin",
-      href: "https://www.linkedin.com/in/zackhanni/",
-      icon: <FaLinkedin />,
-    },
-    {
-      label: "Github",
-      href: "https://github.com/zackhanni",
-      icon: <FaGithub />,
-    },
-    {
-      label: "Dribble",
-      href: "https://dribbble.com/zackhanni",
-      icon: <FaDribbble />,
     },
   ];
 
@@ -74,7 +54,7 @@ function Footer() {
             I enjoy coding, learning, and audio engineering. I am open to
             discussing new projects and design challenges.
           </div>
-          <div className="social media flex ">
+          <div className="social-media flex ">
             {SocialData.map((social) => {
               return (
                 <Link href={social.href} key={social.label} target="_blank" >
