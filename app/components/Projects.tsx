@@ -10,9 +10,9 @@ function Projects() {
   return (
     <section
       id="projects"
-      className=" bg-black flex flex-col justify-center items-center"
+      className=" flex flex-col justify-center items-center"
     >
-      <h2 className="text-5xl text-center font-bold py-16 text-white">
+      <h2 className="text-5xl lg:text-7xl font-bold text-center py-16 text-white">
         Noteable Projects
       </h2>
       <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
@@ -25,7 +25,7 @@ function Projects() {
 
           return (
             <li
-              className={`card md:max-w-[350px] min-w-[300px] bg-slate-400/20 p-4 rounded-lg shadow-2xl ${
+              className={`card md:max-w-[350px] min-w-[300px] bg-slate-400/10 backdrop-blur p-4 rounded-lg shadow-2xl ${
                 inView ? "show" : "hide"
               }`}
               key={project.title}
@@ -43,7 +43,9 @@ function Projects() {
                   {/* <p>{inView.toString()}</p> */}
                   <p className="text-2xl font-bold">{project.title}</p>
                   <Link href={project.github}>
-                    <p className="text-blue-600 hover:text-blue-900">View on github</p>
+                    <p className="text-blue-600 hover:text-blue-900">
+                      View on github
+                    </p>
                   </Link>
                   <p className="py-6">{project.description}</p>
                   <div className="flex flex-wrap pb-6">
