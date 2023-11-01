@@ -1,7 +1,7 @@
 const ProjectsData = [
   {
     src: "/soma-website.png",
-    tools: ["thing1", "thing2", "thing3"],
+    tools: ["Ruby", "Jekyll", "Bootstrap", "Netlify"],
     title: "Sounds Like Soma",
     company: "Sounds Like Soma",
     description: "Soma is a Philadelphia based recording studio. I was hired to create a responsive, service based, website with SEO and load speeds in mind.",
@@ -10,7 +10,7 @@ const ProjectsData = [
   },
   {
     src: "/visual-impairment.png",
-    tools: ["thing1", "thing2", "thing3"],
+    tools: ["React (Next JS)", "Node", "Tailwind", "Typescript", "Vercel"],
     title: "Visual Impairment Simulator",
     company: "Freelance",
     description: "A website designed to simulate various visual disabilities",
@@ -19,7 +19,7 @@ const ProjectsData = [
   },
   {
     src: "/project3.png",
-    tools: ["thing1", "thing2", "thing3"],
+    tools: ["Javascript", "HTML", "CSS"],
     title: "Ecommerce Website Design",
     company: "Freelance",
     description: "A product website for a clothing company selling a variety of clothing. Complete with item descriptions, size and color options, and a checkout page.",
@@ -28,7 +28,7 @@ const ProjectsData = [
   },
   {
     src: "/UX-design-demo.png",
-    tools: ["thing1", "thing2", "thing3"],
+    tools: ["Figma", "Adobe Illustrator", "UX / UI"],
     title: "UX and UI Design",
     description: "I have experience designing products and apps with Figma. I have a seperate portfolio of designs and case studies featured on Dribble.com",
     liveWebsite: "https://dribbble.com/zackhanni",
