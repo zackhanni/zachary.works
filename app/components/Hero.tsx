@@ -31,8 +31,8 @@ function Hero() {
               software engineer
             </span>{" "}
             based in Philadelphia, Pennsylvania. This website is my personal
-            portfolio, highlighting my work history, noteable projects, and love
-            of tech.
+            portfolio, highlighting my work history, noteable projects, and my
+            profound love of tech.
           </p>
         </div>
       </div>
