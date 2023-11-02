@@ -26,8 +26,8 @@ export default function About() {
   ];
 
   return (
-    <section>
-      <div className="bg-black text-white py-24 flex flex-col items-center justify-center">
+    <section className="">
+      <div className="bg-black text-white py-28 flex flex-col items-center justify-center">
         <div className="min-w-[50%] max-w-[90%] lg:max-w-[50%]">
           {/* About me */}
           <div
