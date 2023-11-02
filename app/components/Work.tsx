@@ -8,7 +8,7 @@ export default function Work() {
         <p className="text-5xl lg:text-7xl font-bold text-center">Work</p>
         {WorkData.map((job) => {
           return (
-            <div key={job.company} className="bg-slate-800/20 max-w-[1200] p-8 
+            <div key={job.company} className="bg-slate-800/20 max-w-[1200px] p-8 
         mt-6 rounded-lg backdrop-blur">
               <p className="text-2xl font-semibold">{job.title}</p>
               <div className="flex text-white/80">
