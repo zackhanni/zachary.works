@@ -4,14 +4,15 @@ import Link from "next/link";
 export default function About() {
   const TechStack = [
     "React (Next JS)",
-    "React Native",
+    "Javascript",
     "Typescript",
-    "Node",
-    "Express",
-    "Postgres",
-    "Redis",
-    "Netlify",
-    "Heroku",
+    "Tailwind",
+    "Node.js",
+    "Git",
+    "HTML5",
+    "CSS3",
+    "Rest",
+    "Vercel",
   ];
 
   const AltStack = [
