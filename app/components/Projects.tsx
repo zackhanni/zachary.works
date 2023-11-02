@@ -10,12 +10,12 @@ function Projects() {
   return (
     <section
       id="projects"
-      className=" flex flex-col justify-center items-center"
+      className=" flex flex-col justify-center items-center py-24"
     >
-      <h2 className="text-5xl lg:text-7xl font-bold text-center py-16 text-white">
+      <h2 className="text-5xl lg:text-7xl font-bold text-center py-4 text-white sticky top-0 z-10 w-full backdrop-blur">
         Noteable Projects
       </h2>
-      <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 pb-20 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+      <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 py-20 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
         {ProjectsData.map((project) => {
           // eslint-disable-next-line react-hooks/rules-of-hooks
           const { ref, inView } = useInView({
