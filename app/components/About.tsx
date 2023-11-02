@@ -1,0 +1,98 @@
+import { FaRegEnvelope, FaHome, FaPhone, FaRegFileAlt } from "react-icons/fa";
+import Link from "next/link";
+
+export default function About() {
+  const TechStack = [
+    "React (Next JS)",
+    "React Native",
+    "Typescript",
+    "Node",
+    "Express",
+    "Postgres",
+    "Redis",
+    "Netlify",
+    "Heroku",
+  ];
+
+  const AltStack = [
+    "Ruby",
+    "Jekyll",
+    "Netlify",
+    "PHP",
+    "Wordpress",
+    "MongoDB",
+    "Heroku",
+  ];
+
+  return (
+    <section>
+      <div className="bg-black text-white py-24 flex flex-col items-center justify-center ">
+        {/* contact box */}
+        <div
+          className="bg-slate-800/20 p-8 
+        mt-6 rounded-lg backdrop-blur max-w-[1200px]"
+        >
+          <p className="text-2xl font-bold">Contact</p>
+          <p className="py-6">
+            The best way to contact me is through email or LinkedIn (I&apos;m
+            not much of a twitter guy). Give me a shout here:
+          </p>
+          <p>
+            Email:
+            <a
+              href="mailto:zack.hanni@gmail.com"
+              target="blank"
+              className="hover:underline hover:text-blue-700"
+            >
+              zack.hanni@gmail.com
+            </a>
+          </p>
+          <p>
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/zackhanni/"
+              target="blank"
+              className="hover:underline hover:text-blue-700"
+            >
+              @zackhanni
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://drive.google.com/file/d/1XJAk8fHctsLu_8d6r15THYBmJV-uro1E/view?usp=sharing"
+              target="blank"
+              className="hover:underline hover:text-blue-700"
+            >
+              Zack&apos;s Resume
+            </a>
+          </p>
+        </div>
+        {/* tech i love */}
+        <div
+          className="bg-slate-800/20 p-8 
+        mt-6 rounded-lg backdrop-blur max-w-[1200px]"
+        >
+          <p className="text-2xl font-bold">Tech I Love</p>
+          <p className="py-6">
+            My choice tech stack for personal projects is GENERALLY (but not
+            always):
+          </p>
+          <div className="grid gap-2 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+          {TechStack.map((tech) => {
+            return <li key={tech}>{tech}</li>;
+          })}
+          </div>
+
+          <p className="py-6">
+          Some other tech that I love and/or have built at scale with:
+          </p>
+          <div className="grid gap-2 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+          {AltStack.map((tech) => {
+            return <li key={tech}>{tech}</li>;
+          })}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
