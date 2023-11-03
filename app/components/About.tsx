@@ -31,7 +31,7 @@ export default function About() {
         <div className="min-w-[50%] max-w-[90%] lg:max-w-[50%]">
           {/* About me */}
           <div
-            className="bg-slate-800/20 p-8 
+            className="radial-gradient p-8 
         mt-6 rounded-lg backdrop-blur"
           >
             <p className="text-3xl font-bold">About Me</p>
@@ -44,7 +44,7 @@ export default function About() {
           </div>
           {/* contact box */}
           <div
-            className="bg-slate-800/20 p-8 
+            className="radial-gradient p-8 
         mt-6 rounded-lg backdrop-blur "
           >
             <h2 className="text-3xl font-bold">Contact</h2>
@@ -86,7 +86,7 @@ export default function About() {
           </div>
           {/* tech i love */}
           <div
-            className="bg-slate-800/20 p-8 
+            className="radial-gradient p-8 
         mt-6 rounded-lg backdrop-blur"
           >
             <p className="text-3xl font-bold">Tech I Love</p>
