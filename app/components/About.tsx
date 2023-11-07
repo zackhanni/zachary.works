@@ -1,5 +1,6 @@
 import { FaRegEnvelope, FaHome, FaPhone, FaRegFileAlt } from "react-icons/fa";
 import Link from "next/link";
+import Footer from "./Footer";
 
 export default function About() {
   const TechStack = [
@@ -41,6 +42,31 @@ export default function About() {
               Leverages technical expertise to deliver information technology
               solutions.
             </p>
+          </div>{" "}
+          {/* tech i love */}
+          <div
+            className="radial-gradient p-8 
+        mt-6 rounded-lg backdrop-blur"
+          >
+            <p className="text-3xl font-bold">Tech I Love</p>
+            <p className="py-6">
+              My choice tech stack for personal projects is GENERALLY (but not
+              always):
+            </p>
+            <div className="grid gap-2 grid-cols-1 md:grid-cols-2">
+              {TechStack.map((tech) => {
+                return <li key={tech}>{tech}</li>;
+              })}
+            </div>
+
+            <p className="py-6">
+              Some other tech that I love and/or have built at scale with:
+            </p>
+            <div className="grid gap-2 grid-cols-1 md:grid-cols-2">
+              {AltStack.map((tech) => {
+                return <li key={tech}>{tech}</li>;
+              })}
+            </div>
           </div>
           {/* contact box */}
           <div
@@ -84,31 +110,7 @@ export default function About() {
               </p>
             </div>
           </div>
-          {/* tech i love */}
-          <div
-            className="radial-gradient p-8 
-        mt-6 rounded-lg backdrop-blur"
-          >
-            <p className="text-3xl font-bold">Tech I Love</p>
-            <p className="py-6">
-              My choice tech stack for personal projects is GENERALLY (but not
-              always):
-            </p>
-            <div className="grid gap-2 grid-cols-1 md:grid-cols-2">
-              {TechStack.map((tech) => {
-                return <li key={tech}>{tech}</li>;
-              })}
-            </div>
-
-            <p className="py-6">
-              Some other tech that I love and/or have built at scale with:
-            </p>
-            <div className="grid gap-2 grid-cols-1 md:grid-cols-2">
-              {AltStack.map((tech) => {
-                return <li key={tech}>{tech}</li>;
-              })}
-            </div>
-          </div>
+          <Footer />
         </div>
       </div>
     </section>
