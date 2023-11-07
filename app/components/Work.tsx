@@ -9,7 +9,7 @@ export default function Work() {
           id="work"
           className="text-5xl lg:text-7xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
         >
-          Work
+          Work Experience
         </h2>
         <div className="min-w-[50%] max-w-[90%] lg:max-w-[50%]">
         {WorkData.map((job) => {

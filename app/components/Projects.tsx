@@ -13,7 +13,7 @@ function Projects() {
       className="radial-gradient flex flex-col justify-center items-center py-8"
     >
       <h2 className="text-5xl lg:text-7xl font-bold text-center py-4 text-white sticky top-0 z-10 w-full backdrop-blur">
-        Noteable Projects
+        Notable Projects
       </h2>
       <ul className="max-w-[90%] md:max-w-[1200] m-auto grid gap-10 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 p-8 overflow-hidden">
         {ProjectsData.map((project) => {

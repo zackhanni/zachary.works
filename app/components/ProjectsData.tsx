@@ -20,7 +20,7 @@ const ProjectsData = [
   {
     src: "/project3.png",
     tools: ["Javascript", "HTML", "CSS"],
-    title: "Ecommerce Website Design",
+    title: "E-commerce Website Design",
     company: "Freelance",
     description: "A product website for a clothing company selling a variety of clothing. Complete with item descriptions, size and color options, and a checkout page.",
     liveWebsite: "https://zack-ecommerce.netlify.app/",
@@ -30,7 +30,7 @@ const ProjectsData = [
     src: "/UX-design-demo.png",
     tools: ["Figma", "Adobe Illustrator", "UX / UI"],
     title: "UX and UI Design",
-    description: "I have experience designing products and apps with Figma. I have a seperate portfolio of designs and case studies featured on Dribble.com",
+    description: "I have experience designing products and apps with Figma. I have a separate portfolio of designs and case studies featured on Dribble.com",
     liveWebsite: "https://dribbble.com/zackhanni",
     github: "https://dribbble.com/zackhanni",
   },
@@ -51,17 +51,11 @@ const ProjectsData = [
   {
     src: "/weather.jpg",
     title: "Weather search app",
-    description: "I accessed a weather API to find temperature highs, lows, humidity, etc in any city around the world. This app is deployed through Varcel",
+    description: "I accessed a weather API to find temperature highs, lows, humidity, etc in any city around the world. This app is deployed through Vercel",
     liveWebsite: "https://next-weather-app-zackhanni.vercel.app/",
     github: "https://github.com/zackhanni/weather-app-react",
   },
-  {
-    src: "/calculator.png",
-    title: "Zack's Calculator",
-    description: "Are you one of the few who think using a built in capculator app is inconvenient? Look no further than my even more inconveniencing JS, HTML, and CSS based calculator app!",
-    liveWebsite: "https://zacks-calculator.netlify.app/",
-    github: "https://github.com/zackhanni/js-calculator-app",
-  },
+
 ];
 
 export default ProjectsData;
