@@ -1,15 +1,16 @@
 import React from "react";
-import WorkData from "./WorkData";
+import WorkData from "./ExperienceData";
+import ToolBubbles from "./ToolBubbles";
 
-export default function Work() {
+export default function Experience() {
   return (
     <section>
       <div className="bg-black text-white py-8 flex flex-col items-center justify-center">
         <h2
           id="work"
-          className="text-5xl lg:text-7xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
+          className="text-5xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
         >
-          Work Experience
+          Experience
         </h2>
         <div className="min-w-[50%] max-w-[90%] lg:max-w-[50%]">
           {WorkData.map((job) => {
@@ -32,6 +33,7 @@ export default function Work() {
                     </p>
                   );
                 })}
+                <ToolBubbles tools={job.tools} />
               </div>
             );
           })}
