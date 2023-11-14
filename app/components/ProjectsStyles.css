@@ -1,11 +1,25 @@
 .show {
-    transform: translateX(0);
-    opacity: 1;
-    transition: 300ms;
+  transform: translateX(0);
+  opacity: 1;
+  transition: 300ms;
 }
 
 .hide {
-    transform: translateX(100px);
-    opacity: 0;
-    transition: 300ms;
+  transform: translateX(100px);
+  opacity: 0;
+  transition: 300ms;
+}
+
+@media (min-width: 1024px) {
+  .card-container:hover .card {
+    opacity: 0.5;
+  }
+
+  /* .card {
+    opacity: 1;
+  } */
+
+  .card:hover {
+    opacity: 1 !important;
+  }
 }
