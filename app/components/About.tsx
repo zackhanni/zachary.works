@@ -73,7 +73,7 @@ export default function About() {
             className="radial-gradient p-8 
         mt-6 rounded-lg backdrop-blur "
           >
-            <h2 className="text-3xl font-bold">Contact</h2>
+            <h2 id="contact" className="text-3xl font-bold">Contact</h2>
             <p className="py-6">
               The best way to contact me is through email or LinkedIn (I&apos;m
               not much of a twitter guy). Give me a shout here:
