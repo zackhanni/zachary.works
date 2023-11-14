@@ -12,7 +12,7 @@ export default function Experience() {
         >
           Experience
         </h2>
-        <div className="min-w-[50%] max-w-[90%] lg:max-w-[50%]">
+        <div className="min-w-[50%] max-w-[90%] lg:max-w-[50%] md:max-w-[75%]">
           {WorkData.map((job) => {
             return (
               <div

@@ -29,7 +29,7 @@ export default function About() {
   return (
     <section className="">
       <div className="bg-black text-white py-28 flex flex-col items-center justify-center">
-        <div className="min-w-[50%] max-w-[90%] lg:max-w-[50%]">
+        <div className="min-w-[50%] max-w-[90%] lg:max-w-[50%] md:max-w-[75%]">
           {/* About me */}
           <div
             className="radial-gradient p-8 
