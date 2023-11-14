@@ -45,7 +45,7 @@ function Projects() {
                   <div className="flex justify-between items-center">
                     <p className="text-lg font-bold">{project.title}</p>
                   <Link href={project.github}>
-                    <p className="text-blue-600 text-sm hover:text-blue-900">
+                    <p className="text-[#514E6D] text-sm hover:text-white">
                       GitHub
                     </p>
                   </Link>
@@ -57,7 +57,7 @@ function Projects() {
 
                 </div>
                 <Link href={project.liveWebsite}>
-                  <button className="mt-4 py-2 w-full bg-blue-800 hover:bg-blue-900 rounded-sm font-semibold">
+                  <button className="mt-4 py-2 w-full bg-[#514E6D] hover:bg-[#211E38] rounded-sm font-semibold">
                     View Live Page
                   </button>
                 </Link>
