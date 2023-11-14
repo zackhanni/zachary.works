@@ -16,7 +16,8 @@ function Projects() {
       <h2 className="text-5xl font-bold text-center py-4 text-white sticky top-0 z-10 w-full backdrop-blur">
         Projects
       </h2>
-      <ul className="min-w-[50%] max-w-[90%] lg:max-w-[50%] m-auto grid gap-10 grid-cols-1 xl:grid-cols-2 py-8 overflow-hidden">
+
+      <ul className="min-w-[50%] max-w-[90%] lg:max-w-[50%] md:max-w-[75%] m-auto grid gap-10 grid-cols-1 xl:grid-cols-2 py-8 overflow-hidden card-container">
         {ProjectsData.map((project) => {
           // eslint-disable-next-line react-hooks/rules-of-hooks
           const { ref, inView } = useInView({
@@ -26,7 +27,7 @@ function Projects() {
 
           return (
             <li
-              className={`card bg-slate-400/10 backdrop-blur p-4 rounded-lg shadow-2xl ${
+              className={`card bg-slate-400/10  backdrop-blur p-4 rounded-lg shadow-2xl ${
                 inView ? "show" : "hide"
               }`}
               key={project.title}
@@ -44,20 +45,19 @@ function Projects() {
                   {/* <p>{inView.toString()}</p> */}
                   <div className="flex justify-between items-center">
                     <p className="text-lg font-bold">{project.title}</p>
-                  <Link href={project.github}>
-                    <p className="text-[#514E6D] text-sm hover:text-white">
-                      GitHub
-                    </p>
-                  </Link>
+                    <Link href={project.github}>
+                      <p className="text-[#514E6D] text-sm hover:text-white duration-300">
+                        GitHub
+                      </p>
+                    </Link>
                   </div>
-                  
+
                   <p className="mt-1">{project.description}</p>
 
                   <ToolBubbles tools={project.tools} />
-
                 </div>
                 <Link href={project.liveWebsite}>
-                  <button className="mt-4 py-2 w-full bg-[#514E6D] hover:bg-[#211E38] rounded-sm font-semibold">
+                  <button className="mt-4 py-2 w-full bg-[#514E6D] hover:bg-[#211E38] duration-300 rounded-sm font-semibold">
                     View Live Page
                   </button>
                 </Link>
