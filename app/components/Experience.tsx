@@ -22,7 +22,7 @@ export default function Experience() {
               >
                 <p className="text-2xl font-semibold">{job.title}</p>
                 <div className="flex text-white/80">
-                  <p className="text-blue-600 mr-1">{job.company}</p>
+                  <p className="text-[#514E6D] mr-1">{job.company}</p>
                   <p>{job.dateRange}</p>
                 </div>
                 <p className="text-white/80">{job.location}</p>
