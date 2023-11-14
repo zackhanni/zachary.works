@@ -9,7 +9,39 @@ export default function Footer() {
       <SocialMedia />
       <Button name="Back to top" password={false} link="#hero" />
       <p className="pt-16 max-w-md">
-        This website was designed in <b>Figma</b>, coded in <b>Visual Studio Code</b>, built with <b>Next.js</b>, and deployed with <b>Vercel</b> by yours truly.
+        This website was designed in{" "}
+        <a
+          href="https://www.figma.com/"
+          target="blank"
+          className="hover:text-white text-[#514E6D]"
+        >
+          Figma
+        </a>
+        , coded in{" "}
+        <a
+          href="https://www.figma.com/"
+          target="blank"
+          className="hover:text-white text-[#514E6D]"
+        >
+          Visual Studio Code
+        </a>
+        , built with{" "}
+        <a
+          href="https://www.figma.com/"
+          target="blank"
+          className="hover:text-white text-[#514E6D]"
+        >
+          Next.js
+        </a>
+        , and deployed with{" "}
+        <a
+          href="https://www.figma.com/"
+          target="blank"
+          className="hover:text-white text-[#514E6D]"
+        >
+          Vercel
+        </a>{" "}
+        by yours truly.
       </p>
     </div>
   );
