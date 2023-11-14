@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SocialMedia from "./SocialMedia";
+import Button from "./Button";
 
 function Hero() {
   return (
@@ -25,6 +26,11 @@ function Hero() {
             highlighting my work history, notable projects, and my profound love
             of tech.
           </p>
+          {/* <div className="z-50">
+            <Button name="Work Experience" password={false} link="#work" />
+            <Button name="Projects" password={false} link="#projects" />
+            <Button name="Contact" password={false} link="#contact" />
+          </div> */}
         </div>
       </div>
     </section>
