@@ -45,6 +45,11 @@ export default function About() {
                 Leverages technical expertise to deliver information technology
                 solutions.
               </p>
+              <p>
+                When I’m not at the computer, I’m usually running, hanging out
+                with my wife and two cats, or spending too much time in my
+                Baldur's Gate 3 campaign.
+              </p>
             </div>{" "}
             {/* tech i love */}
             <div
