@@ -46,9 +46,9 @@ export default function About() {
                 solutions.
               </p>
               <p>
-                When I’m not at the computer, I’m usually running, hanging out
-                with my wife and two cats, or spending too much time in my
-                Baldur's Gate 3 campaign.
+                When I&apos;m not at the computer, I&apos;m usually running,
+                hanging out with my wife and two cats, or spending too much time
+                in my Baldur&apos;s Gate 3 campaign.
               </p>
             </div>{" "}
             {/* tech i love */}
