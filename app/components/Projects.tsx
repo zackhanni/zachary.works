@@ -17,7 +17,7 @@ function Projects() {
         Projects
       </h2>
 
-      <ul className="card-container min-w-[50%] max-w-[90%] md:max-w-[85%] 2xl:max-w-[60%] m-auto grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8 overflow-hidden ">
+      <ul className="card-container min-w-[50%] max-w-[95%] md:max-w-[85%] 2xl:max-w-[60%] m-auto grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8 overflow-hidden ">
         {ProjectsData.map((project) => {
           // eslint-disable-next-line react-hooks/rules-of-hooks
           const { ref, inView } = useInView({

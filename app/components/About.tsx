@@ -30,12 +30,12 @@ export default function About() {
   return (
     <section className="">
       <div className="bg-black text-white py-28 flex flex-col items-center justify-center">
-        <div className="flex max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%]">
+        <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%]">
           <ZackFLoatingCard />
           <div>
             {/* About me */}
             <div
-              className="radial-gradient p-8 
+              className="radial-gradient p-4 sm:p-8 
         mt-6 rounded-lg backdrop-blur"
             >
               <p className="text-3xl font-bold">More About Me</p>
@@ -53,7 +53,7 @@ export default function About() {
             </div>{" "}
             {/* tech i love */}
             <div
-              className="radial-gradient p-8 
+              className="radial-gradient p-4 sm:p-8 
         mt-6 rounded-lg backdrop-blur"
             >
               <p className="text-3xl font-bold">Tech I Love</p>
@@ -78,7 +78,7 @@ export default function About() {
             </div>
             {/* contact box */}
             <div
-              className="radial-gradient p-8 
+              className="radial-gradient p-4 sm:p-8 
         mt-6 rounded-lg backdrop-blur "
             >
               <h2 id="contact" className="text-3xl font-bold">

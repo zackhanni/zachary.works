@@ -13,14 +13,14 @@ export default function Experience() {
         >
           Experience
         </h2>
-        <div className="flex max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%] ">
+        <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%] ">
           <ZackFLoatingCard />
           <div className="pb-24">
             {WorkData.map((job) => {
               return (
                 <div
                   key={job.company}
-                  className="bg-slate-800/20 p-8 
+                  className="bg-slate-800/20 p-4 sm:p-8 
         mt-6 rounded-lg radial-gradient backdrop-blur"
                 >
                   <p className="text-2xl font-semibold">{job.title}</p>
