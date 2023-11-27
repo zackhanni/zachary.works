@@ -13,7 +13,7 @@ export default function Experience() {
         >
           Experience
         </h2>
-        <div className="flex max-w-[90%] xl:max-w-[80%] 2xl:max-w-[70%] ">
+        <div className="flex max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%] ">
           <ZackFLoatingCard />
           <div className="min-w-[50%] max-w-[90%] sm:max-w-[75%] md:max-w-[50%]">
             {WorkData.map((job) => {
