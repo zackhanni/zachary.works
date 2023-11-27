@@ -15,7 +15,7 @@ function Hero() {
           style={{}}
           className="opacity-20 object-cover w-screen"
         />
-        <div className="max-md:p-6 p-0 absolute md:-translate-x-1/2 -translate-y-1/2 top-1/2 md:left-1/2 text-white max-w-[1200]">
+        <div className="max-md:p-4 p-0 absolute md:-translate-x-1/2 -translate-y-1/2 top-1/2 md:left-1/2 text-white max-w-[1200]">
           <p className="text-5xl lg:text-7xl font-bold">Hi, I&apos;m Zack.</p>
           {/* <SocialMedia /> */}
           <p className="text-xl pt-8">
