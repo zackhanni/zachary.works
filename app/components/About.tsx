@@ -85,7 +85,7 @@ export default function About() {
               </p>
               <div>
                 <p>
-                  Email:
+                  Email:{" "}
                   <a
                     href="mailto:zack.hanni@gmail.com"
                     target="blank"
@@ -95,7 +95,7 @@ export default function About() {
                   </a>
                 </p>
                 <p>
-                  LinkedIn:
+                  LinkedIn:{" "}
                   <a
                     href="https://www.linkedin.com/in/zackhanni/"
                     target="blank"
