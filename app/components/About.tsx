@@ -32,7 +32,7 @@ export default function About() {
       <div className="bg-black text-white py-28 flex flex-col items-center justify-center">
         <div className="flex max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%]">
           <ZackFLoatingCard />
-          <div id="min-w-[50%] max-w-[90%] sm:max-w-[75%] md:max-w-[50%]">
+          <div>
             {/* About me */}
             <div
               className="radial-gradient p-8 
