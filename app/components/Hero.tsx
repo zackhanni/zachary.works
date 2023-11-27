@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SocialMedia from "./SocialMedia";
 import Button from "./Button";
+import { FaChevronDown } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -26,6 +27,10 @@ function Hero() {
             highlighting my work history, notable projects, and my profound love
             of tech.
           </p>
+          <div className="text-8xl grid place-items-center pt-32">
+            <FaChevronDown className="pulse" />
+          </div>
+
           {/* <div className="z-50">
             <Button name="Work Experience" password={false} link="#work" />
             <Button name="Projects" password={false} link="#projects" />
