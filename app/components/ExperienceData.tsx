@@ -1,7 +1,7 @@
 const ExperienceData = [
   {
-    title: "Digital Solutions Lead",
-    company: "SmartMark Communications",
+    title: "Title",
+    company: "Company Name",
     dateRange: "• August 2023 - Now",
     location: "Philadelphia, Pennsylvania / Hybrid",
     tools: [
