@@ -40,7 +40,7 @@ function Projects() {
                 alt={project.title}
                 className="object-cover w-full h-[175px] rounded-sm"
               />
-              <div className="py-3 text-white">
+              <div className="py-3 text-white text-sm">
                 <div>
                   {/* <p>{inView.toString()}</p> */}
                   <div className="flex justify-between items-center">
