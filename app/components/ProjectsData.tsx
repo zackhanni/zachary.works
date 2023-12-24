@@ -4,16 +4,27 @@ const ProjectsData = [
     tools: ["Ruby", "Jekyll", "Bootstrap", "Netlify"],
     title: "Sounds Like Soma",
     company: "Sounds Like Soma",
-    description: "A highly responsive and service-oriented, prioritizing search engine optimization (SEO) and optimal load speeds. Blog pages are dynamically generated using markdown for efficient content management.",
+    description:
+      "I fully designed, developed  and deployed a responsive website for a local recording studio, incorporating user experience research, and SEO best practices.",
     liveWebsite: "https://www.soundslikesoma.com/",
     github: "https://github.com/zackhanni/soundslikesoma",
+  },
+  {
+    src: "/emo-intel.png",
+    tools: ["React (Next JS)", "Node", "Tailwind", "Typescript", "Vercel"],
+    title: "Emotional Intelligence Tracker",
+    description:
+      "I built an online service to help users identify and track their daily emotions. Im actively working with backend developers to add additional features.",
+    liveWebsite: "https://how-are-you-feeling.vercel.app/",
+    github: "https://github.com/zackhanni/how-are-you-feeling",
   },
   {
     src: "/visual-impairment.png",
     tools: ["React (Next JS)", "Node", "Tailwind", "Typescript", "Vercel"],
     title: "Visual Impairment Simulator",
     company: "Freelance",
-    description: "I collaborated with visually impaired individuals to design simulations of various visual disabilities. We are continually working to add additional demonstrations.",
+    description:
+      "I collaborated with visually impaired individuals to design simulations of various visual disabilities. We are continually working to add additional demonstrations.",
     liveWebsite: "https://visual-impairment.netlify.app/",
     github: "https://github.com/zackhanni/visual-impairments",
   },
@@ -22,23 +33,17 @@ const ProjectsData = [
     tools: ["Javascript", "HTML", "CSS"],
     title: "E-commerce Website Design",
     company: "Freelance",
-    description: "A product website for a clothing company selling a variety of clothing. Complete with item descriptions, size and color options, and a checkout page.",
+    description:
+      "A product website for a clothing company selling a variety of clothing. Complete with item descriptions, size and color options, and a checkout page.",
     liveWebsite: "https://zack-ecommerce.netlify.app/",
     github: "https://github.com/zackhanni/ecommerce-website-demo",
-  },  
-  {
-    src: "/emo-intel.png",
-    tools: ["React (Next JS)", "Node", "Tailwind", "Typescript", "Vercel"],
-    title: "Develop Emotional Intelligence",
-    description: "Empowering people with the tools to describe their feelings in more detail. Answer questions to get a better understanding of yourself.",
-    liveWebsite: "https://how-are-you-feeling.vercel.app/",
-    github: "https://github.com/zackhanni/how-are-you-feeling",
   },
   {
     src: "/UX-design-demo.png",
-    tools: ["Figma","After Effects", "Adobe Illustrator", "UX / UI"],
+    tools: ["Figma", "After Effects", "Adobe Illustrator", "UX / UI"],
     title: "UX and UI Design",
-    description: "Products and mockups designed with Figma. I have a separate portfolio of designs and case studies featured on Dribble.com",
+    description:
+      "Products and mockups designed with Figma. I have a separate portfolio of designs and case studies featured on Dribble.com",
     liveWebsite: "https://dribbble.com/zackhanni",
     github: "https://dribbble.com/zackhanni",
   },
@@ -57,7 +62,6 @@ const ProjectsData = [
   //   liveWebsite: "https://next-weather-app-zackhanni.vercel.app/",
   //   github: "https://github.com/zackhanni/weather-app-react",
   // },
-
 ];
 
 export default ProjectsData;
