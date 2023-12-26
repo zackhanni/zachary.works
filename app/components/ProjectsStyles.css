@@ -10,16 +10,13 @@
   transition: 300ms;
 }
 
-@media (min-width: 1024px) {
+/* active card is lit up, other cards are faded */
+/* @media (min-width: 1024px) {
   .card-container:hover .card {
     opacity: 0.5;
   }
 
-  /* .card {
-    opacity: 1;
-  } */
-
   .card:hover {
     opacity: 1 !important;
   }
-}
+} */
