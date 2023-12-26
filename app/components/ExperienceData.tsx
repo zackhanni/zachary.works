@@ -1,22 +1,15 @@
 const ExperienceData = [
   {
-    title: "Title",
-    company: "Company Name",
+    title: "Web Developer & Digital Solutions Lead",
+    company: "",
     dateRange: "• August 2023 - Now",
     location: "Philadelphia, Pennsylvania / Hybrid",
-    tools: [
-      "Next.js",
-      "Tailwind",
-      "MongoDB",
-      "WordPress",
-      "TypeScript",
-      "PHP",
-      "Vercel",
-    ],
+    tools: ["Next.js", "Tailwind", "MongoDB", "WordPress", "TypeScript", "PHP"],
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit porttitor nulla, eu sollicitudin neque maximus non. Nam scelerisque pulvinar tortor, et bibendum ex tincidunt vitae. Donec tempus neque eros. Donec convallis, elit et bibendum vehicula, orci lectus sodales turpis, quis porttitor eros diam et tortor.",
-      "Sed convallis posuere euismod. Etiam et nibh fringilla, cursus nunc sit amet, rhoncus velit. Cras lobortis, odio id luctus gravida, libero lacus viverra nulla, eget dictum enim mi vel quam. Donec tempor maximus finibus. Sed et libero quam. Nullam sollicitudin elit id massa porta bibendum.",
-      "Phasellus fringilla sollicitudin metus, quis malesuada lorem iaculis ut. Aenean ut mollis ex. Fusce consectetur nunc eget velit tempor accumsan. Nullam non eros eget ligula aliquet finibus vitae sit amet neque. Nam pretium porta fermentum. Sed lacus dui, sollicitudin eu vehicula sit amet, pretium eget purus.",
+      "Create websites, interactive games, and digital media for nationally recognized brands and industries.",
+      "Oversee and develop numerous websites and web applications from concept to completion.",
+      "Deliver products utilizing content management systems such as WordPress.",
+      "Maintain HTML communication emails, newsletters, email campaigns, and online advertisements for customer engagement programs.",
     ],
   },
   {
