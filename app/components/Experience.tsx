@@ -21,9 +21,9 @@ export default function Experience() {
                 <div
                   key={job.company}
                   className="bg-slate-800/20 p-4 sm:p-8 
-        mt-6 rounded-lg radial-gradient backdrop-blur"
+        mt-6 rounded-lg radial-gradient backdrop-blur text-sm"
                 >
-                  <p className="text-2xl font-semibold">{job.title}</p>
+                  <p className="text-xl font-semibold">{job.title}</p>
                   <div className="flex text-white/80">
                     <p className="text-[#514E6D] mr-1">{job.company}</p>
                     <p>{job.dateRange}</p>
