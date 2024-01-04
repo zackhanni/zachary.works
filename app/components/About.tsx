@@ -25,6 +25,7 @@ export default function About() {
     "Wordpress",
     "MongoDB",
     "Heroku",
+    "Bootstrap",
   ];
 
   return (
@@ -40,10 +41,13 @@ export default function About() {
             >
               <p className="text-3xl font-bold">More About Me</p>
               <p className="py-6">
-                Dedicated, Analytical, and Motivated Software Engineering
-                Professional with expertise in web development and optimization.
-                Leverages technical expertise to deliver information technology
-                solutions.
+                I am eager to contribute my skills and expertise to a dynamic
+                team of motivated professionals dedicated to developing
+                impactful software solutions. In my next role, I am seeking an
+                environment that encourages personal and professional growth. I
+                am particularly interested in opportunities where collaboration
+                with innovative colleagues fosters a culture of idea-sharing and
+                continuous improvement.
               </p>
               <p>
                 When I&apos;m not at the computer, I&apos;m usually running,
