@@ -11,20 +11,28 @@ const ProjectsData = [
   },
   {
     src: "/emo-intel.png",
-    tools: ["React (Next JS)", "Node", "Tailwind", "Typescript", "Vercel"],
-    title: "Emotional Intelligence Tracker",
+    tools: [
+      "React, Next.js",
+      "MongoDB",
+      "Tailwind",
+      "Typescript",
+      "Vercel",
+      "REST",
+      "Git",
+    ],
+    title: "Mood Board",
     description:
-      "I built an online service to help users identify and track their daily emotions. Im actively working with backend developers to add additional features.",
-    liveWebsite: "https://how-are-you-feeling.vercel.app/",
+      "A mental health-focused application designed to educate users on their emotional well-being, and track changes in mood.",
+    liveWebsite: "https://mood-board-next.vercel.app/",
     github: "https://github.com/zackhanni/how-are-you-feeling",
   },
   {
     src: "/visual-impairment.png",
-    tools: ["React (Next JS)", "Node", "Tailwind", "Typescript", "Vercel"],
-    title: "Visual Impairment Simulator",
+    tools: ["React, Next,js", "Tailwind", "Typescript", "Vercel"],
+    title: "Blind Myth",
     company: "Freelance",
     description:
-      "I collaborated with visually impaired individuals to design simulations of various visual disabilities. We are continually working to add additional demonstrations.",
+      "An innovative project aimed at simulating visual impairments to challenge preconceived notions and dispel myths surrounding the social limitations of the blind.",
     liveWebsite: "https://visual-impairment.netlify.app/",
     github: "https://github.com/zackhanni/visual-impairments",
   },
@@ -48,20 +56,21 @@ const ProjectsData = [
     github: "https://dribbble.com/zackhanni",
   },
 
-  // {
-  //   src: "/dino.jpg",
-  //   title: "Dinosaur themed THE-saurus",
-  //   description: "I worked with Dictionary.com to access their thesaurus API. This app is deployed through Vercel",
-  //   liveWebsite: "https://the-saurus.vercel.app/",
-  //   github: "https://github.com/zackhanni/the-saurus",
-  // },
-  // {
-  //   src: "/weather.jpg",
-  //   title: "Weather search app",
-  //   description: "I accessed a weather API to find temperature highs, lows, humidity, etc in any city around the world. This app is deployed through Vercel",
-  //   liveWebsite: "https://next-weather-app-zackhanni.vercel.app/",
-  //   github: "https://github.com/zackhanni/weather-app-react",
-  // },
+  {
+    src: "/dino.jpg",
+    title: "THE-saurus",
+    description: "A dinosaur themed thesaurus utilizing Dictionary.com's API",
+    liveWebsite: "https://the-saurus.vercel.app/",
+    github: "https://github.com/zackhanni/the-saurus",
+  },
+  {
+    src: "/weather.jpg",
+    title: "Weather search app",
+    description:
+      "I accessed a weather API to find temperature highs, lows, humidity, etc in any city around the world. This app is deployed through Vercel",
+    liveWebsite: "https://next-weather-app-zackhanni.vercel.app/",
+    github: "https://github.com/zackhanni/weather-app-react",
+  },
 ];
 
 export default ProjectsData;
