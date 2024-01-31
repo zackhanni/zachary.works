@@ -12,12 +12,13 @@ const ProjectsData = [
   {
     src: "/emo-intel.png",
     tools: [
-      "React, Next.js",
+      "React",
+      "Next.js",
       "MongoDB",
       "Tailwind",
       "Typescript",
       "Vercel",
-      "REST",
+      "RESTful API",
       "Git",
     ],
     title: "Mood Board",
@@ -28,7 +29,7 @@ const ProjectsData = [
   },
   {
     src: "/visual-impairment.png",
-    tools: ["React, Next,js", "Tailwind", "Typescript", "Vercel"],
+    tools: ["React", "Next.js", "Tailwind", "Typescript", "Vercel"],
     title: "Blind Myth",
     company: "Freelance",
     description:
