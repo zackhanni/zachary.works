@@ -13,7 +13,7 @@ function Projects() {
       id="projects"
       className="radial-gradient flex flex-col justify-center items-center py-8"
     >
-      <h2 className="text-5xl font-bold text-center py-4 text-white sticky top-0 z-10 w-full backdrop-blur">
+      <h2 className="text-4xl font-bold text-center py-4 text-white sticky top-0 z-10 w-full backdrop-blur">
         Projects
       </h2>
 
@@ -33,34 +33,33 @@ function Projects() {
               key={project.title}
               ref={ref}
             >
-              <Image
-                src={project.src}
-                height={175}
-                width={350}
-                alt={project.title}
-                className="object-cover w-full h-[175px] rounded-sm"
-              />
+              <div className="overflow-hidden">
+                <Link href={project.liveWebsite} target="_blank">
+                  <Image
+                    src={project.src}
+                    height={175}
+                    width={350}
+                    alt={project.title}
+                    className="object-cover w-full h-[175px] rounded-md hover:scale-110 hover:grayscale ease-out duration-500"
+                  />
+                </Link>
+              </div>
               <div className="py-3 text-white text-sm">
                 <div>
                   {/* <p>{inView.toString()}</p> */}
                   <div className="flex justify-between items-center">
-                    <p className="text-lg font-bold">{project.title}</p>
-                    <Link href={project.github} target="_blank">
+                    <p className="font-bold text-lg">{project.title}</p>
+                    {/* <Link href={project.github} target="_blank">
                       <p className="text-[#514E6D] text-sm hover:text-white duration-300">
                         GitHub
                       </p>
-                    </Link>
+                    </Link> */}
                   </div>
 
-                  <p className="mt-1">{project.description}</p>
+                  <p className="mt-1 text-sm">{project.description}</p>
 
                   <ToolBubbles tools={project.tools} />
                 </div>
-                <Link href={project.liveWebsite} target="_blank">
-                  <button className="mt-4 py-2 w-full bg-[#514E6D] hover:bg-[#211E38] duration-300 rounded-sm font-semibold">
-                    View Live Page
-                  </button>
-                </Link>
               </div>
             </li>
           );
