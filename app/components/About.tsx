@@ -1,5 +1,3 @@
-import { FaRegEnvelope, FaHome, FaPhone, FaRegFileAlt } from "react-icons/fa";
-import Link from "next/link";
 import Footer from "./Footer";
 import ZackFLoatingCard from "./ZackFloatingCard";
 
@@ -30,7 +28,7 @@ export default function About() {
 
   return (
     <section className="">
-      <div className="bg-black text-white py-28 flex flex-col items-center justify-center">
+      <div className="bg-black text-white pb-28 flex flex-col items-center justify-center">
         <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%]">
           <ZackFLoatingCard />
           <div>
@@ -115,7 +113,7 @@ export default function About() {
                 </p>
                 <p>
                   <a
-                    href="https://drive.google.com/file/d/1XJAk8fHctsLu_8d6r15THYBmJV-uro1E/view?usp=sharing"
+                    href="https://docs.google.com/document/d/1SzLNz6jHUPfvxQVEV21YptKuoyBZ6UFzQjmPckXFGQY/edit?usp=drive_link"
                     target="blank"
                     className="hover:underline hover:text-blue-700"
                   >
