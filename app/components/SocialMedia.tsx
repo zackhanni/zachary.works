@@ -3,11 +3,11 @@ import SocialData from "./SocialData";
 
 export default function SocialMedia() {
   return (
-    <div className="social-media flex my-16 ">
+    <div className="social-media flex">
       {SocialData.map((social) => {
         return (
           <Link key={social.label} href={social.href} target="_blank">
-            <div className="pr-4 text-4xl hover:text-[#514E6D] duration-300">
+            <div className="pr-4 text-3xl hover:text-[#514E6D] duration-300">
               {social.icon}
             </div>
           </Link>

@@ -5,49 +5,49 @@ import Button from "./Button";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center text-sm mt-16">
       <SocialMedia />
       {/* <Button
         name="Resume"
         password={false}
-        link="https://drive.google.com/file/d/1XJAk8fHctsLu_8d6r15THYBmJV-uro1E/view?usp=sharing"
+        link="https://docs.google.com/document/d/1SzLNz6jHUPfvxQVEV21YptKuoyBZ6UFzQjmPckXFGQY/edit?usp=drive_link"
       /> */}
-      <Button name="Back to top" password={false} link="#hero" />
-      <p className="pt-16 max-w-md">
+      <p className="py-8 max-w-md">
         This website was designed in{" "}
         <a
           href="https://www.figma.com/"
-          target="blank"
+          target="_blank"
           className="hover:text-white text-[#514E6D]"
         >
           Figma
         </a>
         , coded in{" "}
         <a
-          href="https://www.figma.com/"
-          target="blank"
+          href="https://code.visualstudio.com/"
+          target="_blank"
           className="hover:text-white text-[#514E6D]"
         >
           Visual Studio Code
         </a>
         , built with{" "}
         <a
-          href="https://www.figma.com/"
-          target="blank"
+          href="https://nextjs.org/"
+          target="_blank"
           className="hover:text-white text-[#514E6D]"
         >
           Next.js
         </a>
         , and deployed with{" "}
         <a
-          href="https://www.figma.com/"
-          target="blank"
+          href="https://vercel.com/"
+          target="_blank"
           className="hover:text-white text-[#514E6D]"
         >
           Vercel
         </a>{" "}
         by yours truly.
       </p>
+      <Button name="Back to top" password={false} link="#hero" />
     </div>
   );
 }
