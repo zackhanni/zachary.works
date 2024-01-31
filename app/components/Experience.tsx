@@ -9,13 +9,13 @@ export default function Experience() {
       <div className="bg-black text-white py-8 flex flex-col items-center justify-center">
         <h2
           id="work"
-          className="text-5xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
+          className="text-4xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
         >
           Experience
         </h2>
         <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%] ">
           <ZackFLoatingCard />
-          <div className="pb-24">
+          <div className="">
             {WorkData.map((job) => {
               return (
                 <div
@@ -23,15 +23,15 @@ export default function Experience() {
                   className="bg-slate-800/20 p-4 sm:p-8 
         mt-6 rounded-lg radial-gradient backdrop-blur text-sm"
                 >
-                  <p className="text-xl font-semibold">{job.title}</p>
-                  <div className="flex text-white/80">
+                  <p className="text-lg font-semibold">{job.title}</p>
+                  <div className="text-sm flex text-white/80">
                     <p className="text-[#514E6D] mr-1">{job.company}</p>
                     <p>{job.dateRange}</p>
                   </div>
-                  <p className="text-white/80">{job.location}</p>
+                  <p className="text-white/80 text-sm">{job.location}</p>
                   {job.description.map((paragraph) => {
                     return (
-                      <p key={paragraph} className="py-3">
+                      <p key={paragraph} className="py-1">
                         {paragraph}
                       </p>
                     );
