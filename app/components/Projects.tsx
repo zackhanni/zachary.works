@@ -45,7 +45,7 @@ function Projects() {
                   {/* <p>{inView.toString()}</p> */}
                   <div className="flex justify-between items-center">
                     <p className="text-lg font-bold">{project.title}</p>
-                    <Link href={project.github}>
+                    <Link href={project.github} target="_blank">
                       <p className="text-[#514E6D] text-sm hover:text-white duration-300">
                         GitHub
                       </p>
@@ -56,7 +56,7 @@ function Projects() {
 
                   <ToolBubbles tools={project.tools} />
                 </div>
-                <Link href={project.liveWebsite}>
+                <Link href={project.liveWebsite} target="_blank">
                   <button className="mt-4 py-2 w-full bg-[#514E6D] hover:bg-[#211E38] duration-300 rounded-sm font-semibold">
                     View Live Page
                   </button>
