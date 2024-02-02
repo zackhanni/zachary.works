@@ -18,7 +18,7 @@ const ProjectsData = [
       "Tailwind",
       "Typescript",
       "Vercel",
-      "RESTful API",
+      "RESTful APIs",
       "Git",
     ],
     title: "Mood Board",

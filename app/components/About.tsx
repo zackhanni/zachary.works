@@ -3,7 +3,8 @@ import ZackFLoatingCard from "./ZackFloatingCard";
 
 export default function About() {
   const TechStack = [
-    "React (Next JS)",
+    "React",
+    "Next.js",
     "Javascript",
     "Typescript",
     "Tailwind",
@@ -11,8 +12,9 @@ export default function About() {
     "Git",
     "HTML5",
     "CSS3",
-    "Rest",
+    "RESTful APIs",
     "Vercel",
+    "MongoDB",
   ];
 
   const AltStack = [
