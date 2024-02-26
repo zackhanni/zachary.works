@@ -18,6 +18,16 @@ const ProjectsData = [
     github: "https://github.com/zackhanni/how-are-you-feeling",
   },
   {
+    src: "/artist-epk.png",
+    tools: ["React", "Typescript", "Vite", "Vercel"],
+    title: "Artist Electronic Press Kit Template",
+    company: "Sounds Like Soma",
+    description:
+      "A react template designed for artists to quickly create a portfolio or electronic press kit",
+    liveWebsite: "https://artist-epk.vercel.app/",
+    github: "https://github.com/zackhanni/artist-epk",
+  },
+  {
     src: "/soma-website.png",
     tools: ["Ruby", "Jekyll", "Bootstrap", "Netlify"],
     title: "Sounds Like Soma",
