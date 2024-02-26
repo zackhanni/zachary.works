@@ -31,9 +31,9 @@ export default function About() {
   return (
     <section className="">
       <div className="bg-black text-white pb-28 flex flex-col items-center justify-center">
-        <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%]">
+        <div className="flex">
           <ZackFLoatingCard />
-          <div>
+          <div className="max-w-screen-md">
             {/* About me */}
             <div
               className="radial-gradient p-4 sm:p-8 
@@ -65,7 +65,7 @@ export default function About() {
                 My choice tech stack for personal projects is GENERALLY (but not
                 always):
               </p>
-              <div className="grid gap-2 grid-cols-1 md:grid-cols-2">
+              <div className="grid gap-2 grid-cols-1 sm:grid-cols-2">
                 {TechStack.map((tech) => {
                   return <li key={tech}>{tech}</li>;
                 })}
