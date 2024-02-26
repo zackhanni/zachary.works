@@ -7,7 +7,7 @@ export default function SocialMedia() {
       {SocialData.map((social) => {
         return (
           <Link key={social.label} href={social.href} target="_blank">
-            <div className="pr-4 text-3xl hover:text-[#514E6D] duration-300">
+            <div className="pr-4 text-4xl hover:text-[#514E6D] duration-300">
               {social.icon}
             </div>
           </Link>

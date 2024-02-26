@@ -17,7 +17,7 @@ function Hero() {
         />
         <div className="px-8 sm:px-16 lg:px-0 absolute md:-translate-x-1/2 -translate-y-1/2 top-1/2 md:left-1/2 text-white max-w-[1200]">
           <p className="text-4xl font-bold">Hi, I&apos;m Zack.</p>
-          <p className="pt-4">
+          <p className="pt-4 text-lg">
             I&apos;m an audio engineer, turned{" "}
             <span id="rainbow" className="font-semibold text-lg">
               software engineer

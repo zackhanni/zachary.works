@@ -15,16 +15,16 @@ export default function Experience() {
         </h2>
         <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%] ">
           <ZackFLoatingCard />
-          <div className="">
+          <div className=" max-w-screen-md">
             {WorkData.map((job) => {
               return (
                 <div
                   key={job.company}
                   className="bg-slate-800/20 p-4 sm:p-8 
-        mt-6 rounded-lg radial-gradient backdrop-blur text-sm"
+        mt-6 rounded-lg radial-gradient backdrop-blur"
                 >
-                  <p className="text-lg font-semibold">{job.title}</p>
-                  <div className="text-sm flex text-white/80">
+                  <p className="text-xl font-semibold">{job.title}</p>
+                  <div className=" flex text-white/80 text-sm">
                     <p className="text-[#514E6D] mr-1">{job.company}</p>
                     <p>{job.dateRange}</p>
                   </div>

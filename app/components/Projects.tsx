@@ -17,7 +17,7 @@ function Projects() {
         Projects
       </h2>
 
-      <ul className="card-container min-w-[50%] max-w-[95%] md:max-w-[85%] 2xl:max-w-[60%] m-auto grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8 overflow-hidden ">
+      <ul className="card-container m-auto grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  overflow-hidden">
         {ProjectsData.map((project) => {
           // eslint-disable-next-line react-hooks/rules-of-hooks
           const { ref, inView } = useInView({
@@ -27,7 +27,7 @@ function Projects() {
 
           return (
             <li
-              className={`card bg-slate-400/10  backdrop-blur p-4 rounded-lg shadow-2xl ${
+              className={`card bg-slate-400/10 w-[300px] backdrop-blur p-4 rounded-lg shadow-2xl ${
                 inView ? "show" : "hide"
               }`}
               key={project.title}

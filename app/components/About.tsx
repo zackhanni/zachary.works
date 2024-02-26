@@ -39,7 +39,7 @@ export default function About() {
               className="radial-gradient p-4 sm:p-8 
         mt-6 rounded-lg backdrop-blur"
             >
-              <p className="text-3xl font-bold">More About Me</p>
+              <h3 className="text-3xl font-bold">More About Me</h3>
               <p className="py-6">
                 I am eager to contribute my skills and expertise to a dynamic
                 team of motivated professionals dedicated to developing

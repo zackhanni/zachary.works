@@ -5,13 +5,8 @@ import Button from "./Button";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center text-sm mt-16">
+    <div className="flex flex-col items-center mt-16">
       <SocialMedia />
-      {/* <Button
-        name="Resume"
-        password={false}
-        link="https://docs.google.com/document/d/1SzLNz6jHUPfvxQVEV21YptKuoyBZ6UFzQjmPckXFGQY/edit?usp=drive_link"
-      /> */}
       <p className="py-8 max-w-md">
         This website was designed in{" "}
         <a
