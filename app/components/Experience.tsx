@@ -15,7 +15,7 @@ export default function Experience() {
         </h2>
         <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%] ">
           <ZackFLoatingCard />
-          <div className=" max-w-screen-md">
+          <div className="max-w-screen-md">
             {WorkData.map((job) => {
               return (
                 <div
