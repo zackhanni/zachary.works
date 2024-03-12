@@ -19,7 +19,7 @@ const ProjectsData = [
   },
   {
     src: "/artist-epk.png",
-    tools: ["React", "Typescript", "Vite", "Vercel"],
+    tools: ["ReactJS", "Typescript", "Vite", "Vercel"],
     title: "Artist Electronic Press Kit Template",
     company: "Sounds Like Soma",
     description:
@@ -35,6 +35,15 @@ const ProjectsData = [
     description:
       "I fully designed, developed  and deployed a responsive website for a local recording studio, incorporating user experience research, and SEO best practices.",
     liveWebsite: "https://www.soundslikesoma.com/",
+    github: "https://github.com/zackhanni/soundslikesoma",
+  },
+  {
+    src: "/time-to-100k.png",
+    tools: ["Next.js", "React", "Typescript", "Tailwind", "Vercel"],
+    title: "Strategic Wealth Accumulation",
+    description:
+      "This tool calculates the timeline for achieving financial milestones, starting from an initial investment and factoring in Annual Percentage Yields (APY), and projects the time required to reach each $100k benchmark up to a substantial $1 million.",
+    liveWebsite: "https://time-to-100k.vercel.app/n[",
     github: "https://github.com/zackhanni/soundslikesoma",
   },
   {
