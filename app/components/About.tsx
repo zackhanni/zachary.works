@@ -65,7 +65,7 @@ export default function About() {
                 My choice tech stack for personal projects is GENERALLY (but not
                 always):
               </p>
-              <div className="grid gap-2 grid-cols-1 sm:grid-cols-2">
+              <div className="grid gap-2 grid-cols-2 sm:grid-cols-3">
                 {TechStack.map((tech) => {
                   return <li key={tech}>{tech}</li>;
                 })}
@@ -74,7 +74,7 @@ export default function About() {
               <p className="py-6">
                 Some other tech that I love and/or have built at scale with:
               </p>
-              <div className="grid gap-2 grid-cols-1 md:grid-cols-2">
+              <div className="grid gap-2 grid-cols-2 md:grid-cols-3">
                 {AltStack.map((tech) => {
                   return <li key={tech}>{tech}</li>;
                 })}
