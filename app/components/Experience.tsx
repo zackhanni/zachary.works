@@ -8,7 +8,7 @@ export default function Experience() {
     <section>
       <div className="bg-black text-white py-8 flex flex-col items-center justify-center">
         <h2
-          id="work"
+          id="experience"
           className="text-4xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
         >
           Experience
