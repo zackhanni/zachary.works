@@ -43,7 +43,7 @@ const ProjectsData = [
     title: "Strategic Wealth Accumulation",
     description:
       "This tool calculates the timeline for achieving financial milestones, starting from an initial investment and factoring in Annual Percentage Yields (APY), and projects the time required to reach each $100k benchmark up to a substantial $1 million.",
-    liveWebsite: "https://time-to-100k.vercel.app/n[",
+    liveWebsite: "https://time-to-100k.vercel.app",
     github: "https://github.com/zackhanni/soundslikesoma",
   },
   {
