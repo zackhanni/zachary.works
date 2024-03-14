@@ -46,16 +46,16 @@ const ProjectsData = [
     liveWebsite: "https://time-to-100k.vercel.app",
     github: "https://github.com/zackhanni/soundslikesoma",
   },
-  {
-    src: "/visual-impairment.png",
-    tools: ["React", "Next.js", "Tailwind", "Typescript", "Vercel"],
-    title: "Blind Myth",
-    company: "Freelance",
-    description:
-      "An innovative project aimed at simulating visual impairments to challenge preconceived notions and dispel myths surrounding the social limitations of the blind.",
-    liveWebsite: "https://visual-impairment.netlify.app/",
-    github: "https://github.com/zackhanni/visual-impairments",
-  },
+  // {
+  //   src: "/visual-impairment.png",
+  //   tools: ["React", "Next.js", "Tailwind", "Typescript", "Vercel"],
+  //   title: "Blind Myth",
+  //   company: "Freelance",
+  //   description:
+  //     "An innovative project aimed at simulating visual impairments to challenge preconceived notions and dispel myths surrounding the social limitations of the blind.",
+  //   liveWebsite: "https://visual-impairment.netlify.app/",
+  //   github: "https://github.com/zackhanni/visual-impairments",
+  // },
   {
     src: "/project3.png",
     tools: ["Javascript", "HTML", "CSS"],
