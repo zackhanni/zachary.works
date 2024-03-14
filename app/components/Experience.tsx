@@ -6,7 +6,7 @@ import ZackFLoatingCard from "./ZackFloatingCard";
 export default function Experience() {
   return (
     <section>
-      <div className="bg-black text-white py-8 flex flex-col items-center justify-center">
+      <div className="bg-black text-white flex flex-col items-center justify-center">
         <h2
           id="experience"
           className="text-4xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
@@ -15,13 +15,12 @@ export default function Experience() {
         </h2>
         <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%] ">
           <ZackFLoatingCard />
-          <div className="max-w-screen-md">
+          <div className="max-w-screen-md space-y-4">
             {WorkData.map((job) => {
               return (
                 <div
                   key={job.company}
-                  className="bg-slate-800/20 p-4 sm:p-8 
-        mt-6 rounded-lg radial-gradient backdrop-blur"
+                  className="bg-slate-800/20 p-4 rounded-lg radial-gradient backdrop-blur"
                 >
                   <p className="text-xl font-semibold">{job.title}</p>
                   <div className=" flex text-white/80 text-sm">
