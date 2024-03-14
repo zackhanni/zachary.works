@@ -11,13 +11,13 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="radial-gradient flex flex-col justify-center items-center py-4"
+      className="radial-gradient flex flex-col justify-center items-center"
     >
       <h2 className="text-4xl font-bold text-center py-4 text-white sticky top-0 z-10 w-full backdrop-blur">
         Projects
       </h2>
 
-      <ul className="card-container m-auto grid gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 overflow-hidden pt-4">
+      <ul className="card-container m-auto grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 overflow-hidden">
         {ProjectsData.map((project) => {
           // eslint-disable-next-line react-hooks/rules-of-hooks
           const { ref, inView } = useInView({
