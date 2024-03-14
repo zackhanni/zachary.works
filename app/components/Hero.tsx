@@ -1,6 +1,4 @@
 import Image from "next/image";
-import SocialMedia from "./SocialMedia";
-import Button from "./Button";
 import { FaChevronDown } from "react-icons/fa";
 
 export default function Hero() {
@@ -15,7 +13,7 @@ export default function Hero() {
           style={{}}
           className="opacity-20 object-cover w-screen"
         />
-        <div className="px-8 md:px-0 absolute md:-translate-x-1/2 -translate-y-1/2 top-1/2 md:left-1/2 text-white">
+        <div className="px-4 md:px-0 absolute md:-translate-x-1/2 -translate-y-1/2 top-1/2 md:left-1/2 text-white">
           <p className="text-4xl font-bold">Hi, I&apos;m Zack.</p>
           <p className="pt-4 text-lg">
             I&apos;m an audio engineer, turned{" "}
@@ -26,11 +24,6 @@ export default function Hero() {
             highlighting my work history, notable projects, and my profound love
             of tech.
           </p>
-          {/* <div className="flex z-50 ">
-            <Button name="Experience" password={false} link="#experience" />
-            <Button name="Projects" password={false} link="#projects" />
-            <Button name="Contact" password={false} link="#contact" />
-          </div> */}
           <div className="text-4xl grid place-items-center pt-32">
             <FaChevronDown className="pulse" />
           </div>
