@@ -29,18 +29,20 @@ export default function About() {
   ];
 
   return (
-    <section className="">
+    <section>
       <div className="bg-black text-white pb-28 flex flex-col items-center justify-center">
-        <div className="flex">
+        <h2
+          id="about"
+          className="text-4xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
+        >
+          About Me
+        </h2>
+        <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%]">
           <ZackFLoatingCard />
-          <div className="max-w-screen-md">
-            {/* About me */}
-            <div
-              className="radial-gradient p-4 sm:p-8 
-        mt-6 rounded-lg backdrop-blur"
-            >
+          <div className="max-w-screen-md space-y-4">
+            <div className="radial-gradient p-4 rounded-lg backdrop-blur">
               <h3 className="text-3xl font-bold">More About Me</h3>
-              <p className="py-6">
+              <p className="py-4">
                 I am eager to contribute my skills and expertise to a dynamic
                 team of motivated professionals dedicated to developing
                 impactful software solutions. In my next role, I am seeking an
@@ -56,10 +58,7 @@ export default function About() {
               </p>
             </div>{" "}
             {/* tech i love */}
-            <div
-              className="radial-gradient p-4 sm:p-8 
-        mt-6 rounded-lg backdrop-blur"
-            >
+            <div className="radial-gradient p-4 rounded-lg backdrop-blur">
               <p className="text-3xl font-bold">Tech I Love</p>
               <p className="py-6">
                 My choice tech stack for personal projects is GENERALLY (but not
@@ -81,10 +80,7 @@ export default function About() {
               </div>
             </div>
             {/* contact box */}
-            <div
-              className="radial-gradient p-4 sm:p-8 
-        mt-6 rounded-lg backdrop-blur "
-            >
+            <div className="radial-gradient p-4 rounded-lg backdrop-blur ">
               <h2 id="contact" className="text-3xl font-bold">
                 Contact
               </h2>
