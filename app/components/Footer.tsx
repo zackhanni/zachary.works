@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center mt-16">
+    <div className="flex flex-col items-center mt-16 px-4 sm:px-0">
       <SocialMedia />
       <p className="py-8 max-w-md">
         This website was designed in{" "}
