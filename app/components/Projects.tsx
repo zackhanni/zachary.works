@@ -11,7 +11,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="radial-gradient flex flex-col justify-center items-center"
+      className="radial-gradient flex flex-col justify-center items-center pb-16"
     >
       <h2 className="text-4xl font-bold text-center py-4 text-white sticky top-0 z-10 w-full backdrop-blur">
         Projects
