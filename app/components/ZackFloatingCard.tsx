@@ -8,7 +8,7 @@ export default function ZackFLoatingCard() {
   return (
     <Tilt
       className="hidden lg:flex flex-col sticky top-24 w-1/2 h-fit justify-start text-white rounded-lg mr-4 p-4
-     bg-teal-800 z-10
+     bg-[#2CA5B8] z-10
     "
     >
       <h2 className="text-4xl font-bold">Zack Hanni</h2>
