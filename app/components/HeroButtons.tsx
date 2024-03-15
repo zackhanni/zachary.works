@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Button from "./components/Button";
+import Button from "./Button";
 
 export default function HeroButtons() {
   const [isVisible, setIsVisible] = useState(true);
