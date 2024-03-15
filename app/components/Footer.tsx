@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 import SocialMedia from "./SocialMedia";
 import Button from "./Button";
@@ -43,6 +43,15 @@ export default function Footer() {
         by yours truly.
       </p>
       <Button name="Back to top" password={false} link="#hero" />
+      <div className="pt-8">
+        <Image
+          src="/jazz-cup.png"
+          width={300}
+          height={300}
+          alt="jazz cup design"
+          className=" h-[100px] "
+        />
+      </div>
     </div>
   );
 }
