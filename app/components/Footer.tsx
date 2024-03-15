@@ -12,7 +12,7 @@ export default function Footer() {
         <a
           href="https://www.figma.com/"
           target="_blank"
-          className="hover:text-white text-[#514E6D]"
+          className="hover:text-[#2CA5B8] text-[#AB5C95]"
         >
           Figma
         </a>
@@ -20,7 +20,7 @@ export default function Footer() {
         <a
           href="https://code.visualstudio.com/"
           target="_blank"
-          className="hover:text-white text-[#514E6D]"
+          className="hover:text-[#2CA5B8] text-[#AB5C95]"
         >
           Visual Studio Code
         </a>
@@ -28,7 +28,7 @@ export default function Footer() {
         <a
           href="https://nextjs.org/"
           target="_blank"
-          className="hover:text-white text-[#514E6D]"
+          className="hover:text-[#2CA5B8] text-[#AB5C95]"
         >
           Next.js
         </a>
@@ -36,7 +36,7 @@ export default function Footer() {
         <a
           href="https://vercel.com/"
           target="_blank"
-          className="hover:text-white text-[#514E6D]"
+          className="hover:text-[#2CA5B8] text-[#AB5C95]"
         >
           Vercel
         </a>{" "}
