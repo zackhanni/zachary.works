@@ -39,7 +39,7 @@ export default function About() {
         </h2>
         <div className="flex">
           {/* <ZackFLoatingCard /> */}
-          <div className="max-w-screen-sm space-y-4">
+          <div className="max-w-screen-md space-y-4">
             <div className="radial-gradient rounded-lg backdrop-blur">
               <p className="py-4">
                 I am eager to contribute my skills and expertise to a dynamic
