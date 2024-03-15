@@ -3,20 +3,37 @@
 import React from "react";
 import SocialMedia from "./SocialMedia";
 import { Tilt } from "react-tilt";
+import Image from "next/image";
 
 export default function ZackFLoatingCard() {
   return (
-    <Tilt
-      className="hidden lg:flex flex-col sticky top-24 w-1/2 h-fit justify-start text-white rounded-lg mr-4 p-4
-     bg-[#2CA5B8] z-10
-    "
-    >
-      <h2 className="text-4xl font-bold">Zack Hanni</h2>
-      <h3 className="text-xl font-semibold">Experienced Software Engineer</h3>
-      <p className="my-4">
-        I build exceptional and accessible digital experiences for the web.
-      </p>
-      <SocialMedia />
+    <Tilt className="hidden md:block text-[#811BDE] bg-white rounded-lg sticky top-24 h-fit mr-4 z-10 m min-w-[225px] max-w-[225px]">
+      <div className="flex flex-col justify-start p-4 w-fit bg-white/80 rounded-lg">
+        <h2 className="text-3xl font-bold">Zack Hanni</h2>
+        <h3 className="font-semibold text-lg">Experienced Software Engineer</h3>
+        <p className="text-sm">
+          I build exceptional and accessible digital experiences for the web.
+        </p>
+      </div>
+
+      <Image
+        src="/silly-straw.png"
+        width={100}
+        height={100}
+        alt="silly straw"
+        className="absolute -z-10 -top-80 rotate-[-20deg]"
+      />
+
+      <Image
+        src="/jazz-cup.png"
+        width={500}
+        height={300}
+        alt="jazz cup design"
+        className="py-2 bg-white"
+      />
+      <div className="flex justify-center py-4">
+        <SocialMedia />
+      </div>
     </Tilt>
   );
 }
