@@ -29,19 +29,18 @@ export default function About() {
   ];
 
   return (
-    <section>
-      <div className="bg-black text-white pb-28 flex flex-col items-center justify-center">
+    <section className="bg-black text-white flex justify-center pb-28 sm:px-4">
+      <div className=" flex flex-col items-center justify-center max-w-screen-lg">
         <h2
           id="about"
           className="text-4xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
         >
           About Me
         </h2>
-        <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%]">
-          <ZackFLoatingCard />
-          <div className="max-w-screen-md space-y-4">
-            <div className="radial-gradient p-4 rounded-lg backdrop-blur">
-              <h3 className="text-3xl font-bold">More About Me</h3>
+        <div className="flex">
+          {/* <ZackFLoatingCard /> */}
+          <div className="max-w-screen-sm space-y-4">
+            <div className="radial-gradient rounded-lg backdrop-blur">
               <p className="py-4">
                 I am eager to contribute my skills and expertise to a dynamic
                 team of motivated professionals dedicated to developing
@@ -56,11 +55,11 @@ export default function About() {
                 hanging out with my wife and two cats, or spending too much time
                 in my Baldur&apos;s Gate 3 campaign.
               </p>
-            </div>{" "}
+            </div>
             {/* tech i love */}
             <div className="radial-gradient p-4 rounded-lg backdrop-blur">
               <p className="text-3xl font-bold">Tech I Love</p>
-              <p className="py-6">
+              <p className="py-4">
                 My choice tech stack for personal projects is GENERALLY (but not
                 always):
               </p>
@@ -70,10 +69,10 @@ export default function About() {
                 })}
               </div>
 
-              <p className="py-6">
+              <p className="py-4">
                 Some other tech that I love and/or have built at scale with:
               </p>
-              <div className="grid gap-2 grid-cols-2 md:grid-cols-3">
+              <div className="grid grid-cols-2 md:grid-cols-3">
                 {AltStack.map((tech) => {
                   return <li key={tech}>{tech}</li>;
                 })}
@@ -84,7 +83,7 @@ export default function About() {
               <h2 id="contact" className="text-3xl font-bold">
                 Contact
               </h2>
-              <p className="py-6">
+              <p className="py-4">
                 The best way to contact me is through email or LinkedIn
                 (I&apos;m not much of a twitter guy). Give me a shout here:
               </p>

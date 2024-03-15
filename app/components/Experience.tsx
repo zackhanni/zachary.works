@@ -5,17 +5,17 @@ import ZackFLoatingCard from "./ZackFloatingCard";
 
 export default function Experience() {
   return (
-    <section>
-      <div className="bg-black text-white flex flex-col items-center justify-center">
+    <section className="bg-black text-white w-full flex justify-center pb-16 sm:px-4">
+      <div className="flex flex-col items-center justify-center max-w-screen-lg">
         <h2
           id="experience"
           className="text-4xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
         >
           Experience
         </h2>
-        <div className="flex md:max-w-[90%] xl:max-w-[80%] 2xl:max-w-[60%] ">
+        <div className="flex">
           <ZackFLoatingCard />
-          <div className="max-w-screen-md space-y-4">
+          <div className="max-w-screen-sm space-y-4">
             {WorkData.map((job) => {
               return (
                 <div
