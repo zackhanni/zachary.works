@@ -6,7 +6,7 @@ export default function Hero() {
     <section id="hero" className="h-screen w-full relative -z-10">
       <div className="fixed h-full w-full left-0 right-0 bg-black">
         <Image
-          src="/hero-image-table.jpg"
+          src="/desk-with-computers.jpeg"
           fill={true}
           priority={true}
           alt="Working at a computer"
