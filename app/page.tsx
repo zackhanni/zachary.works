@@ -6,9 +6,9 @@ import HeroButtons from "./components/HeroButtons";
 
 export default function Home() {
   return (
-    <main>
+    <main className="relative">
       <Hero />
-      <HeroButtons />
+      {/* <HeroButtons /> */}
       <Experience />
       <Projects />
       <About />
