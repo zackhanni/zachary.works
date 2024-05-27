@@ -7,8 +7,8 @@ import Image from "next/image";
 
 export default function ZackFLoatingCard() {
   return (
-    <Tilt className="hidden md:block text-[#811BDE] bg-white rounded-lg sticky top-24 h-fit mr-4 z-10 m min-w-[225px] max-w-[225px]">
-      <div className="flex flex-col justify-start p-4 w-fit bg-white/80 rounded-lg">
+    <Tilt className="col-3 hidden md:block text-[#811BDE] bg-white rounded-lg sticky top-24 h-fit z-10">
+      <div className="flex flex-col justify-start py-4 px-2 w-fit bg-white/80 rounded-lg">
         <h2 className="text-3xl font-bold">Zack Hanni</h2>
         <h3 className="font-semibold text-lg">Experienced Software Engineer</h3>
         <p className="text-sm">
@@ -32,7 +32,7 @@ export default function ZackFLoatingCard() {
         className="py-2 bg-white"
       />
       <div className="flex justify-center py-4">
-        <SocialMedia />
+        <SocialMedia otherStyles={"text-[#811BDE]"} />
       </div>
     </Tilt>
   );

@@ -29,19 +29,19 @@ export default function About() {
   ];
 
   return (
-    <section className="bg-black text-white flex justify-center pb-28 sm:px-4">
-      <div className=" flex flex-col items-center justify-center max-w-screen-lg">
+    <section className="bg-black text-white flex justify-center pb-28">
+      <div className="container flex flex-col items-center justify-center">
         <h2
           id="about"
-          className="text-4xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
+          className="text-5xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
         >
           About Me
         </h2>
-        <div className="flex">
-          {/* <ZackFLoatingCard /> */}
-          <div className="max-w-screen-md space-y-4">
-            <div className="radial-gradient rounded-lg backdrop-blur">
-              <p className="py-4">
+        <div className="row">
+          <ZackFLoatingCard />
+          <div className="col-md-9 col-12 space-y-4">
+            <div className="radial-gradient rounded-lg backdrop-blur p-4">
+              <p className="">
                 I am eager to contribute my skills and expertise to a dynamic
                 team of motivated professionals dedicated to developing
                 impactful software solutions. In my next role, I am seeking an
@@ -59,7 +59,7 @@ export default function About() {
             {/* tech i love */}
             <div className="radial-gradient p-4 rounded-lg backdrop-blur">
               <p className="text-3xl font-bold">Tech I Love</p>
-              <p className="py-4">
+              <p className="">
                 My choice tech stack for personal projects is GENERALLY (but not
                 always):
               </p>
@@ -69,7 +69,7 @@ export default function About() {
                 })}
               </div>
 
-              <p className="py-4">
+              <p className="pt-6">
                 Some other tech that I love and/or have built at scale with:
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3">
@@ -83,7 +83,7 @@ export default function About() {
               <h2 id="contact" className="text-3xl font-bold">
                 Contact
               </h2>
-              <p className="py-4">
+              <p className="">
                 The best way to contact me is through email or LinkedIn
                 (I&apos;m not much of a twitter guy). Give me a shout here:
               </p>
@@ -93,7 +93,7 @@ export default function About() {
                   <a
                     href="mailto:zack.hanni@gmail.com"
                     target="blank"
-                    className="hover:underline hover:text-blue-700"
+                    className="hover:underline hover:text-[#2CA5B8] text-[#AB5C95]"
                   >
                     zack.hanni@gmail.com
                   </a>
@@ -103,7 +103,7 @@ export default function About() {
                   <a
                     href="https://www.linkedin.com/in/zackhanni/"
                     target="blank"
-                    className="hover:underline hover:text-blue-700"
+                    className="hover:underline hover:text-[#2CA5B8] text-[#AB5C95]"
                   >
                     @zackhanni
                   </a>
@@ -112,7 +112,7 @@ export default function About() {
                   <a
                     href="https://docs.google.com/document/d/1SzLNz6jHUPfvxQVEV21YptKuoyBZ6UFzQjmPckXFGQY/edit?usp=drive_link"
                     target="blank"
-                    className="hover:underline hover:text-blue-700"
+                    className="hover:underline hover:text-[#2CA5B8] text-[#AB5C95]"
                   >
                     Zack&apos;s Resume
                   </a>
