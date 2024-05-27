@@ -1,7 +1,7 @@
 import Link from "next/link";
 import SocialData from "./SocialData";
 
-export default function SocialMedia({ otherStyles }) {
+export default function SocialMedia({ otherStyles }: { otherStyles: string }) {
   return (
     <div className="social-media flex space-x-4">
       {SocialData.map((social) => {
