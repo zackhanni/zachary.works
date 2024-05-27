@@ -6,7 +6,7 @@ import ZackFLoatingCard from "./ZackFloatingCard";
 export default function Experience() {
   return (
     <section className="bg-black text-white w-full flex justify-center pb-16 sm:px-4">
-      <div className="flex flex-col items-center justify-center max-w-screen-lg">
+      <div className="flex flex-col items-center justify-center max-w-screen-lg bg-black z-10">
         <h2
           id="experience"
           className="text-4xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
