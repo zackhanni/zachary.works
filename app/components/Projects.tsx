@@ -3,7 +3,6 @@
 import ProjectsData from "./ProjectsData";
 import Link from "next/link";
 import Image from "next/image";
-import "../components/ProjectsStyles.css";
 import { useInView } from "react-intersection-observer";
 import ToolBubbles from "./ToolBubbles";
 
