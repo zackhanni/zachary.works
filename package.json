@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "next": "^14.0.4",
     "node": "^18.17.0",
     "react": "latest",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "latest",
     "react-icons": "^4.11.0",
     "react-intersection-observer": "^9.5.2",

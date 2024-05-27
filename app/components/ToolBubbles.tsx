@@ -10,7 +10,7 @@ export default function ToolBubbles(props: ToolBubblesProps) {
       {props.tools?.map((tool: string) => {
         return (
           <p
-            className="text-white text-xs bg-[#514E6D] font-medium rounded-full py-1 px-2 mr-1 mt-1"
+            className="text-white text-sm bg-[#514E6D] font-medium rounded-full py-1 px-2 mr-1 mt-1"
             key={tool}
           >
             {tool}
