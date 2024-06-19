@@ -2,11 +2,11 @@ const ProjectsData = [
   {
     src: "/nihongo-ai.png",
     tools: ["OpenAI API", "Next.js", "Tailwind CSS", "Typescript"],
-    title: "Nihongo Japanese AI practice chatbot",
+    title: "Nihongo Japanese AI chatbot",
     description:
       "Developed a Japanese language practice chatbot to enhance users' speaking and writing skills in Japanese. The chatbot leverages OpenAI APIs for natural language processing, built with a modern tech stack including Next.js for server-side rendering and Tailwind CSS for responsive design",
-    liveWebsite: "https://mood-board-next.vercel.app/",
-    github: "https://github.com/zackhanni/how-are-you-feeling",
+    liveWebsite: "https://nihongo-chatbot.vercel.app/",
+    github: "https://github.com/zackhanni/",
   },
   {
     src: "/mood-board.png",
