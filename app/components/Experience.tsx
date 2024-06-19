@@ -25,7 +25,7 @@ export default function Experience() {
                 >
                   <p className="text-3xl font-semibold">{job.title}</p>
                   <div className="flex text-gray-300 text-sm">
-                    <p className="text-[#514E6D] mr-1">{job.company}</p>
+                    <p className="text-gray-400 mr-1">{job.company}</p>
                     <p>{job.dateRange}</p>
                   </div>
                   <p className="text-gray-300 text-sm">{job.location}</p>
