@@ -1,5 +1,14 @@
 const ProjectsData = [
   {
+    src: "/nihongo-ai.png",
+    tools: ["OpenAI API", "Next.js", "Tailwind CSS", "Typescript"],
+    title: "Nihongo Japanese AI practice chatbot",
+    description:
+      "Developed a Japanese language practice chatbot to enhance users' speaking and writing skills in Japanese. The chatbot leverages OpenAI APIs for natural language processing, built with a modern tech stack including Next.js for server-side rendering and Tailwind CSS for responsive design",
+    liveWebsite: "https://mood-board-next.vercel.app/",
+    github: "https://github.com/zackhanni/how-are-you-feeling",
+  },
+  {
     src: "/mood-board.png",
     tools: [
       "React",
@@ -20,7 +29,7 @@ const ProjectsData = [
   {
     src: "/artist-epk.png",
     tools: ["ReactJS", "Typescript", "Vite", "Vercel"],
-    title: "Artist Electronic Press Kit Template",
+    title: "Electronic press kit for artists",
     company: "Sounds Like Soma",
     description:
       "A react template designed for artists to quickly create a portfolio or electronic press kit",
