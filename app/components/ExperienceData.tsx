@@ -2,11 +2,11 @@ const ExperienceData = [
   {
     title: "Web Developer & Digital Solutions Lead",
     company: "SMC",
-    dateRange: "• August 2023 - Now",
+    dateRange: "• August 2023 - Current",
     location: "Philadelphia, Pennsylvania / Hybrid",
     tools: [
       "Next.js",
-      "Tailwind",
+      "Tailwind CSS",
       "React",
       "React Native",
       "WordPress",
@@ -29,7 +29,7 @@ const ExperienceData = [
       "Next.js",
       "Bootstrap",
       "RESTful APIs",
-      "Tailwind",
+      "Tailwind CSS",
       "Typescript",
     ],
     description: [
