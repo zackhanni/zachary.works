@@ -6,19 +6,19 @@
 #rainbow {
   background-image: linear-gradient(
     to right,
-    red,
+    rgb(254, 53, 53),
     orange,
     yellow,
     green,
-    blue,
-    indigo,
+    rgb(89, 89, 255),
+    rgb(96, 49, 129),
     violet,
     red
   );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: rainbow-animation 1000s linear infinite;
+  animation: rainbow-animation 2000s linear infinite;
 }
 
 @keyframes rainbow-animation {
