@@ -4,10 +4,12 @@ import ZackFLoatingCard from "./ZackFloatingCard";
 export default function About() {
   const TechStack = [
     "React",
+    "React Native",
     "Next.js",
     "Javascript",
     "Typescript",
-    "Tailwind",
+    "Tailwind CSS",
+    "Bootstrap",
     "Node.js",
     "Git",
     "HTML5",
@@ -17,16 +19,7 @@ export default function About() {
     "MongoDB",
   ];
 
-  const AltStack = [
-    "Ruby",
-    "Jekyll",
-    "Netlify",
-    "PHP",
-    "Wordpress",
-    "MongoDB",
-    "Heroku",
-    "Bootstrap",
-  ];
+  const AltStack = ["Ruby", "Jekyll", "Netlify", "PHP", "Wordpress", "Heroku"];
 
   return (
     <section className="bg-black text-white flex justify-center pb-28">
