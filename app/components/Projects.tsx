@@ -33,7 +33,7 @@ export default function Projects() {
                 key={project.title}
                 ref={ref}
               >
-                <div className="card pl-0 bg-dark backdrop-blur rounded-lg shadow-2xl">
+                <div className="card pl-0 !bg-slate-400/10 backdrop-blur rounded-lg shadow-2xl min-h-full">
                   <div className="overflow-hidden">
                     <Link href={project.liveWebsite} target="_blank">
                       <Image
@@ -45,13 +45,11 @@ export default function Projects() {
                       />
                     </Link>
                   </div>
-                  <div className="card-body py-2 text-white text-sm min-h-max">
+                  <div className="card-body py-3 text-white text-sm">
                     <div>
-                      <div className="flex justify-between items-center">
-                        <p className="card-title font-bold text-2xl">
-                          {project.title}
-                        </p>
-                      </div>
+                      <p className="card-title font-bold text-2xl">
+                        {project.title}
+                      </p>
 
                       <p className="card-text">{project.description}</p>
 
