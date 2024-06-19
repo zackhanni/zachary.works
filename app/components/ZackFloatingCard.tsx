@@ -5,9 +5,17 @@ import SocialMedia from "./SocialMedia";
 import { Tilt } from "react-tilt";
 import Image from "next/image";
 
+const tiltOptions = {
+  max: 25,
+  scale: 1.1,
+};
+
 export default function ZackFLoatingCard() {
   return (
-    <Tilt className="col-3 hidden md:block text-[#811BDE] bg-white rounded-lg sticky top-24 h-fit z-10">
+    <Tilt
+      options={tiltOptions}
+      className="col-3 hidden md:block text-[#811BDE] bg-white rounded-lg sticky top-24 h-fit z-10"
+    >
       <div className="flex flex-col justify-start py-4 px-2 w-fit bg-white/80 rounded-lg">
         <h2 className="text-3xl font-bold">Zack Hanni</h2>
         <h3 className="font-semibold text-lg">Experienced Software Engineer</h3>
