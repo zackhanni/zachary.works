@@ -5,7 +5,7 @@ import ZackFLoatingCard from "./ZackFloatingCard";
 
 export default function Experience() {
   return (
-    <section className="bg-black text-white w-full flex justify-center pb-16">
+    <section className="bg-black text-slate-200 w-full flex justify-center pb-16">
       <div className="container flex flex-col items-center justify-center bg-black z-10">
         <h2
           id="experience"
@@ -21,14 +21,16 @@ export default function Experience() {
               return (
                 <div
                   key={job.company}
-                  className="p-4 rounded-lg radial-gradient backdrop-blur"
+                  className="p-4 rounded-lg radial-gradient backdrop-blur text-[#94A3B8]"
                 >
-                  <p className="text-3xl font-semibold">{job.title}</p>
-                  <div className="flex text-gray-300 text-sm">
-                    <p className="text-gray-400 mr-1">{job.company}</p>
+                  <p className="text-slate-200 text-3xl font-semibold mb-0">
+                    {job.title}
+                  </p>
+                  <div className="flex">
+                    <p className="mr-1">{job.company}</p>
                     <p>{job.dateRange}</p>
                   </div>
-                  <p className="text-gray-300 text-sm">{job.location}</p>
+                  {/* <p className="text-sm">{job.location}</p> */}
                   {job.description.map((paragraph) => {
                     return (
                       <p key={paragraph} className="">
@@ -36,6 +38,7 @@ export default function Experience() {
                       </p>
                     );
                   })}
+                  {job.bullets}
                   <ToolBubbles tools={job.tools} />
                 </div>
               );
