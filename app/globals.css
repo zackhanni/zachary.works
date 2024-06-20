@@ -18,12 +18,12 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: rainbow-animation 2000s linear infinite;
+  animation: rainbow-animation 5s linear forwards;
 }
 
 @keyframes rainbow-animation {
   to {
-    background-position: 4500vh;
+    background-position: 50vh;
   }
 }
 
