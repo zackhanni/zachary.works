@@ -13,7 +13,7 @@ export default function Projects() {
       className="radial-gradient flex flex-col justify-center items-center pb-16"
     >
       <div className="container">
-        <h2 className="text-5xl font-bold text-center py-4 z-10 text-white sticky top-0 backdrop-blur">
+        <h2 className="text-5xl font-bold text-center py-4 z-10 text-slate-200 sticky top-0 backdrop-blur">
           Projects
         </h2>
 
@@ -33,7 +33,7 @@ export default function Projects() {
                 key={project.title}
                 ref={ref}
               >
-                <div className="card pl-0 !bg-slate-400/10 backdrop-blur rounded-lg shadow-2xl min-h-full">
+                <div className="card pl-0 group bg-transparent backdrop-blur rounded-lg shadow-lg min-h-full duration-150">
                   <div className="overflow-hidden">
                     <Link href={project.liveWebsite} target="_blank">
                       <Image
@@ -41,13 +41,13 @@ export default function Projects() {
                         height={175}
                         width={350}
                         alt={project.title}
-                        className="card-img-top object-cover w-full h-[200px] hover:scale-110 hover:grayscale ease-out duration-500"
+                        className="card-img-top object-cover w-full h-[200px] group-hover:scale-105 group-hover:grayscale ease-out duration-300"
                       />
                     </Link>
                   </div>
-                  <div className="card-body py-3 text-white text-sm">
+                  <div className="card-body py-3 !text-[#94A3B8] text-sm group-hover:!bg-slate-500/10">
                     <div>
-                      <p className="card-title font-bold text-2xl">
+                      <p className="card-title !text-slate-200 font-bold text-2xl">
                         {project.title}
                       </p>
 

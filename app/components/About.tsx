@@ -22,7 +22,7 @@ export default function About() {
   const AltStack = ["Ruby", "Jekyll", "Netlify", "PHP", "Wordpress", "Heroku"];
 
   return (
-    <section className="bg-black text-white flex justify-center pb-28">
+    <section className="bg-black text-slate-200 flex justify-center pb-28">
       <div className="container flex flex-col items-center justify-center">
         <h2
           id="about"
