@@ -81,21 +81,6 @@ const ProjectsData = [
     liveWebsite: "https://dribbble.com/zackhanni",
     github: "https://dribbble.com/zackhanni",
   },
-  // {
-  //   src: "/dino.jpg",
-  //   title: "THE-saurus",
-  //   description: "A dinosaur themed thesaurus utilizing Dictionary.com's API",
-  //   liveWebsite: "https://the-saurus.vercel.app/",
-  //   github: "https://github.com/zackhanni/the-saurus",
-  // },
-  // {
-  //   src: "/weather.jpg",
-  //   title: "Weather search app",
-  //   description:
-  //     "I accessed a weather API to find temperature highs, lows, humidity, etc in any city around the world. This app is deployed through Vercel",
-  //   liveWebsite: "https://next-weather-app-zackhanni.vercel.app/",
-  //   github: "https://github.com/zackhanni/weather-app-react",
-  // },
 ];
 
 export default ProjectsData;
