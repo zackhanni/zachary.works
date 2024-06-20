@@ -25,7 +25,7 @@ const ExperienceData = [
         </li>
         <li>
           <span className="font-medium text-slate-200">
-            Mobile Game Development
+            Mobile App Development
           </span>
           : Created interactive Android and iOS games using React Native,
           collaborating with large corporations and nonprofits to deliver
