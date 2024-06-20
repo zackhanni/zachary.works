@@ -47,9 +47,15 @@ export default function Projects() {
                   </div>
                   <div className="card-body py-3 !text-[#94A3B8] text-sm group-hover:!bg-slate-500/10">
                     <div>
-                      <p className="card-title !text-slate-200 font-bold text-2xl">
-                        {project.title}
-                      </p>
+                      <Link
+                        href={project.liveWebsite}
+                        target="_blank"
+                        className="text-decoration-none"
+                      >
+                        <p className="card-title !text-slate-200 font-bold text-2xl">
+                          {project.title}
+                        </p>
+                      </Link>
 
                       <p className="card-text">{project.description}</p>
 
