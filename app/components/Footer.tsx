@@ -46,10 +46,10 @@ export default function Footer() {
       <div className="pt-8">
         <Image
           src="/jazz-cup.png"
-          width={300}
-          height={300}
+          width={448}
+          height={204}
           alt="jazz cup design"
-          className=" h-[100px] "
+          className="w-[448px] h-[204px] "
         />
       </div>
     </div>
