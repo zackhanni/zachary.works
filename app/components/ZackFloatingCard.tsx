@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const tiltOptions = {
   max: 25,
-  scale: 1.1,
+  scale: 1.05,
 };
 
 export default function ZackFLoatingCard() {
