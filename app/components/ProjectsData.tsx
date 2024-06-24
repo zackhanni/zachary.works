@@ -9,24 +9,6 @@ const ProjectsData = [
     github: "https://github.com/zackhanni/",
   },
   {
-    src: "/mood-board.png",
-    tools: [
-      "React",
-      "Next.js",
-      "MongoDB",
-      "Tailwind CSS",
-      "Typescript",
-      "Vercel",
-      "RESTful APIs",
-      "Git",
-    ],
-    title: "Mood Board",
-    description:
-      "A fully functional mental health-focused application designed to educate users on their emotional well-being, and track changes in mood.",
-    liveWebsite: "https://mood-board-next.vercel.app/",
-    github: "https://github.com/zackhanni/how-are-you-feeling",
-  },
-  {
     src: "/artist-epk.png",
     tools: [
       "ReactJS",
@@ -44,6 +26,42 @@ const ProjectsData = [
     github: "https://github.com/zackhanni/artist-epk",
   },
   {
+    src: "/kasatoboushi.png",
+    tools: [
+      "Next.js",
+      "Typescript",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Vercel",
+      "Responsive Design",
+    ],
+    title: "American-Japanese fusion cafe",
+    company: "",
+    description:
+      "Developed a responsive website for a minimalist American-Japanese fusion cafe based in Japan, enhancing it's online presence and user engagement. Integrated a dynamic language switching feature between Japanese and English to cater to a broader audience.",
+    liveWebsite: "https://kasatoboushi.vercel.app/",
+    github: "https://github.com/zackhanni/artist-epk",
+  },
+  {
+    src: "/mood-board.png",
+    tools: [
+      "React",
+      "Next.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "Typescript",
+      "Vercel",
+      "RESTful APIs",
+      "Git",
+    ],
+    title: "Mood Board",
+    description:
+      "A fully functional mental health-focused application designed to educate users on their emotional well-being, and track changes in mood.",
+    liveWebsite: "https://mood-board-next.vercel.app/",
+    github: "https://github.com/zackhanni/how-are-you-feeling",
+  },
+
+  {
     src: "/soma-website.png",
     tools: ["Ruby", "Jekyll", "Bootstrap", "Netlify", "SEO"],
     title: "Sounds Like Soma",
@@ -53,15 +71,15 @@ const ProjectsData = [
     liveWebsite: "https://www.soundslikesoma.com/",
     github: "https://github.com/zackhanni/soundslikesoma",
   },
-  {
-    src: "/time-to-100k.png",
-    tools: ["Next.js", "React", "Typescript", "Tailwind CSS", "Vercel"],
-    title: "Strategic Wealth Accumulation",
-    description:
-      "This tool calculates the timeline for achieving financial milestones, starting from an initial investment and factoring in Annual Percentage Yields (APY), and projects the time required to reach each $100k benchmark up to a substantial $1 million.",
-    liveWebsite: "https://time-to-100k.vercel.app",
-    github: "https://github.com/zackhanni/soundslikesoma",
-  },
+  // {
+  //   src: "/time-to-100k.png",
+  //   tools: ["Next.js", "React", "Typescript", "Tailwind CSS", "Vercel"],
+  //   title: "Strategic Wealth Accumulation",
+  //   description:
+  //     "This tool calculates the timeline for achieving financial milestones, starting from an initial investment and factoring in Annual Percentage Yields (APY), and projects the time required to reach each $100k benchmark up to a substantial $1 million.",
+  //   liveWebsite: "https://time-to-100k.vercel.app",
+  //   github: "https://github.com/zackhanni/soundslikesoma",
+  // },
   {
     src: "/project3.png",
     tools: ["Javascript", "HTML", "CSS"],
