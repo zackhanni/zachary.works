@@ -1,6 +1,6 @@
 const ExperienceData = [
   {
-    title: "Web Developer & Digital Solutions Lead",
+    title: "Full-Stack Developer & Digital Solutions Lead",
     company: "SMC",
     dateRange: "• August 2023 - Current",
     location: "Philadelphia, Pennsylvania / Hybrid",
