@@ -14,7 +14,7 @@ export default function Projects() {
     >
       <div className="container">
         <h2 className="text-5xl font-bold text-center py-4 z-10 text-slate-200 sticky top-0 backdrop-blur">
-          Projects
+          Personal Projects
         </h2>
 
         <ul className="row pl-0 overflow-hidden gy-4">

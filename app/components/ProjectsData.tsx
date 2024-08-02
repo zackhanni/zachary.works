@@ -35,7 +35,7 @@ const ProjectsData = [
       "Vercel",
       "Responsive Design",
     ],
-    title: "American-Japanese fusion cafe",
+    title: "Japanese-American fusion cafe",
     company: "",
     description:
       "Developed a responsive website for a minimalist American-Japanese fusion cafe based in Japan, enhancing it's online presence and user engagement. Integrated a dynamic language switching feature between Japanese and English to cater to a broader audience.",
@@ -82,13 +82,13 @@ const ProjectsData = [
   // },
   {
     src: "/project3.png",
-    tools: ["Javascript", "HTML", "CSS"],
-    title: "E-commerce Website Design",
+    tools: ["NextJs", "Prisma", "Shadcn", "SQLite", "Resend", "Node.js"],
+    title: "Omni-Mart (Work in progress)",
     company: "Freelance",
     description:
-      "A product website for a clothing company selling a variety of clothing. Complete with item descriptions, size and color options, and a checkout page.",
-    liveWebsite: "https://zack-ecommerce.netlify.app/",
-    github: "https://github.com/zackhanni/ecommerce-website-demo",
+      "An intergalactic market for everything you need on a planetary journey. Complete with a checkout page, Stripe integration,  and confirmation emails.",
+    liveWebsite: "https://omni-mart-vercel.app/",
+    github: "https://github.com/zackhanni/omni-mart",
   },
   {
     src: "/UX-design-demo.png",

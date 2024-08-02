@@ -4,7 +4,6 @@ import ZackFLoatingCard from "./ZackFloatingCard";
 export default function About() {
   const TechStack = [
     "React",
-    "React Native",
     "Next.js",
     "Javascript",
     "Typescript",
@@ -14,12 +13,26 @@ export default function About() {
     "Git",
     "HTML5",
     "CSS3",
-    "RESTful APIs",
     "Vercel",
-    "MongoDB",
+    "MySQL",
+    "SQLite",
+    "Strapi",
+    "Shadcn",
+    "Prisma",
   ];
 
-  const AltStack = ["Ruby", "Jekyll", "Netlify", "PHP", "Wordpress", "Heroku"];
+  const MobileStack = ["React Native", "NativeWind", "Expo", "Appwrite"];
+
+  const AltStack = [
+    "Stripe",
+    "Resend",
+    "MongoDB",
+    "Ruby",
+    "Jekyll",
+    "Netlify",
+    "PHP",
+    "Wordpress",
+  ];
 
   return (
     <section className="bg-black text-slate-200 flex justify-center pb-28">
@@ -63,7 +76,7 @@ export default function About() {
               </div>
 
               <p className="pt-6">
-                Some other tech that I love and/or have built at scale with:
+                Some other tech that i&apos;m familiar with:
               </p>
               <div className="grid grid-cols-2 md:grid-cols-3">
                 {AltStack.map((tech) => {

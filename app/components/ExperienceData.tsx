@@ -9,8 +9,10 @@ const ExperienceData = [
       "Tailwind CSS",
       "React",
       "React Native",
-      "WordPress",
+      "Expo",
       "TypeScript",
+      "WordPress",
+      "MySQL",
     ],
     description: [
       "At SMC, I contributed to the digital success of nationally recognized brands by delivering high-quality web solutions. My key responsibilities included:",
