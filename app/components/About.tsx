@@ -63,25 +63,34 @@ export default function About() {
               </p>
             </div>
             {/* tech i love */}
-            <div className="radial-gradient p-4 rounded-lg backdrop-blur">
-              <p className="text-3xl font-bold">Tech I Love</p>
-              <p className="">
-                My choice tech stack for personal projects is GENERALLY (but not
-                always):
-              </p>
-              <div className="grid gap-2 grid-cols-2 sm:grid-cols-3">
-                {TechStack.map((tech) => {
-                  return <li key={tech}>{tech}</li>;
-                })}
+            <div className="radial-gradient p-4 rounded-lg backdrop-blur space-y-4">
+              <h3 className="text-3xl font-bold">Tech I Love</h3>
+              <div>
+                <p>
+                  My choice tech stack for personal projects is GENERALLY (but
+                  not always):
+                </p>
+                <div className="grid grid-cols-2 sm:grid-cols-3">
+                  {TechStack.map((tech) => {
+                    return <li key={tech}>{tech}</li>;
+                  })}
+                </div>
               </div>
-
-              <p className="pt-6">
-                Some other tech that i&apos;m familiar with:
-              </p>
-              <div className="grid grid-cols-2 md:grid-cols-3">
-                {AltStack.map((tech) => {
-                  return <li key={tech}>{tech}</li>;
-                })}
+              <div>
+                <p>Mobile development:</p>
+                <div className="grid grid-cols-2 sm:grid-cols-3">
+                  {MobileStack.map((tech) => {
+                    return <li key={tech}>{tech}</li>;
+                  })}
+                </div>
+              </div>
+              <div>
+                <p>Some other tech that i&apos;m familiar with:</p>
+                <div className="grid grid-cols-2 md:grid-cols-3">
+                  {AltStack.map((tech) => {
+                    return <li key={tech}>{tech}</li>;
+                  })}
+                </div>
               </div>
             </div>
             {/* contact box */}
