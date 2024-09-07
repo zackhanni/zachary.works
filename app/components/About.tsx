@@ -35,14 +35,14 @@ export default function About() {
   ];
 
   return (
-    <section className="bg-black text-slate-200 flex justify-center pb-28">
+    <section
+      id="about"
+      className="bg-black text-slate-200 flex justify-center pb-28"
+    >
       <div className="container flex flex-col items-center justify-center">
-        <h2
-          id="about"
-          className="text-5xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
-        >
-          About Me
-        </h2>
+        <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[90px]">
+          <h2 className="text-5xl font-bold  text-slate-200 ">About Zack</h2>
+        </div>
         <div className="row">
           <ZackFLoatingCard />
           <div className="col-md-9 col-12 space-y-4">

@@ -13,9 +13,9 @@ export default function Projects() {
       className="radial-gradient flex flex-col justify-center items-center pb-16"
     >
       <div className="container">
-        <h2 className="text-5xl font-bold text-center py-4 z-10 text-slate-200 sticky top-0 backdrop-blur">
-          Personal Projects
-        </h2>
+        <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[90px]">
+          <h2 className="text-5xl font-bold  text-slate-200 ">Projects</h2>
+        </div>
 
         <ul className="row pl-0 overflow-hidden gy-4">
           {ProjectsData.map((project) => {

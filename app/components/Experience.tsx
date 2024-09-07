@@ -5,14 +5,15 @@ import ZackFLoatingCard from "./ZackFloatingCard";
 
 export default function Experience() {
   return (
-    <section className="bg-black text-slate-200 w-full flex justify-center pb-16">
+    <section
+      id="experience"
+      className="bg-black text-slate-200 w-full flex justify-center pb-16"
+    >
       <div className="container flex flex-col items-center justify-center bg-black z-10">
-        <h2
-          id="experience"
-          className="text-5xl font-bold text-center sticky top-0 z-10 w-full backdrop-blur py-4"
-        >
-          Experience
-        </h2>
+        <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[90px]">
+          <h2 className="text-5xl font-bold  text-slate-200 ">Experience</h2>
+        </div>
+
         <div className="row">
           <ZackFLoatingCard />
 

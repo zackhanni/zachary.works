@@ -10,7 +10,7 @@ interface ButtonProps {
 
 export default function Button(props: ButtonProps) {
   return (
-    <Link href={props.link}>
+    <Link href={props.link} className="no-underline">
       <div className="text-slate-200 bg-[#AB5C95] hover:bg-[#2CA5B8] duration-300 py-2 px-4 rounded-md m-2 flex">
         {props.name}{" "}
         {props.password ? (
