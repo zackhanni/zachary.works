@@ -19,7 +19,7 @@ export default function Hero() {
           <div className="px-4 md:px-0 absolute md:-translate-x-1/2 -translate-y-1/2 top-1/2 md:left-1/2 w-full space-y-8 pt-8 container">
             <div className="flex justify-center items-center md:gap-4">
               <div className="md:max-w-[60%]">
-                <p className="text-5xl font-bold text-slate-200">
+                <p className="text-5xl font-bold text-[#AB5C95]">
                   Hi! I&apos;m Zack,
                 </p>
                 <p className="text-lg">
@@ -61,7 +61,8 @@ export default function Hero() {
 
             <div className="text-4xl grid place-items-center">
               <FaChevronDown
-              // className="pulse"
+                // className="pulse"
+                className="text-[#AB5C95]"
               />
             </div>
           </div>
