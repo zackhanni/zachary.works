@@ -1,10 +1,19 @@
 const ProjectsData = [
   {
+    src: "/web-wizard-dev.jpeg",
+    tools: ["Next.js", "Tailwind CSS", "Typescript"],
+    title: "Website development company",
+    description:
+      "I'm part of an expert team of freelancers who cater to various software engineering needs. We build websites, mobile apps, MPVs, and update existing websites for a diverse client base.",
+    liveWebsite: "https://www.webwizarddev.com/",
+    github: "https://github.com/zackhanni/",
+  },
+  {
     src: "/nihongo-ai.png",
     tools: ["OpenAI API", "Next.js", "Tailwind CSS", "Typescript"],
     title: "Nihongo Japanese AI chatbot",
     description:
-      "Developed a Japanese language practice chatbot to enhance users' speaking and writing skills in Japanese. The chatbot leverages OpenAI APIs for natural language processing, built with a modern tech stack including Next.js for server-side rendering and Tailwind CSS for responsive design",
+      "Developed a Japanese language practice chatbot to enhance users' speaking and writing skills in Japanese. The chatbot leverages OpenAI APIs for natural language processing, built with a modern tech stack including Next.js for server-side rendering and Tailwind CSS for responsive design.",
     liveWebsite: "https://nihongo-chatbot.vercel.app/",
     github: "https://github.com/zackhanni/",
   },
