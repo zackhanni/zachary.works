@@ -12,16 +12,16 @@ const SocialData = [
     href: "https://github.com/zackhanni",
     icon: <FaGithub />,
   },
-  {
-    label: "Dribble",
-    href: "https://dribbble.com/zackhanni",
-    icon: <FaDribbble />,
-  },
-  {
-    label: "Google",
-    href: "mailto:zack.hanni@gmail.com",
-    icon: <FaGoogle />,
-  },
+  // {
+  //   label: "Dribble",
+  //   href: "https://dribbble.com/zackhanni",
+  //   icon: <FaDribbble />,
+  // },
+  // {
+  //   label: "Google",
+  //   href: "mailto:zack.hanni@gmail.com",
+  //   icon: <FaGoogle />,
+  // },
 ];
 
 export default function SocialMedia({ otherStyles }: { otherStyles: string }) {
