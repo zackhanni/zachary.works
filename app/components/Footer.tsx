@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col items-center mt-16 px-4 sm:px-0">
       <SocialMedia otherStyles={"text-[#AB5C95]"} />
-      <p className="py-8 max-w-md">
+      <p className="py-8 max-w-sm">
         This website was designed in{" "}
         <a
           href="https://www.figma.com/"
