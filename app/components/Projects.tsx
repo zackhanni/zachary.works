@@ -17,7 +17,7 @@ export default function Projects() {
           <h2 className="text-5xl font-bold  text-slate-200 ">Projects</h2>
         </div>
 
-        <ul className="row pl-0 overflow-hidden gy-4">
+        <ul className="row pl-0  gy-4">
           {ProjectsData.map((project) => {
             // eslint-disable-next-line react-hooks/rules-of-hooks
             const { ref, inView } = useInView({
