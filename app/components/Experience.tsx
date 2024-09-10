@@ -16,25 +16,27 @@ export default function Experience() {
 
         <div className="row">
           <ZackFLoatingCard />
-
-          <div className="col-md-9 col-12 space-y-4">
+          {/* <div className="col-lg-9 col-12 space-y-8">
+            <div className="p-4 rounded-lg radial-gradient backdrop-blur text-[#94A3B8]">
+              <p>answer to - "So tell me about yourself" question</p>
+            </div>
+          </div> */}
+          <div className="col-lg-9 col-12 space-y-8">
             {WorkData.map((job) => {
               return (
                 <div
                   key={job.company}
-                  className="p-4 rounded-lg radial-gradient backdrop-blur text-[#94A3B8]"
+                  className="p-8 rounded-lg radial-gradient backdrop-blur text-[#94A3B8]"
                 >
-                  <p className="text-slate-200 text-3xl font-semibold mb-0">
-                    {job.title}
-                  </p>
-                  <div className="flex">
-                    <p className="mr-1">{job.company}</p>
+                  <p className="text-lg text-white mb-0">{job.company}</p>
+
+                  <div className="flex italic text-sm">
+                    <p className="">{job.title}</p>
                     <p>{job.dateRange}</p>
                   </div>
-                  {/* <p className="text-sm">{job.location}</p> */}
                   {job.description.map((paragraph) => {
                     return (
-                      <p key={paragraph} className="">
+                      <p key={paragraph} className="text-sm">
                         {paragraph}
                       </p>
                     );
