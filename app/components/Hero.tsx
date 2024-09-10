@@ -22,20 +22,16 @@ export default function Hero() {
                 <p className="text-5xl font-bold text-[#AB5C95]">
                   Hi! I&apos;m Zack,
                 </p>
+
                 <p className="text-lg">
-                  a former audio engineer turned{" "}
-                  <span className="text-white">software engineer</span>. With a
-                  rich background in the music industry, working alongside
-                  artists and music labels, I&apos;ve transitioned my creative
-                  problem-solving skills into the world of technology.
-                </p>
-                <p className="text-lg">
-                  Here, you&apos;ll find a showcase of my software engineering
-                  projects, highlighting my expertise in web development,
-                  natural language processing, and user-centric design. Explore
-                  my journey from soundwaves to code, and see how my unique
-                  blend of experiences fuels my passion for creating innovative
-                  and impactful digital solutions.
+                  I&apos;m a{" "}
+                  <strong className="text-white">full stack developer</strong>{" "}
+                  and life-long learner with a deep passion for JavaScript and
+                  React. With a rich background in the music industry, working
+                  alongside artists and music labels, I&apos;ve transitioned my
+                  creative problem-solving skills into the world of software
+                  development. When I&apos;m not at my computer, I like to spend
+                  my time learning Japanese, keeping fit and producing music.
                 </p>
                 {/* <p className="text-lg">
               I&apos;m an audio engineer, turned{" "}
