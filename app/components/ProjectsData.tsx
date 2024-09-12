@@ -1,7 +1,7 @@
 const ProjectsData = [
   {
     src: "/web-wizard-dev.jpeg",
-    tools: ["Next.js", "Tailwind CSS", "Typescript"],
+    tools: ["Next.js", "Tailwind CSS", "Typescript", "Bootstrap"],
     title: "Website development company",
     description:
       "I'm part of an expert team of freelancers who cater to various software engineering needs. We build websites, mobile apps, MPVs, and update existing websites for a diverse client base.",
@@ -9,14 +9,28 @@ const ProjectsData = [
     github: "https://github.com/zackhanni/",
   },
   {
-    src: "/nihongo-ai.png",
-    tools: ["OpenAI API", "Next.js", "Tailwind CSS", "Typescript"],
-    title: "Nihongo Japanese AI chatbot",
+    src: "/omni-mart.png",
+    tools: [
+      "Next.js",
+      "Prisma",
+      "Shadcn",
+      "PostgreSQL",
+      "Resend",
+      "Node.js",
+      "Stripe API",
+      "React Email",
+      "Resend",
+      "Supabase",
+      "Bootstrap",
+    ],
+    title: "Omni-Mart. Your Intergalactic Marketplace",
+    company: "Freelance",
     description:
-      "I developed a Japanese language practice chatbot to enhance users' speaking and writing skills in Japanese. The chatbot leverages OpenAI APIs for natural language processing, built with a modern tech stack including Next.js for server-side rendering and Tailwind CSS for responsive design.",
-    liveWebsite: "https://nihongo-chatbot.vercel.app/",
-    github: "https://github.com/zackhanni/",
+      "An intergalactic market for everything you need on a planetary journey. Complete with a working checkout page, Stripe integration, confirmation emails, and a robust admin page to track and modify products.",
+    liveWebsite: "https://omni-mart.vercel.app/",
+    github: "https://github.com/zackhanni/omni-mart",
   },
+
   {
     src: "/artist-epk.png",
     tools: [
@@ -33,6 +47,15 @@ const ProjectsData = [
       "This reusable electronic press kit (EPK) template for musicians and artists to showcase their songs, artwork, photos, and videos. The template is designed for easy customization and efficient deployment.",
     liveWebsite: "https://artist-epk.vercel.app/",
     github: "https://github.com/zackhanni/artist-epk",
+  },
+  {
+    src: "/nihongo-ai.png",
+    tools: ["OpenAI API", "Next.js", "Tailwind CSS", "Typescript"],
+    title: "Nihongo Japanese AI chatbot",
+    description:
+      "I developed a Japanese language practice chatbot to enhance users' speaking and writing skills in Japanese. The chatbot leverages OpenAI APIs for natural language processing, built with a modern tech stack including Next.js for server-side rendering and Tailwind CSS for responsive design.",
+    liveWebsite: "https://nihongo-chatbot.vercel.app/",
+    github: "https://github.com/zackhanni/",
   },
   {
     src: "/kasatoboushi.png",
@@ -79,16 +102,6 @@ const ProjectsData = [
       "I designed and developed a responsive website for a local Philadelphia recording studio, significantly enhancing online presence and sales. I utilized Ruby and Jekyll for site generation, Bootstrap for responsive design, Netlify for deployment and SEO best practices to boost search rankings and drive substantial increases in sales.",
     liveWebsite: "https://www.soundslikesoma.com/",
     github: "https://github.com/zackhanni/soundslikesoma",
-  },
-  {
-    src: "/omni-mart.png",
-    tools: ["NextJs", "Prisma", "Shadcn", "SQLite", "Resend", "Node.js"],
-    title: "Omni-Mart. Your Intergalactic Marketplace",
-    company: "Freelance",
-    description:
-      "An intergalactic market for everything you need on a planetary journey. Complete with a checkout page, Stripe integration,  and confirmation emails.",
-    liveWebsite: "https://omni-mart.vercel.app/",
-    github: "https://github.com/zackhanni/omni-mart",
   },
 ];
 
