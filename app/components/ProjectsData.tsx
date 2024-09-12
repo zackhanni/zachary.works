@@ -87,7 +87,7 @@ const ProjectsData = [
     company: "Freelance",
     description:
       "An intergalactic market for everything you need on a planetary journey. Complete with a checkout page, Stripe integration,  and confirmation emails.",
-    liveWebsite: "https://omni-mart-vercel.app/",
+    liveWebsite: "https://omni-mart.vercel.app/",
     github: "https://github.com/zackhanni/omni-mart",
   },
 ];
