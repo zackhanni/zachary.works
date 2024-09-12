@@ -24,7 +24,6 @@ const ProjectsData = [
       "Bootstrap",
     ],
     title: "Omni-Mart. Your Intergalactic Marketplace",
-    company: "Freelance",
     description:
       "An intergalactic market for everything you need on a planetary journey. Complete with a working checkout page, Stripe integration, confirmation emails, and a robust admin page to track and modify products.",
     liveWebsite: "https://omni-mart.vercel.app/",
@@ -42,7 +41,6 @@ const ProjectsData = [
       "Responsive Design",
     ],
     title: "Electronic press kit for artists",
-    company: "Sounds Like Soma",
     description:
       "This reusable electronic press kit (EPK) template for musicians and artists to showcase their songs, artwork, photos, and videos. The template is designed for easy customization and efficient deployment.",
     liveWebsite: "https://artist-epk.vercel.app/",
@@ -68,7 +66,6 @@ const ProjectsData = [
       "Responsive Design",
     ],
     title: "Japanese-American fusion cafe",
-    company: "",
     description:
       "I developed a responsive website for a minimalist American-Japanese fusion cafe based in Japan, enhancing it's online presence and user engagement. Integrated a dynamic language switching feature between Japanese and English to cater to a broader audience.",
     liveWebsite: "https://kasatoboushi.vercel.app/",
@@ -97,7 +94,6 @@ const ProjectsData = [
     src: "/soma-website.png",
     tools: ["Ruby", "Jekyll", "Bootstrap", "Netlify", "SEO"],
     title: "Sounds Like Soma",
-    company: "Sounds Like Soma",
     description:
       "I designed and developed a responsive website for a local Philadelphia recording studio, significantly enhancing online presence and sales. I utilized Ruby and Jekyll for site generation, Bootstrap for responsive design, Netlify for deployment and SEO best practices to boost search rankings and drive substantial increases in sales.",
     liveWebsite: "https://www.soundslikesoma.com/",
