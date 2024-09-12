@@ -81,7 +81,7 @@ const ProjectsData = [
     github: "https://github.com/zackhanni/soundslikesoma",
   },
   {
-    src: "/project3.png",
+    src: "/omni-mart.png",
     tools: ["NextJs", "Prisma", "Shadcn", "SQLite", "Resend", "Node.js"],
     title: "Omni-Mart. Your Intergalactic Marketplace",
     company: "Freelance",
