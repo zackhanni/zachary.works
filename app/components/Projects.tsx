@@ -1,6 +1,5 @@
 "use client";
 
-import ProjectsData from "./ProjectsData";
 import Link from "next/link";
 import Image from "next/image";
 import { useInView } from "react-intersection-observer";
@@ -152,8 +151,18 @@ const ProjectCard = ({
   footer: string;
   tools: string[];
 }) => {
+  const { ref, inView } = useInView({
+    threshold: 0.15,
+    triggerOnce: true,
+  });
+
   return (
-    <Card className="border-0 text-[#94A3B8] bg-black/50 hover:bg-black/40 group">
+    <Card
+      className={`border-0 text-[#94A3B8] bg-black/50 hover:bg-black/40 group ${
+        inView ? "show" : "hide"
+      }`}
+      ref={ref}
+    >
       <div className="overflow-hidden rounded-t-lg">
         <Link href={link} target="_blank">
           <Image
