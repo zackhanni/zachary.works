@@ -4,6 +4,8 @@ import React from "react";
 import SocialMedia from "./SocialMedia";
 import { Tilt } from "react-tilt";
 import Image from "next/image";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 const tiltOptions = {
   max: 25,
@@ -39,8 +41,23 @@ export default function ZackFLoatingCard() {
         alt="jazz cup design"
         className="py-2 bg-white"
       />
-      <div className="flex justify-center py-4">
-        <SocialMedia otherStyles={"text-[#811BDE]"} />
+      <div className="flex justify-center py-4 space-x-4">
+        <SocialMedia
+          name="Linkedin"
+          link="https://github.com/zackhanni"
+          icon={<FaLinkedin />}
+        />
+        <SocialMedia
+          name="Github"
+          link="https://github.com/zackhanni"
+          icon={<FaGithub />}
+        />
+        <SocialMedia
+          name="Email"
+          link="mailto:zack.hanni@gmail.com"
+          icon={<IoMdMail />}
+          className=""
+        />
       </div>
     </Tilt>
   );
