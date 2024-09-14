@@ -174,7 +174,7 @@ const ProjectCard = ({
           />
         </Link>
       </div>
-      <div>
+      <div className="h-full">
         <CardHeader>
           <CardTitle>{title}</CardTitle>
           <CardDescription>{description}</CardDescription>
