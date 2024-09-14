@@ -14,35 +14,6 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import Image from "next/image";
-import { Menu, X } from "lucide-react";
-
-const NavList: { title: string; href: string; description: string }[] = [
-  {
-    title: "Website Development",
-    href: "/website-development",
-    description:
-      "With a focus on responsive designs with optimal performance, we create captivating, seamless user interfaces.",
-  },
-  {
-    title: "Full-Stack App Development",
-    href: "/full-stack-app-development",
-    description:
-      "Leveraging the latest technologies, we make robust apps for iOS and Android platforms.",
-  },
-  {
-    title: "Prototype & MVP Development",
-    href: "/prototype-mvp-development",
-    description:
-      "Ship your fully functional MVP fast. We prioritize your first demos to be released within the first month.",
-  },
-  {
-    title: "Update an Existing Website or App",
-    href: "/update-existing-website",
-    description:
-      "Whether you're looking to modernize your design, enhance functionality, or improve performance in today's digital landscape.",
-  },
-];
 
 export function Navigation() {
   const [isVisible, setIsVisible] = useState(true);
@@ -90,8 +61,8 @@ export function Navigation() {
             </a>
 
             <NavigationMenu>
-              <NavigationMenuList className="ml-10">
-                <NavigationMenuItem>
+              <NavigationMenuList className="ml-10 mb-0">
+                <NavigationMenuItem className="">
                   <Link href="#experience" legacyBehavior passHref>
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
@@ -115,6 +86,15 @@ export function Navigation() {
                       className={navigationMenuTriggerStyle()}
                     >
                       About
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <Link href="#contact" legacyBehavior passHref>
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
+                    >
+                      Contact
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
