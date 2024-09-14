@@ -37,10 +37,13 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="bg-black text-slate-200 flex justify-center">
+    <section
+      id="about"
+      className="bg-black text-slate-200 flex justify-center py-16 w-full"
+    >
       <div className="container flex flex-col items-center justify-center">
         <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[90px]">
-          <h2 className="text-5xl font-bold  text-slate-200 ">About Zack</h2>
+          <h2 className="text-5xl font-bold  text-slate-200">About Zack</h2>
         </div>
         <div className="row">
           {/* <ZackFLoatingCard /> */}
@@ -180,10 +183,10 @@ export default function About() {
                 </div>
               </div> */}
             </div>
-            <Contact />
+            {/* <Contact /> */}
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </section>
   );
