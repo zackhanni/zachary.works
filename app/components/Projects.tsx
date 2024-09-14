@@ -24,7 +24,7 @@ export default function Projects() {
           <h2 className="text-5xl font-bold  text-slate-200 ">Projects</h2>
         </div>
 
-        <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+        <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 overflow-hidden">
           <ProjectCard
             image="/web-wizard-dev.jpeg"
             link="https://www.webwizarddev.com/"
