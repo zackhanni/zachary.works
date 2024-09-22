@@ -6,7 +6,7 @@ import Button from "./Button";
 export default function Footer() {
   return (
     <div className="flex flex-col items-center justify-center mt-16">
-      <Button name="Back to top" password={false} link="#hero" />
+      {/* <Button name="Back to top" password={false} link="#hero" /> */}
       <div className="flex overflow-hidden py-16 w-screen">
         <Image
           src="/jazz-cup.png"
