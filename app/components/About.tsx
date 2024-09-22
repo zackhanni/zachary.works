@@ -76,7 +76,7 @@ export default function About() {
             {/* tech i love */}
             <div className="space-y-8">
               <div className="space-y-4">
-                <h3 className="text-3xl text-center pb-8">Tech I Love</h3>
+                <h3 className="text-3xl text-center pb-8">Tech Stack</h3>
 
                 <div className="grid grid-cols-3 md:grid-cols-4 gap-y-4 gap-x-4 max-w-screen-md mx-auto">
                   <TechnologyCard
