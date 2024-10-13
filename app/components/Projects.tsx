@@ -170,18 +170,17 @@ const ProjectCard = ({
             height={175}
             width={350}
             alt={title}
-            className="card-img-top object-cover w-full h-[200px] group-hover:scale-105 ease-out duration-300"
+            className="card-img-top object-cover object-top w-full h-[200px] group-hover:scale-105 ease-out duration-300"
           />
         </Link>
       </div>
       <div className="h-full">
         <CardHeader>
-          <CardTitle>{title}</CardTitle>
-          <CardDescription>{description}</CardDescription>
+          <CardTitle className="mb-1">{title}</CardTitle>
+          <CardDescription className="mt-0">{description}</CardDescription>
         </CardHeader>
-
         <CardContent>
-          <p>{content}</p>
+          <p className="mb-0">{content}</p>
         </CardContent>
         <CardFooter className="mt-auto">
           {/* <p>{footer}</p> */}
