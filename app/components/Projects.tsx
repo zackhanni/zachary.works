@@ -20,7 +20,7 @@ export default function Projects() {
       className="radial-gradient flex flex-col justify-center items-center pb-16"
     >
       <div className="container">
-        <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[90px]">
+        <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[110px]">
           <h2 className="text-5xl font-bold  text-slate-200 ">Projects</h2>
         </div>
 
