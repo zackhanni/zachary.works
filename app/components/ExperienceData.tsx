@@ -15,7 +15,7 @@ const ExperienceData = [
       "MySQL",
     ],
     description: [
-      "At SMC, I contributed to the digital success of nationally recognized brands by delivering high-quality web solutions. My key responsibilities included:",
+      "At SM Communications, I contributed to the digital success of nationally recognized brands by delivering high-quality web solutions. My key responsibilities include:",
     ],
     bullets: (
       <ul className="space-y-2 list-disc text-sm pl-4">
@@ -29,9 +29,9 @@ const ExperienceData = [
           <span className="font-medium text-slate-200">
             Mobile App Development
           </span>
-          : Created interactive Android and iOS games using React Native,
-          collaborating with large corporations and nonprofits to deliver
-          engaging mobile experiences.
+          : Created interactive Android and iOS apps and games using React
+          Native, collaborating with large corporations and nonprofits to
+          deliver engaging mobile experiences.
         </li>
         <li>
           <span className="font-medium text-slate-200">
