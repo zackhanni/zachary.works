@@ -12,7 +12,9 @@ const ExperienceData = [
       "Expo",
       "TypeScript",
       "WordPress",
-      "MySQL",
+      "AWS",
+      "PostgreSQL",
+      "MariaDB",
     ],
     description: [
       "At SM Communications, I contributed to the digital success of nationally recognized brands by delivering high-quality web solutions. My key responsibilities include:",
@@ -35,18 +37,12 @@ const ExperienceData = [
         </li>
         <li>
           <span className="font-medium text-slate-200">
-            Support and Maintenance
+            Back-End and Server Maintenance
           </span>
-          : Provided continuous support and maintenance for websites built with
-          WordPress and React.js, ensuring optimal performance and reliability.
-        </li>
-        <li>
-          <span className="font-medium text-slate-200">
-            Collaborative Communication
-          </span>
-          : Worked closely with project managers, designers, content writers,
-          and clients, maintaining a professional, clear, and friendly
-          communication style to ensure project success and client satisfaction.
+          : Maintained 10 servers across AWS and GoDaddy. Proficient in managing
+          Node.js and WordPress websites, including setup, deployment, and
+          optimization. Familiar with systemd, Caddy, Docker, and other tools to
+          handle production and development environments.
         </li>
       </ul>
     ),
