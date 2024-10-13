@@ -1,6 +1,6 @@
 const ExperienceData = [
   {
-    title: "Full-Stack Developer & Digital Solutions Lead",
+    title: "Full-Stack Developer",
     company: "SM Communications",
     dateRange: "• August 2023 - Current",
     location: "Philadelphia, Pennsylvania / Hybrid",
@@ -52,7 +52,7 @@ const ExperienceData = [
     ),
   },
   {
-    title: "Software Engineer",
+    title: "Front-End Developer",
     company: "Sounds Like Soma",
     dateRange: "• January 2018 - August 2023",
     location: "Philadelphia, Pennsylvania",
