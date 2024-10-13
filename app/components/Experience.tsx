@@ -77,7 +77,6 @@ export default function Experience() {
                   tools={job.tools}
                   key={job.title}
                   content=""
-                  footer=""
                 />
               );
             })}
@@ -123,7 +122,6 @@ const WorkCard = ({
   bullets,
   description,
   content,
-  footer,
   tools,
 }: {
   title: string;
@@ -133,7 +131,6 @@ const WorkCard = ({
   bullets: ReactNode;
   description: string[];
   content: string;
-  footer: string;
   tools: string[];
 }) => {
   // const { ref, inView } = useInView({
@@ -159,7 +156,6 @@ const WorkCard = ({
           {bullets}
         </CardContent>
         <CardFooter className="mt-auto">
-          {/* <p>{footer}</p> */}
           <ToolBubbles tools={tools} />
         </CardFooter>
       </div>
