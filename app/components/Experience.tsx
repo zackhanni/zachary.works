@@ -140,12 +140,12 @@ const WorkCard = ({
 
   return (
     <Card
-      className={`border-0 text-[#94A3B8] radial-gradient hover:bg-black/40 group `}
+      className={`border-0 text-slate-400 radial-gradient hover:bg-black/40 group `}
     >
       <div className="h-full">
         <CardHeader>
-          <CardTitle className="mb-1 text-white">{title}</CardTitle>
-          <CardDescription className="mt-0 text-[#94A3B8]">
+          <CardTitle className="mb-1 text-slate-200">{title}</CardTitle>
+          <CardDescription className="mt-0 text-slate-500">
             {company}
             {dateRange}
           </CardDescription>
