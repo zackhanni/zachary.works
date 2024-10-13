@@ -20,7 +20,7 @@ const ExperienceData = [
       "At SM Communications, I contributed to the digital success of nationally recognized brands by delivering high-quality web solutions. My key responsibilities include:",
     ],
     bullets: (
-      <ul className="space-y-2 list-disc text-sm pl-4">
+      <ul className="space-y-2 list-disc pl-4">
         <li>
           <span className="font-medium text-slate-200">Web Development</span>:
           Developed pixel-perfect websites and interactive web experiences,
@@ -65,7 +65,7 @@ const ExperienceData = [
       "At Sounds Like Soma, I played a pivotal role in enhancing the digital presence and operational efficiency of recording studios, music labels, and independent artists. My key contributions included:",
     ],
     bullets: (
-      <ul className="space-y-2 list-disc text-sm pl-4">
+      <ul className="space-y-2 list-disc pl-4">
         <li>
           <span className="font-medium text-slate-200">Web Development</span>:
           Conceptualized, designed, developed, and deployed cutting-edge
