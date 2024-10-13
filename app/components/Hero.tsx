@@ -6,15 +6,15 @@ export default function Hero() {
   return (
     <section id="hero" className="h-screen w-full">
       <div className="relative -z-20 pointer-events-none">
-        <div className="fixed h-full w-full left-0 radial-gradient text-[#94A3B8]">
-          {/* <Image
-            src="/desk-with-computers.jpeg"
+        <div className="fixed flex justify-center h-full w-full left-0 radial-gradient text-[#94A3B8]">
+          <Image
+            src="/hero-image-computer.webp"
             fill={true}
             priority={true}
             alt="Working at a computer"
             style={{}}
-            className="opacity-20 object-cover w-full h-screen overflow-hidden"
-          /> */}
+            className="opacity-[.05] object-cover w-full h-screen overflow-hidden"
+          />
 
           <div className="px-4 md:px-0 absolute md:-translate-x-1/2 -translate-y-1/2 top-1/2 md:left-1/2 w-full space-y-8 pt-8 container">
             <div className="flex justify-center items-center md:gap-4">
@@ -29,9 +29,10 @@ export default function Hero() {
                   and life-long learner with a deep passion for JavaScript and
                   React. With a rich background in the music industry, working
                   alongside artists and music labels, I&apos;ve transitioned my
-                  creative problem-solving skills into the world of software
-                  development. When I&apos;m not at my computer, I like to spend
-                  my time learning Japanese, keeping fit and producing music.
+                  creative <b className="text-white">problem-solving skills</b>{" "}
+                  into the world of software development. When I&apos;m not at
+                  my computer, I like to spend my time learning Japanese,
+                  keeping fit and producing music.
                 </p>
                 {/* <p className="text-lg">
               I&apos;m an audio engineer, turned{" "}
