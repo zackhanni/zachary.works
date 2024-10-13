@@ -78,7 +78,7 @@ export default function About() {
               <div className="space-y-4">
                 <h3 className="text-3xl text-center pb-8">Tech Stack</h3>
 
-                <div className="grid grid-cols-3 md:grid-cols-4 gap-y-4 gap-x-4 max-w-screen-md mx-auto">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-4 sm:gap-x-4 max-w-screen-md mx-auto">
                   <TechnologyCard
                     name="NextJS"
                     image="/logos/next-js.svg"
@@ -158,7 +158,7 @@ export default function About() {
               </div>
               <div>
                 <p className="text-3xl text-center py-8">Mobile Development</p>
-                <div className="grid grid-cols-3 md:grid-cols-4 gap-y-4 gap-x-4 max-w-screen-md mx-auto">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-4 sm:gap-x-4 max-w-screen-md mx-auto">
                   {/* {MobileStack.map((tech) => {
                     return <li key={tech}>{tech}</li>;
                   })} */}
