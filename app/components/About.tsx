@@ -168,6 +168,16 @@ export default function About() {
                     link="https://reactnative.dev/"
                   />
                   <TechnologyCard
+                    name="NativeWind"
+                    image="/logos/nativewind.png" // CHANGE
+                    link="https://www.nativewind.dev/"
+                  />
+                  <TechnologyCard
+                    name="Appwrite"
+                    image="/logos/appwrite.svg" // CHANGE
+                    link="https://appwrite.io/"
+                  />
+                  <TechnologyCard
                     name="Expo"
                     image="/logos/expo.svg"
                     link="https://expo.dev/"
