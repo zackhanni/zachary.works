@@ -176,8 +176,10 @@ const ProjectCard = ({
       </div>
       <div className="h-full">
         <CardHeader>
-          <CardTitle className="mb-1">{title}</CardTitle>
-          <CardDescription className="mt-0">{description}</CardDescription>
+          <CardTitle className="mb-1 text-slate-200">{title}</CardTitle>
+          <CardDescription className="mt-0 text-slate-500">
+            {description}
+          </CardDescription>
         </CardHeader>
         <CardContent>
           <p className="mb-0">{content}</p>
