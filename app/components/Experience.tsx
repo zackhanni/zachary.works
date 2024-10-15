@@ -26,7 +26,7 @@ export default function Experience() {
     >
       <div className="container flex flex-col items-center justify-center bg-black z-10">
         <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[110px]">
-          <h2 className="text-5xl font-bold  text-slate-200 ">Experience</h2>
+          <h2 className="text-5xl font-bold text-slate-200 ">Experience</h2>
         </div>
 
         <div className="row">
