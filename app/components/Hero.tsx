@@ -18,7 +18,7 @@ export default function Hero() {
 
           <div className="px-4 md:px-0 absolute md:-translate-x-1/2 -translate-y-1/2 top-1/2 md:left-1/2 w-full space-y-8 pt-8 container">
             <div className="flex justify-center items-center md:gap-4">
-              <div className="md:max-w-[60%]">
+              <div className="md:max-w-[60%] md:pr-8">
                 <p className="text-5xl font-bold text-[#AB5C95]">
                   Hi! I&apos;m Zack,
                 </p>
@@ -47,11 +47,11 @@ export default function Hero() {
               <div className="max-w-[40%] h-full items-center justify-center hidden md:flex">
                 <Image
                   src={"/itsme.jpeg"}
-                  width={300}
-                  height={300}
+                  width={250}
+                  height={250}
                   priority
                   alt="Black and white photo of Zack"
-                  className="h-[300px] w-auto object-cover rounded-3xl"
+                  className="h-[250px] w-auto object-cover rounded-full"
                 />
               </div>
             </div>
@@ -61,6 +61,7 @@ export default function Hero() {
                 // className="pulse"
                 className="text-[#AB5C95]"
               />
+              <span className="text-sm pt-2">Scroll Down</span>
             </div>
           </div>
         </div>
