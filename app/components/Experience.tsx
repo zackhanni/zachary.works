@@ -69,9 +69,8 @@ export default function Experience() {
               return (
                 <WorkCard
                   title={job.title}
-                  company={job.company}
+                  subtitle={job.subtitle}
                   bullets={job.bullets}
-                  dateRange={job.dateRange}
                   description={job.description}
                   location={job.location}
                   tools={job.tools}
@@ -116,8 +115,7 @@ export default function Experience() {
 
 const WorkCard = ({
   title,
-  company,
-  dateRange,
+  subtitle,
   location,
   bullets,
   description,
@@ -125,8 +123,7 @@ const WorkCard = ({
   tools,
 }: {
   title: string;
-  company: string;
-  dateRange: string;
+  subtitle: string;
   location: string;
   bullets: ReactNode;
   description: string[];
@@ -146,8 +143,7 @@ const WorkCard = ({
         <CardHeader>
           <CardTitle className="mb-1 text-slate-200">{title}</CardTitle>
           <CardDescription className="mt-0 text-slate-500">
-            {company}
-            {dateRange}
+            {subtitle}
           </CardDescription>
         </CardHeader>
         <CardContent>

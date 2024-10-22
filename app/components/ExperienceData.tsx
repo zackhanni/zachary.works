@@ -1,20 +1,19 @@
 const ExperienceData = [
   {
     title: "Full-Stack Developer",
-    company: "SM Communications",
-    dateRange: "• August 2023 - Current",
+    subtitle: "SM Communications • Full-Time • August 2023 - Current",
     location: "Philadelphia, Pennsylvania / Hybrid",
     tools: [
-      "Next.js",
-      "Tailwind CSS",
-      "React",
+      "React (Next.js)",
+      "TypeScript",
+      "Tailwind",
+      "Node",
+      "REST APIs",
+      "PostgreSQL",
+      "AWS",
       "React Native",
       "Expo",
-      "TypeScript",
       "WordPress",
-      "AWS",
-      "PostgreSQL",
-      "MariaDB",
     ],
     description: [
       "At SM Communications, I contributed to the digital success of nationally recognized brands by delivering high-quality web solutions. My key responsibilities include:",
@@ -49,16 +48,17 @@ const ExperienceData = [
   },
   {
     title: "Front-End Developer",
-    company: "Sounds Like Soma",
-    dateRange: "• January 2018 - August 2023",
+    subtitle: "Sounds Like Soma • Full-Time • January 2018 - August 2023",
     location: "Philadelphia, Pennsylvania",
     tools: [
-      "React",
-      "Next.js",
-      "Bootstrap",
-      "RESTful APIs",
-      "Tailwind CSS",
+      "React (Next.js)",
       "Typescript",
+      "Tailwind",
+      "REST APIs",
+      "Bootstrap",
+      "Javascript",
+      "HTML",
+      "CSS",
     ],
 
     description: [
