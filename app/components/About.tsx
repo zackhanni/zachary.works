@@ -1,41 +1,9 @@
+import Image from "next/image";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import TechnologyCard from "./TechnologyCard";
-import ZackFLoatingCard from "./ZackFloatingCard";
+import Link from "next/link";
 
 export default function About() {
-  const TechStack = [
-    "React",
-    "Next.js",
-    "Javascript",
-    "Typescript",
-    "Tailwind CSS",
-    "Bootstrap",
-    "Node.js",
-    "Git",
-    "HTML5",
-    "CSS3",
-    "Vercel",
-    "MySQL",
-    "SQLite",
-    "Strapi",
-    "Shadcn",
-    "Prisma",
-  ];
-
-  const MobileStack = ["React Native", "NativeWind", "Expo", "Appwrite"];
-
-  const AltStack = [
-    "Stripe",
-    "Resend",
-    "MongoDB",
-    "Ruby",
-    "Jekyll",
-    "Netlify",
-    "PHP",
-    "Wordpress",
-  ];
-
   return (
     <section
       id="about"
@@ -46,7 +14,6 @@ export default function About() {
           <h2 className="text-5xl font-bold  text-slate-200">About Zack</h2>
         </div>
         <div className="row">
-          {/* <ZackFLoatingCard /> */}
           <div className="col-12 space-y-16">
             <div className="max-w-screen-md mx-auto">
               <h3>How it started:</h3>
@@ -159,9 +126,6 @@ export default function About() {
               <div>
                 <p className="text-3xl text-center py-8">Mobile Development</p>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-4 sm:gap-x-4 max-w-screen-md mx-auto">
-                  {/* {MobileStack.map((tech) => {
-                    return <li key={tech}>{tech}</li>;
-                  })} */}
                   <TechnologyCard
                     name="React Native"
                     image="/logos/react-native.webp"
@@ -184,14 +148,6 @@ export default function About() {
                   />
                 </div>
               </div>
-              {/* <div>
-                <p>Some other tech that i&apos;m familiar with:</p>
-                <div className="grid grid-cols-2 md:grid-cols-3">
-                  {AltStack.map((tech) => {
-                    return <li key={tech}>{tech}</li>;
-                  })}
-                </div>
-              </div> */}
             </div>
             {/* <Contact /> */}
           </div>
@@ -201,3 +157,28 @@ export default function About() {
     </section>
   );
 }
+
+const TechnologyCard = ({
+  image,
+  link,
+  name,
+}: {
+  image: string;
+  link: string;
+  name: string;
+}) => {
+  return (
+    <Link href={link} target="_blank" key={name} className="mx-auto">
+      <div className="py-1 px-4 bg-white text-primary rounded-[25px] flex items-center justify-center h-[65px] w-auto shadow-md hover:shadow-xl duration-300">
+        {/* {technology.name} */}
+        <Image
+          src={image}
+          width={101}
+          height={57}
+          alt={`${name} logo`}
+          className="object-contain max-h-[50px]"
+        />
+      </div>
+    </Link>
+  );
+};
