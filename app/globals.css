@@ -133,3 +133,22 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* nav link underline scale in effect */
+.scale-underlined {
+  position: relative;
+}
+.scale-underlined::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: #ffffff; /* Adjust color as needed */
+  transition: width 0.3s ease-in-out;
+}
+.scale-underlined:hover::after {
+  width: 100%;
+}
