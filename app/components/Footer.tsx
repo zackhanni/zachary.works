@@ -4,7 +4,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="flex flex-col items-center justify-center mt-16">
-      <div className="flex overflow-hidden py-16 w-screen">
+      <div className="flex overflow-hidden justify-center pt-16 w-screen">
         <Image
           src="/jazz-cup.png"
           width={448}
