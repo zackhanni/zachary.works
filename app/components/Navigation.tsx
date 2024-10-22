@@ -48,7 +48,7 @@ export function Navigation() {
 
   return (
     <div
-      className={`fixed w-full transition-transform duration-500 z-20 hidden md:block ${
+      className={`fixed w-full transition-transform duration-500 z-20 hidden lg:block ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       } `}
     >
@@ -56,7 +56,10 @@ export function Navigation() {
         {/* Desktop Nav */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-[90px]">
-            <a href="/" className="text-xl font-bold text-white no-underline">
+            <a
+              href="/"
+              className="text-xl md:text-2xl font-bold text-white no-underline"
+            >
               Zachary.works
             </a>
 
