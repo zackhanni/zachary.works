@@ -84,13 +84,11 @@ export default function Contact() {
   return (
     <>
       <section id="contact" className=" text-slate-200 bg-black py-16">
-        <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[90px]">
-          <h2 className="text-5xl font-bold  text-slate-200 ">Contact</h2>
+        <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[110px]">
+          <h2 className="text-5xl font-bold text-slate-200 ">Drop a line ☎️</h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 radial-gradient p-4 rounded-lg space-y-8 sm:space-y-0 max-w-screen-md mx-auto">
-          {" "}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 radial-gradient p-6 rounded-lg max-w-screen-md mx-auto">
           <div className="">
-            {/* <h3>Drop a line ☎️</h3> */}
             <Form {...form}>
               <form
                 onSubmit={form.handleSubmit(onSubmit)}
@@ -149,8 +147,8 @@ export default function Contact() {
               </form>
             </Form>
           </div>
-          <div className="">
-            <p className="mb-0 pb-4">
+          <div className=" space-y-4">
+            <p>
               The best way to contact me is through email or LinkedIn (I&apos;m
               not much of a twitter guy). Give me a shout here:
             </p>
@@ -173,7 +171,7 @@ export default function Contact() {
               className=""
             /> */}
             </div>
-            <div className="flex flex-col pt-4">
+            <div className="flex flex-col">
               <a
                 href="https://docs.google.com/document/d/1SzLNz6jHUPfvxQVEV21YptKuoyBZ6UFzQjmPckXFGQY/edit?usp=drive_link"
                 target="blank"
@@ -189,7 +187,7 @@ export default function Contact() {
                 Zack&apos;s Email
               </a>
             </div>
-            <p className="max-w-sm mb-0 pt-4">
+            <p className="max-w-sm mb-0">
               This website was designed in{" "}
               <a
                 href="https://www.figma.com/"
