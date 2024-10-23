@@ -18,18 +18,18 @@ export default function Hero() {
 
           <div className="px-4 md:px-0 absolute md:-translate-x-1/2 -translate-y-1/2 top-1/2 md:left-1/2 w-full space-y-8 pt-8 container">
             <div className="flex justify-center items-center md:gap-4">
-              <div className="md:max-w-[60%] md:pr-8">
-                <p className="text-5xl font-bold text-[#AB5C95]">
-                  Hi! I&apos;m Zack,
+              <div className="md:max-w-[60%] md:pr-8 space-y-8">
+                <p className="text-6xl font-bold text-[#AB5C95]">
+                  Hi! I&apos;m Zack.
                 </p>
 
                 <p className="text-lg">
                   I&apos;m a{" "}
                   <strong className="text-white">full stack developer</strong>{" "}
-                  and life-long learner with a deep passion for JavaScript and
-                  React. With a rich background in the music industry, working
-                  alongside artists and music labels, I&apos;ve transitioned my
-                  creative <b className="text-white">problem-solving skills</b>{" "}
+                  and life-long learner with a deep passion for problem solving
+                  and tech. With a rich background in the music industry,
+                  working alongside artists and music labels, I&apos;ve
+                  transitioned my creative mind and audio engineering skills
                   into the world of software development. When I&apos;m not at
                   my computer, I like to spend my time learning Japanese,
                   keeping fit and producing music.
@@ -56,13 +56,13 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="text-4xl grid place-items-center">
+            {/* <div className="text-4xl grid place-items-center">
               <FaChevronDown
                 // className="pulse"
                 className="text-[#AB5C95]"
               />
               <span className="text-sm pt-2">Scroll Down</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
