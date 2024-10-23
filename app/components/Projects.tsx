@@ -45,10 +45,9 @@ export default function Projects() {
             tools={[
               "Next.js",
               "Prisma",
-              "Shadcn",
               "PostgreSQL",
               "Resend",
-              "Node.js",
+              "Node",
               "Stripe API",
               "React Email",
               "Supabase",
@@ -64,7 +63,7 @@ export default function Projects() {
             content="This reusable electronic press kit (EPK) template for musicians and artists to showcase their songs, artwork, photos, and videos. The template is designed for easy customization and efficient deployment."
             footer=""
             tools={[
-              "ReactJS",
+              "React",
               "Typescript",
               "Tailwind CSS",
               "Vite",
@@ -176,13 +175,13 @@ const ProjectCard = ({
       </div>
       <div className="h-full">
         <CardHeader>
-          <CardTitle className="mb-1 text-slate-200">{title}</CardTitle>
-          <CardDescription className="mt-0 text-slate-500">
+          <CardTitle className="text-slate-200 text-3xl">{title}</CardTitle>
+          <CardDescription className="text-slate-500">
             {description}
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <p className="mb-0">{content}</p>
+          <p className="">{content}</p>
         </CardContent>
         <CardFooter className="mt-auto">
           {/* <p>{footer}</p> */}
