@@ -11,25 +11,29 @@ export default function About() {
     >
       <div className="container flex flex-col items-center justify-center">
         <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[110px]">
-          <h2 className="text-5xl font-bold  text-slate-200">About Zack</h2>
+          <h2 className="text-5xl font-bold text-slate-200">About Zack</h2>
         </div>
         <div className="row">
           <div className="col-12 space-y-16">
-            <div className="max-w-screen-md mx-auto">
-              <h3>How it started:</h3>
+            <div className="max-w-screen-md mx-auto prose text-slate-200 lg:prose-lg">
+              <h3 className="text-slate-200">How it all started</h3>
               <p>
-                In the beginning, I learned through codecademy, having a mentor,
-                and working on a ton of freelance projects. I really started my
-                career at Sounds Like Soma - a philly based recording studio -
-                where I worked with recording artists and record labels to make
-                promotional landing pages. I also managed the studio&apos;s
-                business website and IT infrastructure.
+                In the beginning, I learned to code through Codecademy, a
+                patient mentor and getting involved in a ton of freelance
+                projects. My career took off at Sounds Like Soma, a Philly based
+                recording studio, where I managed the studio&apos;s business
+                website and IT infrastructure. That opportunity also allowed me
+                to work with global recording artists and record labels to make
+                promotional landing pages and electronic press kits.
               </p>
-              <h3>In the here and now:</h3>
+              <h3 className="text-slate-200">In the here and now</h3>
               <p>
-                Presently, I lead web and mobile app development at a
-                Philadelphia-based PR firm.
+                Presently, I am the lead full-stack web and mobile developer at
+                a Philadelphia-based PR firm. This role actively pushes me to
+                try new technologies and branch out of my comfort zone - leading
+                me to continually grow as a developer.
               </p>
+              <h3 className="text-slate-200">What im looking for</h3>
               <p>
                 I am eager to contribute my skills and expertise to a dynamic
                 team of motivated professionals dedicated to developing
@@ -42,8 +46,8 @@ export default function About() {
             </div>
             {/* tech i love */}
             <div className="space-y-8">
-              <div className="space-y-4">
-                <h3 className="text-3xl text-center pb-8">Tech Stack</h3>
+              <div className="space-y-4 prose lg:prose-lg max-w-screen-md">
+                <h3 className="text-center pb-8 text-slate-200">Tech Stack</h3>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-4 sm:gap-x-4 max-w-screen-md mx-auto">
                   <TechnologyCard
@@ -123,8 +127,10 @@ export default function About() {
                   />
                 </div>
               </div>
-              <div>
-                <p className="text-3xl text-center py-8">Mobile Development</p>
+              <div className="prose lg:prose-lg max-w-screen-md">
+                <h3 className="text-center py-8 text-slate-200">
+                  Mobile Development
+                </h3>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-4 sm:gap-x-4 max-w-screen-md mx-auto">
                   <TechnologyCard
                     name="React Native"
