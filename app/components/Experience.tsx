@@ -29,42 +29,9 @@ export default function Experience() {
           <h2 className="text-5xl font-bold text-slate-200 ">Experience</h2>
         </div>
 
-        <div className="row">
+        <div className="flex lg:space-x-8">
           <ZackFLoatingCard />
-          {/* <div className="col-lg-9 col-12 space-y-8">
-            <div className="p-4 rounded-lg radial-gradient backdrop-blur text-[#94A3B8]">
-              <p>answer to - "So tell me about yourself" question</p>
-            </div>
-          </div> */}
-          {/* <div className="col-lg-9 col-12 space-y-8">
-            {WorkData.map((job) => {
-              return (
-                <div
-                  key={job.company}
-                  className="p-8 rounded-lg radial-gradient backdrop-blur text-[#94A3B8]"
-                >
-                  <p className="text-lg text-white mb-0">{job.company}</p>
-
-                  <div className="flex italic text-sm">
-                    <p className="">{job.title}</p>
-                    <p>{job.dateRange}</p>
-                  </div>
-                  {job.description.map((paragraph) => {
-                    return (
-                      <p key={paragraph} className="text-sm">
-                        {paragraph}
-                      </p>
-                    );
-                  })}
-                  {job.bullets}
-                  <ToolBubbles tools={job.tools} />
-                </div>
-              );
-            })}
-          </div> */}
-
-          {/* another one */}
-          <div className="col-lg-9 col-12 space-y-8">
+          <div className="lg:w-[75%] space-y-8">
             {WorkData.map((job) => {
               return (
                 <WorkCard
@@ -141,14 +108,14 @@ const WorkCard = ({
     >
       <div className="h-full">
         <CardHeader>
-          <CardTitle className="mb-1 text-slate-200">{title}</CardTitle>
+          <CardTitle className="text-slate-200 text-3xl">{title}</CardTitle>
           <CardDescription className="mt-0 text-slate-500">
             {subtitle}
           </CardDescription>
         </CardHeader>
         <CardContent>
           {description}
-          <hr className="my-6" />
+          <hr className="my-6 opacity-40" />
           {bullets}
         </CardContent>
         <CardFooter className="mt-auto">
