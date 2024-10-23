@@ -16,7 +16,7 @@ export default function ZackFLoatingCard() {
   return (
     <Tilt
       options={tiltOptions}
-      className="hidden lg:block w-1/4 text-[#238493] bg-white rounded-lg sticky top-[110px] h-fit z-10 min-h-[350px] px-3"
+      className="hidden lg:block max-w-1/4 max-w-[300px] text-[#238493] bg-white rounded-lg sticky top-[110px] h-fit z-10 min-h-[350px] px-3"
     >
       <div className="flex flex-col py-3 w-fit bg-white/80 rounded-lg">
         <h2 className="text-3xl font-bold m-0">Zack Hanni</h2>

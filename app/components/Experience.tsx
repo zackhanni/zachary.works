@@ -31,7 +31,7 @@ export default function Experience() {
 
         <div className="flex lg:space-x-8">
           <ZackFLoatingCard />
-          <div className="lg:w-[75%] space-y-8">
+          <div className="lg:max-w-[75%] space-y-8">
             {WorkData.map((job) => {
               return (
                 <WorkCard
