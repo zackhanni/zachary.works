@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Notes
 
-## Getting Started
+## About me
 
-First, run the development server:
+### Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Hi, my name is Zack Hanni. I have been a programmer for the past 9 years
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I've specialized in front-end development, but over the last few years I have actively branched out to full stack and mobile app development.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Professional Experience
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+In the beginning, worked on a lot of freelance projects, but really started my career at Sounds Like Soma - a philly based recording studio -
 
-## Learn More
+where I worked with recording artist, and record labels to make promotional websites.
 
-To learn more about Next.js, take a look at the following resources:
+I also managed the studio's business website and IT infrastructure.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Now
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Now, im working at a Philadelphia based PR firm, SmartMark, which has allowed me to work on projects with a wider reach and a larger team to bounce ideas off of.
 
-## Deploy on Vercel
+I build a lot of promotional websites and sign up pages focusing on energy and IOT technologies for large brands like Samsung, GE, and several state utility companies.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Notable Projects and Achievements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+One recent achievement in the last month, was releasing a mobile app on iOS and Android in collaboration with the Chicago zoo. - Which was exciting for me and the team.
+
+### Current Situation and Future Goals
+
+In the next 5 years I would love to be a full stack software engineer who is able to work remotely and travel. Im learning Japanese and have goals to live there a few months out of the year with my wife Emily,
