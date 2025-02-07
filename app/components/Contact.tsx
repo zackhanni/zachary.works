@@ -87,8 +87,8 @@ export default function Contact() {
         <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[110px]">
           <h2 className="text-5xl font-bold text-slate-200 ">Drop a line ☎️</h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 radial-gradient p-6 rounded-lg max-w-screen-md mx-auto">
-          <div className="">
+        <div className="radial-gradient p-6 rounded-lg max-w-sm mx-auto">
+          {/* <div className="">
             <Form {...form}>
               <form
                 onSubmit={form.handleSubmit(onSubmit)}
@@ -146,7 +146,7 @@ export default function Contact() {
                 </Button>
               </form>
             </Form>
-          </div>
+          </div> */}
           <div className=" space-y-4">
             <p>
               The best way to contact me is through email or LinkedIn (I&apos;m
@@ -173,7 +173,7 @@ export default function Contact() {
             </div>
             <div className="flex flex-col">
               <a
-                href="https://docs.google.com/document/d/1SzLNz6jHUPfvxQVEV21YptKuoyBZ6UFzQjmPckXFGQY/edit?usp=drive_link"
+                href="https://docs.google.com/document/d/1SzLNz6jHUPfvxQVEV21YptKuoyBZ6UFzQjmPckXFGQY/edit?usp=sharing"
                 target="blank"
                 className="hover:underline hover:text-[#2CA5B8] text-[#AB5C95]"
               >
