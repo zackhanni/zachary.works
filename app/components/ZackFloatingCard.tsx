@@ -31,7 +31,7 @@ export default function ZackFLoatingCard() {
       <div className="flex space-x-4">
         <SocialMedia
           name="Linkedin"
-          link="https://github.com/zackhanni"
+          link="https://www.linkedin.com/in/zackhanni/"
           className="text-[#2CA5B8] hover:text-[#2CA5B8]"
           icon={<FaLinkedin />}
         />
