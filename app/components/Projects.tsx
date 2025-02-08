@@ -20,10 +20,10 @@ export default function Projects() {
       id="projects"
       className="radial-gradient flex flex-col justify-center items-center pb-16"
     >
-      <div className="container">
-        <SectionHeader title="Projects" />
+      <div className="container max-w-screen-xl">
+        <SectionHeader title="Side Projects" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 overflow-hidden">
+        <div className="place-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 overflow-hidden">
           <ProjectCard
             image="/web-wizard-dev.jpeg"
             link="https://www.webwizarddev.com/"
@@ -156,12 +156,12 @@ const ProjectCard = ({
 
   return (
     <Card
-      className={`border-0 text-[#94A3B8] bg-black/50 hover:bg-black/40 group ${
+      className={`sm:max-w-[352px] h-full border-0 text-[#94A3B8] bg-black/50 hover:bg-black/40 group rounded-2xl ${
         inView ? "show" : "hide"
       }`}
       ref={ref}
     >
-      <div className="overflow-hidden rounded-t-lg">
+      <div className="overflow-hidden rounded-t-2xl">
         <Link href={link} target="_blank">
           <Image
             src={image}
@@ -174,13 +174,13 @@ const ProjectCard = ({
       </div>
       <div className="h-full">
         <CardHeader>
-          <CardTitle className="text-slate-200 text-3xl">{title}</CardTitle>
-          <CardDescription className="text-slate-500">
+          <CardTitle className="text-slate-200 text-xl">{title}</CardTitle>
+          <CardDescription className=" text-slate-500">
             {description}
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <p className="">{content}</p>
+          <p>{content}</p>
         </CardContent>
         <CardFooter className="mt-auto">
           {/* <p>{footer}</p> */}
