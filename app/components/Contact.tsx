@@ -30,6 +30,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
+import SectionHeader from "./SectionHeader";
 
 const formSchema = z.object({
   name: z.string().min(1, {
@@ -84,9 +85,7 @@ export default function Contact() {
   return (
     <>
       <section id="contact" className=" text-slate-200 bg-black py-16">
-        <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[110px]">
-          <h2 className="text-5xl font-bold text-slate-200 ">Drop a line ☎️</h2>
-        </div>
+        <SectionHeader title="Drop a line ☎️" />
         <div className="radial-gradient p-6 rounded-lg max-w-sm mx-auto">
           {/* <div className="">
             <Form {...form}>
@@ -150,13 +149,13 @@ export default function Contact() {
           <div className=" space-y-4">
             <p>
               The best way to contact me is through email or LinkedIn (I&apos;m
-              not much of a twitter guy). Give me a shout here:
+              not much of a twitter/X guy). Give me a shout here:
             </p>
 
-            <div className="flex space-x-4">
+            <div className="flex justify-center space-x-4">
               <SocialMedia
                 name="Linkedin"
-                link="https://github.com/zackhanni"
+                link="https://www.linkedin.com/in/zackhanni/"
                 icon={<FaLinkedin />}
               />
               <SocialMedia
@@ -164,64 +163,29 @@ export default function Contact() {
                 link="https://github.com/zackhanni"
                 icon={<FaGithub />}
               />
-              {/* <SocialMedia
-              name="Email"
-              link="mailto:zack.hanni@gmail.com"
-              icon={<IoMdMail />}
-              className=""
-            /> */}
+              <SocialMedia
+                name="Email"
+                link="mailto:zack.hanni@gmail.com"
+                className="text-[#2CA5B8] hover:text-[#2CA5B8]"
+                icon={<IoMdMail />}
+              />
             </div>
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <a
                 href="https://docs.google.com/document/d/1SzLNz6jHUPfvxQVEV21YptKuoyBZ6UFzQjmPckXFGQY/edit?usp=sharing"
                 target="blank"
-                className="hover:underline hover:text-[#2CA5B8] text-[#AB5C95]"
+                className="hover:underline text-[#2CA5B8] hover:text-[#AB5C95]"
               >
                 Zack&apos;s Resume
               </a>
               <a
                 href="mailto:zack.hanni@gmail.com"
                 target="blank"
-                className="hover:underline hover:text-[#2CA5B8] text-[#AB5C95]"
+                className="hover:underline text-[#2CA5B8] hover:text-[#AB5C95]"
               >
                 Zack&apos;s Email
               </a>
-            </div>
-            <p className="max-w-sm mb-0">
-              This website was designed in{" "}
-              <a
-                href="https://www.figma.com/"
-                target="_blank"
-                className="hover:text-[#2CA5B8] text-[#AB5C95]"
-              >
-                Figma
-              </a>
-              , coded in{" "}
-              <a
-                href="https://code.visualstudio.com/"
-                target="_blank"
-                className="hover:text-[#2CA5B8] text-[#AB5C95]"
-              >
-                Visual Studio Code
-              </a>
-              , built with{" "}
-              <a
-                href="https://nextjs.org/"
-                target="_blank"
-                className="hover:text-[#2CA5B8] text-[#AB5C95]"
-              >
-                Next.js
-              </a>
-              , and deployed with{" "}
-              <a
-                href="https://vercel.com/"
-                target="_blank"
-                className="hover:text-[#2CA5B8] text-[#AB5C95]"
-              >
-                Vercel
-              </a>{" "}
-              by yours truly.
-            </p>
+            </div> */}
           </div>
         </div>
         <Footer />
