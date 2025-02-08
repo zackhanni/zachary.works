@@ -17,12 +17,12 @@ export default function Experience() {
       id="experience"
       className="w-full flex justify-center pb-16 h-full bg-[#060604]"
     >
-      <div className="container flex flex-col items-center justify-center z-10">
+      <div className="container flex flex-col items-center justify-center z-10 max-w-screen-xl">
         <SectionHeader title="Experience" />
 
         <div className="flex justify-center lg:space-x-8">
           <ZackFLoatingCard />
-          <div className="lg:max-w-[70%] space-y-8">
+          <div className="space-y-8 w-fit">
             <WorkCard
               title="Full-Stack Developer | React Native Developer"
               employer="SM Communications"
