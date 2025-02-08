@@ -33,27 +33,31 @@ export default function Experience() {
                     <span className="font-medium text-slate-200">
                       Web Development
                     </span>
-                    : Developed pixel-perfect websites and interactive web
-                    experiences, meticulously catering to the distinctive needs
-                    of nationally recognized brands.
+                    : Lead full-stack development on over five concurrent mobile
+                    projects, pixel-perfect UIs and interactive experiences.
                   </li>
                   <li>
                     <span className="font-medium text-slate-200">
                       Mobile App Development
                     </span>
-                    : Created interactive Android and iOS apps and games using
-                    React Native, collaborating with large corporations and
-                    nonprofits to deliver engaging mobile experiences.
+                    : Developed and launched two React Native apps with Expo,
+                    reaching thousands of active users, ensuring seamless
+                    performance from concept, to continuous improvement.
                   </li>
                   <li>
                     <span className="font-medium text-slate-200">
-                      Back-End and Server Maintenance
+                      Back-end APIs
                     </span>
-                    : Maintained 10 servers across AWS and GoDaddy. Proficient
-                    in managing Node.js and WordPress websites, including setup,
-                    deployment, and optimization. Familiar with systemd, Caddy,
-                    Docker, and other tools to handle production and development
-                    environments.
+                    : Designed REST API systems that integrate with 100+ IoT
+                    devices, supporting national energy demand response programs
+                  </li>
+                  <li>
+                    <span className="font-medium text-slate-200">
+                      Server Maintenance
+                    </span>
+                    : Maintained 10+ servers and 16+ websites across AWS and
+                    GoDaddy, optimizing for performance, security, and
+                    development workflows.
                   </li>
                 </ul>
               }
@@ -82,33 +86,27 @@ export default function Experience() {
                     <span className="font-medium text-slate-200">
                       Web Development
                     </span>
-                    : Conceptualized, designed, developed, and deployed
-                    cutting-edge responsive websites and interactive promotional
-                    materials tailored specifically for the music industry.
+                    : Designed, developed, and launched 20+ responsive websites
+                    and interactive promotional materials for recording studios,
+                    music labels, and independent artists, enhancing their
+                    digital presence.
                   </li>
                   <li>
                     <span className="font-medium text-slate-200">
                       SEO Implementation
                     </span>
-                    : Spearheaded successful implementation of SEO best
-                    practices, significantly enhancing search rankings and
-                    driving consecutive yearly sales growth over five years.
-                  </li>
-                  <li>
-                    <span className="font-medium text-slate-200">
-                      Performance Optimization
-                    </span>
-                    : Optimized upload and download speeds to the local server,
-                    resulting in notable performance improvements across four
-                    recording studio spaces.
+                    : Spearheaded implementation of SEO best practices, driving
+                    significant search ranking improvements and consecutive to
+                    five consecutive years of sales growth.
                   </li>
                   <li>
                     <span className="font-medium text-slate-200">
                       IT Support and Maintenance
                     </span>
-                    : Delivered comprehensive IT technical support and
-                    maintenance services, managing all computers, servers, and a
-                    vast repository of over 50TB of digital assets.
+                    : Provided end-to-end IT support and infrastructure
+                    maintenance for six computers, one server, and a 50TB+
+                    digital asset repository across 4 recording studios,
+                    ensuring seamless operations.
                   </li>
                 </ul>
               }
@@ -148,7 +146,7 @@ const WorkCard = ({
 }) => {
   return (
     <Card
-      className={`border-0 text-slate-400 radial-gradient hover:bg-black/40 group `}
+      className={`border-0 text-slate-400 radial-gradient hover:bg-black/40 group rounded-2xl`}
     >
       <div className="h-full">
         <CardHeader className="space-y-1">
