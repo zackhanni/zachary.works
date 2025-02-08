@@ -152,10 +152,8 @@ const WorkCard = ({
         <CardHeader className="space-y-1">
           <CardTitle className="text-slate-300 text-lg">{title}</CardTitle>
           <CardTitle className="text-slate-300 text-lg">{employer}</CardTitle>
-          <CardDescription>
-            <div className="text-md font-semibold text-[#238493]">
-              {dateRange}
-            </div>
+          <CardDescription className="text-md font-semibold text-[#238493]">
+            {dateRange}
             {/* <div className="text-slate-300">{description}</div> */}
           </CardDescription>
         </CardHeader>
