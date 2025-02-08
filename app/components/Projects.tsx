@@ -12,6 +12,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import SectionHeader from "./SectionHeader";
 
 export default function Projects() {
   return (
@@ -20,9 +21,7 @@ export default function Projects() {
       className="radial-gradient flex flex-col justify-center items-center pb-16"
     >
       <div className="container">
-        <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[110px]">
-          <h2 className="text-5xl font-bold  text-slate-200 ">Projects</h2>
-        </div>
+        <SectionHeader title="Projects" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 overflow-hidden">
           <ProjectCard

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Link from "next/link";
+import SectionHeader from "./SectionHeader";
 
 export default function About() {
   return (
@@ -10,9 +11,7 @@ export default function About() {
       className="bg-black text-slate-200 flex justify-center pb-16 w-full"
     >
       <div className="container flex flex-col items-center justify-center">
-        <div className="w-full flex items-center justify-center z-10 sticky top-0 backdrop-blur h-[110px]">
-          <h2 className="text-5xl font-bold text-slate-200">About Zack</h2>
-        </div>
+        <SectionHeader title="About" />
         <div className="row">
           <div className="col-12 space-y-16">
             <div className="max-w-screen-md mx-auto prose text-slate-200 lg:prose-lg">

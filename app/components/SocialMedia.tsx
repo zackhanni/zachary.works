@@ -16,8 +16,7 @@ export default function SocialMedia({
   return (
     <Link key={name} href={link} target="_blank">
       <div
-        className={`text-4xl ${className}
-            hover:text-[#2CA5B8] text-[#AB5C95] duration-300`}
+        className={`text-3xl text-[#2CA5B8] XXtext-[#AB5C95] duration-300 ${className}`}
       >
         {icon}
       </div>
