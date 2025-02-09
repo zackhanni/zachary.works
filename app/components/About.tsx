@@ -15,7 +15,7 @@ export default function About() {
         <div className="row">
           <div className="col-12 space-y-16">
             <div className="max-w-screen-md mx-auto prose text-slate-200 lg:prose-md border-2 border-white p-8 rounded-2xl backdrop-blur-[2px]">
-              <h3 className="text-slate-200">How it all started</h3>
+              <h3 className="text-slate-200">How it all started 🌱</h3>
               <p>
                 In the beginning, I learned to code through Codecademy, a
                 patient mentor, and involving myself in a ton of freelance
@@ -25,14 +25,14 @@ export default function About() {
                 me to work with global recording artists and record labels to
                 make promotional landing pages and electronic press kits.
               </p>
-              <h3 className="text-slate-200">In the here and now</h3>
+              <h3 className="text-slate-200">In the here and now 👈</h3>
               <p>
                 Presently, I am the lead full-stack web and mobile developer at
                 a Philadelphia-based PR firm. This role actively pushes me to
                 try new technologies and branch out of my comfort zone, leading
                 me to continually grow as a developer.
               </p>
-              <h3 className="text-slate-200">What im looking for</h3>
+              <h3 className="text-slate-200">What im looking for 🔍</h3>
               <p>
                 In my next role, I am seeking a team of motivated professionals
                 developing software that impacts everyday people. I am eager to
