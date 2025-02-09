@@ -36,12 +36,12 @@ export function Nav2() {
         {/* Desktop Nav */}
         <div className="items-center justify-between h-[60px] px-8 bg-white rounded-2xl text-black flex">
           <a
-            href="/"
+            href="#hero"
             className="text-lg font-bold no-underline hidden md:block"
           >
             Zachary.works
           </a>
-          <a href="/" className="text-lg font-bold no-underline md:hidden">
+          <a href="#hero" className="text-lg font-bold no-underline md:hidden">
             ZW
           </a>
           <NavigationMenu className="hidden lg:flex">
