@@ -29,7 +29,7 @@ export default function Projects() {
             link="https://www.webwizarddev.com/"
             title="Web Wizard Dev"
             description="Professional web development company"
-            content="I'm part of an expert team of freelancers who cater to various software engineering needs. We build websites, mobile apps, MPVs, and update existing websites for a diverse client base."
+            content="A freelance software engineering company for building websites, mobile apps, MPVs, and updating existing websites for a diverse client base."
             footer="Footer text"
             tools={["Next.js", "Tailwind CSS", "Typescript", "Bootstrap"]}
           />
@@ -39,7 +39,7 @@ export default function Projects() {
             link="https://omni-mart.vercel.app/"
             title="Omni-Mart"
             description="Your Intergalactic E-commerce Marketplace"
-            content="An intergalactic market for everything you need on a planetary journey. Complete with a working checkout page, Stripe integration, confirmation emails, and a robust admin page to track and modify products."
+            content="Everything you need on an interplanetary journey. Complete with checkout page, Stripe integration, confirmation emails, and a robust admin page to track and modify products."
             footer="Footer text"
             tools={[
               "Next.js",
@@ -57,9 +57,9 @@ export default function Projects() {
           <ProjectCard
             image="/book-sheldon-price.png"
             link="https://www.booksheldonprice.com/"
-            title="Sheldon Price EPK"
-            description="A reusable template for artist electronic press kits"
-            content="This reusable electronic press kit (EPK) template for musicians and artists to showcase their songs, artwork, photos, and videos. The template is designed for easy customization and efficient deployment."
+            title="Artist EPK React Template"
+            description="A reusable template for creating electronic press kits"
+            content="A reusable electronic press kit (EPK) template for musicians and artists to showcase their songs, artwork, photos, and videos."
             footer=""
             tools={[
               "React",
@@ -72,11 +72,21 @@ export default function Projects() {
           />
 
           <ProjectCard
+            image="/soma-website.png"
+            link="https://www.soundslikesoma.com/"
+            title="Sounds Like Soma"
+            description="Philadelphia recording studio"
+            content="A responsive website for a local recording studio. I utilized Ruby and Jekyll for site generation, Bootstrap for responsive design, Netlify for deployment and SEO best practices to boost search rankings and drive substantial increases in sales."
+            footer=""
+            tools={["Ruby", "Jekyll", "Bootstrap", "Netlify", "SEO"]}
+          />
+
+          <ProjectCard
             image="/nihongo-ai.png"
             link="https://nihongo-chatbot.vercel.app/"
             title="Nihongo"
             description="AI powered Japanese practice chatbot"
-            content="I developed a Japanese language practice chatbot to enhance users' speaking and writing skills in Japanese. The chatbot leverages OpenAI APIs for natural language processing, built with a modern tech stack including Next.js for server-side rendering and Tailwind CSS for responsive design."
+            content="A Japanese language practice chatbot that helps enhance users' speaking and writing skills in Japanese. The chatbot leverages OpenAI APIs for natural language processing."
             footer=""
             tools={["OpenAI API", "Next.js", "Tailwind CSS", "Typescript"]}
           />
@@ -86,7 +96,7 @@ export default function Projects() {
             link="https://kasatoboushi.vercel.app/"
             title="Kasa と boushi"
             description="Japanese-American fusion cafe"
-            content="I developed a responsive website for a minimalist American-Japanese fusion cafe based in Japan, enhancing it's online presence and user engagement. Integrated a dynamic language switching feature between Japanese and English to cater to a broader audience."
+            content="A minimalist American-Japanese fusion café based in Japan with built-in dynamic language switching to cater to a broader audience."
             footer=""
             tools={[
               "Next.js",
@@ -96,16 +106,6 @@ export default function Projects() {
               "Vercel",
               "Responsive Design",
             ]}
-          />
-
-          <ProjectCard
-            image="/soma-website.png"
-            link="https://www.soundslikesoma.com/"
-            title="Sounds Like Soma"
-            description="Philadelphia recording studio"
-            content="I designed and developed a responsive website for a local Philadelphia recording studio, significantly enhancing online presence and sales. I utilized Ruby and Jekyll for site generation, Bootstrap for responsive design, Netlify for deployment and SEO best practices to boost search rankings and drive substantial increases in sales."
-            footer=""
-            tools={["Ruby", "Jekyll", "Bootstrap", "Netlify", "SEO"]}
           />
 
           {/* <ProjectCard
