@@ -89,7 +89,7 @@ export default function Contact() {
         className=" text-slate-200 bg-black pb-16 flex flex-col justify-center items-center w-full min-h-screen"
       >
         <SectionHeader title="Drop a line" />
-        <div className="radial-gradient p-6 rounded-lg max-w-sm mx-auto pb-16">
+        <div className="radial-gradient p-8 rounded-lg max-w-sm mx-auto">
           {/* <div className="">
             <Form {...form}>
               <form
@@ -152,7 +152,7 @@ export default function Contact() {
           <div className=" space-y-4">
             <p>
               The best way to contact me is through email or LinkedIn (I&apos;m
-              not much of a twitter/X guy). Give me a shout here:
+              not much of a twitter or X guy). Give me a shout here:
             </p>
 
             <div className="flex justify-center space-x-4">

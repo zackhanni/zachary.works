@@ -14,33 +14,30 @@ export default function About() {
         <SectionHeader title="About" />
         <div className="row">
           <div className="col-12 space-y-16">
-            <div className="max-w-screen-md mx-auto prose text-slate-200 lg:prose-lg">
+            <div className="max-w-screen-md mx-auto prose text-slate-200 lg:prose-md border-2 border-white p-8 rounded-2xl backdrop-blur-[2px]">
               <h3 className="text-slate-200">How it all started</h3>
               <p>
                 In the beginning, I learned to code through Codecademy, a
-                patient mentor and getting involved in a ton of freelance
-                projects. My career took off at Sounds Like Soma, a Philly based
-                recording studio, where I managed the studio&apos;s business
-                website and IT infrastructure. That opportunity also allowed me
-                to work with global recording artists and record labels to make
-                promotional landing pages and electronic press kits.
+                patient mentor, and involving myself in a ton of freelance
+                projects. My career took off at Sounds Like Soma, a Philadelphia
+                based recording studio, where I managed the studio&apos;s
+                business website and IT infrastructure. This opportunity allowed
+                me to work with global recording artists and record labels to
+                make promotional landing pages and electronic press kits.
               </p>
               <h3 className="text-slate-200">In the here and now</h3>
               <p>
                 Presently, I am the lead full-stack web and mobile developer at
                 a Philadelphia-based PR firm. This role actively pushes me to
-                try new technologies and branch out of my comfort zone - leading
+                try new technologies and branch out of my comfort zone, leading
                 me to continually grow as a developer.
               </p>
               <h3 className="text-slate-200">What im looking for</h3>
               <p>
-                I am eager to contribute my skills and expertise to a dynamic
-                team of motivated professionals dedicated to developing
-                impactful software solutions. In my next role, I am seeking an
-                environment that encourages personal and professional growth. I
-                am particularly interested in opportunities where collaboration
-                with innovative colleagues fosters a culture of idea-sharing and
-                continuous improvement.
+                In my next role, I am seeking a team of motivated professionals
+                developing software that impacts everyday people. I am eager to
+                contribute my skills to a company that fosters a culture of
+                idea-sharing and continuous improvement.
               </p>
             </div>
             {/* tech i love */}
