@@ -15,9 +15,9 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="w-full flex justify-center pb-16 h-full bg-[#060604]"
+      className="w-full flex justify-center pb-16 h-full bg-[#060604] dot-background"
     >
-      <div className="container flex flex-col items-center justify-center z-10 max-w-screen-xl">
+      <div className="container flex flex-col items-center justify-center max-w-screen-xl">
         <SectionHeader title="Experience" />
 
         <div className="flex justify-center lg:space-x-8">

@@ -48,9 +48,8 @@ export function Navigation() {
 
   return (
     <div
-      className={`fixed w-full transition-transform duration-500 z-20 hidden lg:block ${
-        isVisible ? "translate-y-0" : "-translate-y-full"
-      } `}
+      className={`fixed w-full transition-transform duration-500 z-20 hidden lg:block 
+        ${isVisible ? "translate-y-0" : "-translate-y-full"} `}
     >
       <div className="py-1">
         {/* Desktop Nav */}

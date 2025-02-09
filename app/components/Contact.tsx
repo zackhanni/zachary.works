@@ -84,9 +84,12 @@ export default function Contact() {
 
   return (
     <>
-      <section id="contact" className=" text-slate-200 bg-black py-16">
-        <SectionHeader title="Drop a line ☎️" />
-        <div className="radial-gradient p-6 rounded-lg max-w-sm mx-auto">
+      <section
+        id="contact"
+        className=" text-slate-200 bg-black pb-16 flex flex-col justify-center items-center w-full min-h-screen"
+      >
+        <SectionHeader title="Drop a line" />
+        <div className="radial-gradient p-6 rounded-lg max-w-sm mx-auto pb-16">
           {/* <div className="">
             <Form {...form}>
               <form

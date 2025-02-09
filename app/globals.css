@@ -147,9 +147,15 @@
   transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: #ffffff; /* Adjust color as needed */
+  background-color: #000000;
   transition: width 0.3s ease-in-out;
 }
 .scale-underlined:hover::after {
   width: 100%;
+}
+
+/* Dot background */
+.dot-background {
+  background-image: radial-gradient(#ccc 1px, transparent 0);
+  background-size: 40px 40px;
 }

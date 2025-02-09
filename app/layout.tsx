@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import { Navigation } from "./components/Navigation";
+import { Nav2 } from "./components/Nav2";
 
 export const metadata: Metadata = {
   title: "Zachary.works",
@@ -16,7 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navigation />
+        {/* <Navigation /> */}
+        <Nav2 />
         {children}
       </body>
     </html>

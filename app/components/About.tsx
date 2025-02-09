@@ -8,7 +8,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-black text-slate-200 flex justify-center pb-16 w-full"
+      className="bg-black text-slate-200 flex justify-center pb-16 w-full dot-background"
     >
       <div className="container flex flex-col items-center justify-center">
         <SectionHeader title="About" />
