@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center justify-center mt-16">
-      <p className="max-w-sm mb-0">
+    <div className="flex flex-col items-center justify-center bg-red-100 bottom-0 absolute">
+      {/* <p className="max-w-sm mb-0">
         This website was designed in{" "}
         <a
           href="https://www.figma.com/"
@@ -38,7 +38,7 @@ export default function Footer() {
           Vercel
         </a>{" "}
         by yours truly.
-      </p>
+      </p> */}
       <div className="flex overflow-hidden justify-center pt-16 w-screen">
         <Image
           src="/jazz-cup.png"

@@ -10,7 +10,7 @@ export default function SectionHeader({ title }: { title: string }) {
       const header = document.getElementById(title);
       if (header) {
         const rect = header.getBoundingClientRect();
-        setIsVisible(rect.top <= 100); // Adjust pixels from top
+        setIsVisible(rect.top <= 70); // Adjust pixels from top
       }
     };
 
@@ -23,7 +23,7 @@ export default function SectionHeader({ title }: { title: string }) {
       <h2
         id={title}
         className={`text-2xl font-semibold transition-opacity duration-500 ${
-          isVisible ? "text-black opacity-100" : "opacity-0"
+          isVisible ? "text-black opacity-100" : " text-white opacity-100"
         }`}
       >
         {title}

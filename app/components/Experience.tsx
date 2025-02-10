@@ -15,7 +15,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="w-full flex justify-center pb-16 h-full bg-[#060604] dot-background"
+      className="w-full flex justify-center pb-16 h-full bg-[#213041] dot-background-dark"
     >
       <div className="container flex flex-col items-center justify-center max-w-screen-xl">
         <SectionHeader title="Experience" />
@@ -146,7 +146,7 @@ const WorkCard = ({
 }) => {
   return (
     <Card
-      className={`border-0 text-slate-400 radial-gradient hover:bg-black/40 group rounded-2xl`}
+      className={`border-0 text-slate-400 bg-[#10151E] XXradial-gradient group rounded-2xl`}
     >
       <div className="h-full">
         <CardHeader className="space-y-1">

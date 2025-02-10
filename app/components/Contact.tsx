@@ -86,10 +86,10 @@ export default function Contact() {
     <>
       <section
         id="contact"
-        className=" text-slate-200 bg-black pb-16 flex flex-col justify-center items-center w-full min-h-screen"
+        className=" text-slate-200 bg-[#10151E] XXdot-background flex flex-col justify-center items-center w-full py-16"
       >
         <SectionHeader title="Drop a line" />
-        <div className="radial-gradient p-8 rounded-lg max-w-sm mx-auto">
+        <div className="bg-[#213041] p-8 rounded-lg max-w-sm mx-auto mb-16">
           {/* <div className="">
             <Form {...form}>
               <form
@@ -191,7 +191,42 @@ export default function Contact() {
             </div> */}
           </div>
         </div>
-        <Footer />
+        <p className="max-w-sm mb-0">
+          This website was designed in{" "}
+          <a
+            href="https://www.figma.com/"
+            target="_blank"
+            className="text-[#2CA5B8] hover:text-[#AB5C95]"
+          >
+            Figma
+          </a>
+          , coded in{" "}
+          <a
+            href="https://code.visualstudio.com/"
+            target="_blank"
+            className="text-[#2CA5B8] hover:text-[#AB5C95]"
+          >
+            Visual Studio Code
+          </a>
+          , built with{" "}
+          <a
+            href="https://nextjs.org/"
+            target="_blank"
+            className="text-[#2CA5B8] hover:text-[#AB5C95]"
+          >
+            Next.js
+          </a>
+          , and deployed with{" "}
+          <a
+            href="https://vercel.com/"
+            target="_blank"
+            className="text-[#2CA5B8] hover:text-[#AB5C95]"
+          >
+            Vercel
+          </a>{" "}
+          by yours truly.
+        </p>
+        {/* <Footer /> */}
       </section>
       <AlertDialog open={submitSuccess}>
         <AlertDialogTrigger></AlertDialogTrigger>

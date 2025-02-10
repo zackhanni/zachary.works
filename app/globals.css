@@ -28,10 +28,23 @@
 }
 
 .radial-gradient {
-  background: radial-gradient(ellipse at bottom, #213041 0%, #151722 100%);
+  background: radial-gradient(ellipse at center, #213041 0%, #10151e 70%);
   /* background: radial-gradient(ellipse at bottom, #003333 0%, #330033 100%); */
 }
 
+/* background: radial-gradient(ellipse at top, #213041, transparent),
+            radial-gradient(ellipse at bottom, #10151e, transparent); */
+
+/* Dot background */
+.dot-background {
+  background-image: radial-gradient(#213041 01px, transparent 0);
+  background-size: 40px 40px;
+}
+
+.dot-background-dark {
+  background-image: radial-gradient(#10151e 01px, transparent 0);
+  background-size: 40px 40px;
+}
 * {
   scroll-behavior: smooth;
 }
@@ -152,10 +165,4 @@
 }
 .scale-underlined:hover::after {
   width: 100%;
-}
-
-/* Dot background */
-.dot-background {
-  background-image: radial-gradient(#ccc 1px, transparent 0);
-  background-size: 40px 40px;
 }

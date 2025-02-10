@@ -156,7 +156,7 @@ const ProjectCard = ({
 
   return (
     <Card
-      className={`sm:max-w-[352px] h-full border-0 text-[#94A3B8] bg-black/50 hover:bg-black/40 group rounded-2xl ${
+      className={`sm:max-w-[352px] h-full border-0 text-[#94A3B8] bg-[#10151E] #black/50 hover:bg-black/40 group rounded-2xl ${
         inView ? "show" : "hide"
       }`}
       ref={ref}

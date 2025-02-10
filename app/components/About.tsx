@@ -8,7 +8,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-black text-slate-200 flex justify-center pb-16 w-full dot-background"
+      className=" text-slate-200 flex justify-center pb-16 w-full bg-[#10151E] dot-background"
     >
       <div className="container flex flex-col items-center justify-center">
         <SectionHeader title="About" />
@@ -45,7 +45,7 @@ export default function About() {
               <div className="space-y-4 prose lg:prose-lg max-w-screen-md">
                 <h3 className="text-center pb-8 text-slate-200">Tech Stack</h3>
 
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-4 sm:gap-x-4 max-w-screen-md mx-auto">
+                <div className="flex flex-wrap gap-y-4 sm:gap-x-4 max-w-screen-md mx-auto">
                   <TechnologyCard
                     name="NextJS"
                     image="/logos/next-js.svg"
@@ -171,7 +171,7 @@ const TechnologyCard = ({
 }) => {
   return (
     <Link href={link} target="_blank" key={name} className="mx-auto">
-      <div className="py-1 px-4 bg-white text-primary rounded-[25px] flex items-center justify-center h-[65px] w-auto shadow-md hover:shadow-xl duration-300">
+      <div className="py-1 px-4 bg-white text-primary rounded-2xl flex items-center justify-center h-[65px] w-auto shadow-md hover:shadow-xl duration-200 hover:bg-white/80">
         {/* {technology.name} */}
         <Image
           src={image}
