@@ -28,38 +28,59 @@ export default function Experience() {
               employer="SM Communications"
               dateRange="August 2023 - Current"
               bullets={
-                <ul className="space-y-2 list-disc pl-4">
-                  <li>
-                    <span className="font-medium text-slate-200">
-                      Web Development
-                    </span>
-                    : Lead full-stack development on over five concurrent mobile
-                    projects, pixel-perfect UIs and interactive experiences.
-                  </li>
-                  <li>
-                    <span className="font-medium text-slate-200">
-                      Mobile App Development
-                    </span>
-                    : Developed and launched two React Native apps with Expo,
-                    reaching thousands of active users, ensuring seamless
-                    performance from concept, to continuous improvement.
-                  </li>
-                  <li>
-                    <span className="font-medium text-slate-200">
-                      Back-end APIs
-                    </span>
-                    : Designed REST API systems that integrate with 100+ IoT
-                    devices, supporting national energy demand response programs
-                  </li>
-                  <li>
-                    <span className="font-medium text-slate-200">
-                      Server Maintenance
-                    </span>
-                    : Maintained 10+ servers and 16+ websites across AWS and
-                    GoDaddy, optimizing for performance, security, and
-                    development workflows.
-                  </li>
-                </ul>
+                <>
+                  <p className="pb-6">
+                    Lead full-stack development across multiple mobile, web, and
+                    IoT projects, integrating React Native, Next.js, Node.js,
+                    and cloud technologies to build scalable, high-performance
+                    applications. Developed secure authentication systems,
+                    real-time data processing solutions, and user-friendly
+                    interfaces that drive engagement and operational efficiency.
+                  </p>
+                  <ul className="space-y-2 list-disc pl-4">
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Developed & Launched IoT Smart Home App
+                      </span>
+                      : Developed an IoT React Native app integrating multiple
+                      Smart Home platform APIs, allowing users to control 100+
+                      smart home devices.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Real-Time Data Streaming via Kafka
+                      </span>
+                      : Engineered a Node.js server that processes a continuous
+                      data stream from a Kafka system, exposing real-time data
+                      via a REST API, handling thousands of requests per day.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Optimized CRM for Sales Teams
+                      </span>
+                      : Developed a custom CRM using Next.js and SQLite,
+                      enabling 10+ users to manage leads, track calls, and
+                      annotate contacts. Integrated Microsoft OAuth for secure
+                      authentication, reducing unauthorized access risks.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Interactive React Native Game
+                      </span>
+                      : Created a location-based quiz mobile game using
+                      analytics to track user progress and automate prize
+                      distribution for over 500 users.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Infrastructure & Server Management
+                      </span>
+                      : Maintained 10+ AWS and GoDaddy servers, ensuring uptime
+                      and security for 16+ websites, optimizing server
+                      configurations and deployment workflows.
+                    </li>
+                  </ul>
+                </>
               }
               description="At SM Communications, I contributed to the digital success of nationally recognized brands by delivering high-quality web solutions. My key responsibilities include:"
               tools={[
@@ -81,34 +102,46 @@ export default function Experience() {
               employer="Sounds Like Soma"
               dateRange="January 2018 - August 2023"
               bullets={
-                <ul className="space-y-2 list-disc pl-4">
-                  <li>
-                    <span className="font-medium text-slate-200">
-                      Web Development
-                    </span>
-                    : Designed, developed, and launched 20+ responsive websites
-                    and interactive promotional materials for recording studios,
-                    music labels, and independent artists, enhancing their
-                    digital presence.
-                  </li>
-                  <li>
-                    <span className="font-medium text-slate-200">
-                      SEO Implementation
-                    </span>
-                    : Spearheaded implementation of SEO best practices, driving
-                    significant search ranking improvements and consecutive to
-                    five consecutive years of sales growth.
-                  </li>
-                  <li>
-                    <span className="font-medium text-slate-200">
-                      IT Support and Maintenance
-                    </span>
-                    : Provided end-to-end IT support and infrastructure
-                    maintenance for six computers, one server, and a 50TB+
-                    digital asset repository across 4 recording studios,
-                    ensuring seamless operations.
-                  </li>
-                </ul>
+                <>
+                  <p className="pb-6">
+                    Designed and developed digital assets, websites, and
+                    promotional tools for recording studios, music labels, and
+                    artists. Built scalable web solutions using React, Ruby on
+                    Rails, and Jekyll, optimizing performance and accessibility.
+                    Managed large-scale digital archives across multiple
+                    recording studios, ensuring data integrity and efficient
+                    retrieval.
+                  </p>
+                  <ul className="space-y-2 list-disc pl-4">
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Built an Electronic Press Kit (EPK) React Template
+                      </span>
+                      : Developed a scalable and reusable React-based template
+                      for press kits, enabling over 20+ artists and record
+                      labels to create high-quality promotional materials in
+                      minutes. Deployed via Vercel for fast, global performance.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Managed Digital Assets
+                      </span>
+                      : Maintained and organized over 50 terabytes of
+                      high-quality audio and video data across four recording
+                      studios, implementing backup and retrieval systems to
+                      prevent data loss and optimize workflow efficiency
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Improved Search Rankings & Business Growth
+                      </span>
+                      : Engineered the primary studio website using Ruby on
+                      Rails, Jekyll, and Bootstrap, while implementing SEO
+                      optimizations that boosted search rankings and contributed
+                      to five consecutive years of business growth.
+                    </li>
+                  </ul>
+                </>
               }
               description="At Sounds Like Soma, I played a pivotal role in enhancing the digital presence and operational efficiency of recording studios, music labels, and independent artists. My key contributions included:"
               tools={[
