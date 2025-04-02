@@ -27,10 +27,10 @@ export default function About() {
               </p>
               <h3 className="text-slate-200">In the here and now 👈</h3>
               <p>
-                Presently, I am the lead full-stack web and mobile developer at
-                a Philadelphia-based PR firm. This role actively pushes me to
-                try new technologies and branch out of my comfort zone, leading
-                me to continually grow as a developer.
+                Most recently, I was the lead full-stack web and mobile
+                developer at a Philadelphia-based PR agency. This role actively
+                pushes me to try new technologies and branch out of my comfort
+                zone, leading me to continually grow as a developer.
               </p>
               <h3 className="text-slate-200">What im looking for 🔍</h3>
               <p>
