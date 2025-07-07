@@ -1,10 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import * as React from "react";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
-// import { Icons } from "@/components/icons"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -27,22 +24,21 @@ import {
 } from "@/components/ui/dialog";
 import { Menu } from "lucide-react";
 
-export function Nav2() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+export function Nav() {
   return (
     <div className={`fixed w-full transition-transform duration-500 z-20`}>
       <div className="pt-4 container max-w-screen-xl mx-auto">
         {/* Desktop Nav */}
-        <div className="items-center justify-between h-[60px] px-8 bg-white rounded-2xl text-black flex">
+        <div className="items-center justify-between h-[60px] px-4 sm:px-8 bg-white rounded-2xl text-black flex">
           <a
             href="#hero"
             className="text-lg font-bold no-underline hidden md:block"
           >
             Zachary.works
           </a>
-          <a href="#hero" className="text-lg font-bold no-underline md:hidden">
-            ZW
+          <a href="#hero" className="text-sm font-bold no-underline md:hidden leading-[10px]">
+            <p>Zachary</p>
+            <p>.works</p>
           </a>
           <NavigationMenu className="hidden lg:flex">
             <NavigationMenuList className="ml-10 mb-0">

@@ -1,12 +1,11 @@
 import "./globals.css";
 import type { Metadata } from "next";
 // import "bootstrap/dist/css/bootstrap.min.css";
-import { Navigation } from "./components/Navigation";
-import { Nav2 } from "./components/Nav2";
+import { Nav } from "./components/Nav";
 
 export const metadata: Metadata = {
   title: "Zachary.works",
-  description: "Professional software engineer Zachary Hanni",
+  description: "Portfolio page for professional software engineer Zachary Hanni",
 };
 
 export default function RootLayout({
@@ -17,8 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* <Navigation /> */}
-        <Nav2 />
+        <Nav />
         {children}
       </body>
     </html>
