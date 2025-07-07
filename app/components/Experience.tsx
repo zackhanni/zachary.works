@@ -30,44 +30,38 @@ export default function Experience() {
               bullets={
                 <>
                   <p className="pb-6">
-                    Developed a sophisticated Single Page Application (SPA) for the Federal Aviation Administration (FAA) in collaboration with Leidos, focused on real-time flight path monitoring, trajectory editing, and airspace management using modern JavaScript and mapping libraries.
+                    Developed a mission-critical Single Page Application (SPA) for the Federal Aviation Administration (FAA) to enable real-time flight path monitoring, editing, and airspace management.
                   </p>
                   <ul className="space-y-2 list-disc pl-4">
                     <li>
                       <span className="font-medium text-slate-200">
                         Built advanced geospatial mapping features
                       </span>
-                      {` `} using React Leaflet, GeoJSON, and Polylines to display real-time aircraft positions, waypoints, and flight trajectories.
+                      {` `} using React Leaflet, GeoJSON, and Polylines to display dynamic aircraft positions and trajectories.
                     </li>
                     <li>
                       <span className="font-medium text-slate-200">
                         Engineered a mission-critical Reroute Tool
                       </span>
-                      {` `} enabling air traffic controllers to dynamically reassign flight paths, including drawing alternative routes, conflict detection, and path validation for safety and feasibility.
+                      {` `} that supports interactive route drawing, conflict detection, and path validation for safe airspace operations.
                     </li>
                     <li>
                       <span className="font-medium text-slate-200">
-                        Developed and maintained custom React Contexts and Hooks for global state management
+                        Led state management migration
                       </span>
-                      {` `} ensuring scalable and maintainable architecture across a large codebase.
+                      {` `} from React Context to Zustand, improving app performance and stability.
                     </li>
                     <li>
                       <span className="font-medium text-slate-200">
-                        Led the migration of key application state logic from React Context to Zustand
+                        Simulated aircraft movement
                       </span>
-                      {` `} improving performance and reducing rendering issues.
+                      {` `} using interval-based coordinate updates for real-time animation and optimized rendering.
                     </li>
                     <li>
                       <span className="font-medium text-slate-200">
-                        Designed logic to simulate multiple aircraft movement in real-time
+                        Resolved complex rendering bugs
                       </span>
-                      {` `} using interval-based coordinate updates, optimizing rendering performance and responsiveness.
-                    </li>
-                    <li>
-                      <span className="font-medium text-slate-200">
-                        Debugged and resolved complex rendering issues
-                      </span>
-                      {` `} including click event propagation, race conditions, and improper state updates, contributing to a more robust user interface.
+                      {` `} including event propagation issues, race conditions, and improper state updates.
                     </li>
                   </ul>
                 </>
@@ -95,54 +89,38 @@ export default function Experience() {
               bullets={
                 <>
                   <p className="pb-6">
-                    Lead full-stack development across multiple mobile, web, and
-                    IoT projects, integrating React Native, Next.js, Node.js,
-                    and cloud technologies to build scalable, high-performance
-                    applications. Developed secure authentication systems,
-                    real-time data processing solutions, and user-friendly
-                    interfaces that drive engagement and operational efficiency.
+                    Led full-stack development for multiple web, mobile, and IoT projects using React Native, Next.js, Node.js, and AWS.
                   </p>
                   <ul className="space-y-2 list-disc pl-4">
                     <li>
                       <span className="font-medium text-slate-200">
-                        Developed & Launched IoT Smart Home App
+                        Developed a React Native IoT Smart Home App
                       </span>
-                      : Developed an IoT React Native app integrating multiple
-                      Smart Home platform APIs, allowing users to control 100+
-                      smart home devices.
+                      {` `} integrating SmartThings and Home Assistant APIs, enabling control of 100+ smart devices.
                     </li>
                     <li>
                       <span className="font-medium text-slate-200">
-                        Real-Time Data Streaming via Kafka
+                        Built a Node.js server processing real-time data streams
                       </span>
-                      : Engineered a Node.js server that processes a continuous
-                      data stream from a Kafka system, exposing real-time data
-                      via a REST API, handling thousands of requests per day.
+                      {` `} via Apache Kafka, exposing endpoints through a REST API for downstream consumers.
                     </li>
                     <li>
                       <span className="font-medium text-slate-200">
-                        Optimized CRM for Sales Teams
+                        Created a lightweight CRM platform
                       </span>
-                      : Developed a custom CRM using Next.js and SQLite,
-                      enabling 10+ users to manage leads, track calls, and
-                      annotate contacts. Integrated Microsoft OAuth for secure
-                      authentication, reducing unauthorized access risks.
+                      {` `} with Next.js and SQLite, supporting lead management, annotations, and OAuth 2.0 integration using Microsoft Identity Platform.
                     </li>
                     <li>
                       <span className="font-medium text-slate-200">
-                        Interactive React Native Game
+                        Built a location-based mobile quiz game
                       </span>
-                      : Created a location-based quiz mobile game using
-                      analytics to track user progress and automate prize
-                      distribution for over 500 users.
+                      {` `} with 500+ users, using analytics for engagement tracking and automated prize distribution.
                     </li>
                     <li>
                       <span className="font-medium text-slate-200">
-                        Infrastructure & Server Management
+                        Maintained and deployed 16+ production websites
                       </span>
-                      : Maintained 10+ AWS and GoDaddy servers, ensuring uptime
-                      and security for 16+ websites, optimizing server
-                      configurations and deployment workflows.
+                      {` `} via AWS and GoDaddy, automating updates and improving server efficiency.
                     </li>
                   </ul>
                 </>
@@ -163,12 +141,12 @@ export default function Experience() {
             />
 
             <WorkCard
-              title="Front-End Developer"
+              title="Front-End React Developer"
               employer="Sounds Like Soma"
               dateRange="January 2018 - August 2023"
               bullets={
                 <>
-                  <p className="pb-6">
+                  {/* <p className="pb-6">
                     Designed and developed digital assets, websites, and
                     promotional tools for recording studios, music labels, and
                     artists. Built scalable web solutions using React, Ruby on
@@ -176,34 +154,31 @@ export default function Experience() {
                     Managed large-scale digital archives across multiple
                     recording studios, ensuring data integrity and efficient
                     retrieval.
-                  </p>
+                  </p> */}
                   <ul className="space-y-2 list-disc pl-4">
                     <li>
                       <span className="font-medium text-slate-200">
-                        Built an Electronic Press Kit (EPK) React Template
+                        Designed and delivered custom web tools
                       </span>
-                      : Developed a scalable and reusable React-based template
-                      for press kits, enabling over 20+ artists and record
-                      labels to create high-quality promotional materials in
-                      minutes. Deployed via Vercel for fast, global performance.
+                      {` `} for music labels and studios using React, Ruby on Rails, and Jekyll.
                     </li>
                     <li>
                       <span className="font-medium text-slate-200">
-                        Managed Digital Assets
+                        Developed reusable press kit templates
                       </span>
-                      : Maintained and organized over 50 terabytes of
-                      high-quality audio and video data across four recording
-                      studios, implementing backup and retrieval systems to
-                      prevent data loss and optimize workflow efficiency
+                      {` `} in React, used by 20+ artists and labels, deployed via Vercel for fast, global delivery.
                     </li>
                     <li>
                       <span className="font-medium text-slate-200">
-                        Improved Search Rankings & Business Growth
+                        Managed 50+ TB of multimedia data
                       </span>
-                      : Engineered the primary studio website using Ruby on
-                      Rails, Jekyll, and Bootstrap, while implementing SEO
-                      optimizations that boosted search rankings and contributed
-                      to five consecutive years of business growth.
+                      {` `} across multiple studios, building secure archive and retrieval systems.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Rebuilt the studio's main site
+                      </span>
+                      {` `} using Rails, Jekyll, and Bootstrap, achieving 5+ years of continuous SEO-driven traffic growth.
                     </li>
                   </ul>
                 </>
