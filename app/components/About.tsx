@@ -15,29 +15,17 @@ export default function About() {
         <div className="row">
           <div className="col-12 space-y-16">
             <div className="max-w-screen-md mx-auto prose text-slate-200 lg:prose-md border-2 border-white p-8 rounded-2xl backdrop-blur-[2px]">
-              <h3 className="text-slate-200">How it all started 🌱</h3>
+              <h3 className="text-slate-200">🌱 How It Started</h3>
               <p>
-                In the beginning, I learned to code through Codecademy, a
-                patient mentor, and involving myself in a ton of freelance
-                projects. My career took off at Sounds Like Soma, a Philadelphia
-                based recording studio, where I managed the studio&apos;s
-                business website and IT infrastructure. This opportunity allowed
-                me to work with global recording artists and record labels to
-                make promotional landing pages and electronic press kits.
+                My journey into software began with late nights on Codecademy, the guidance of a patient mentor, and hands-on learning through freelance gigs. Things took off at Sounds Like Soma, a Philadelphia-based recording studio, where I managed the studio’s website and IT infrastructure. There, I had the unique opportunity to collaborate with global recording artists and record labels—designing promotional landing pages and crafting dynamic electronic press kits that helped bring their stories to life.
               </p>
-              <h3 className="text-slate-200">In the here and now 👈</h3>
+              <h3 className="text-slate-200">👨‍💻 Where I Am Now</h3>
               <p>
-                Most recently, I was the lead full-stack web and mobile
-                developer at a Philadelphia-based PR agency. This role actively
-                pushes me to try new technologies and branch out of my comfort
-                zone, leading me to continually grow as a developer.
+                Most recently, I served as the lead full-stack web and mobile developer at a Philadelphia-based PR agency. The role challenged me to constantly explore new technologies—from real-time data processing and IoT integrations to modern frameworks like React Native and Next.js. It pushed me to grow not just as a developer, but as a creative problem-solver and collaborator.
               </p>
-              <h3 className="text-slate-200">What im looking for 🔍</h3>
+              <h3 className="text-slate-200">🔍 What I'm Looking For</h3>
               <p>
-                In my next role, I am seeking a team of motivated professionals
-                developing software that impacts everyday people. I am eager to
-                contribute my skills to a company that fosters a culture of
-                idea-sharing and continuous improvement.
+                In my next chapter, I'm looking to join a team of curious, motivated professionals building software that has a real-world impact. I thrive in environments that value continuous learning, shared knowledge, and thoughtful engineering. If you're building something meaningful—and need someone who can turn bold ideas into functional, scalable products—I'd love to connect.
               </p>
             </div>
             {/* tech i love */}
@@ -46,15 +34,17 @@ export default function About() {
                 <h3 className="text-center pb-8 text-slate-200">Tech Stack</h3>
 
                 <div className="flex flex-wrap gap-y-4 sm:gap-x-4 max-w-screen-md mx-auto">
-                  <TechnologyCard
-                    name="NextJS"
-                    image="/logos/next-js.svg"
-                    link="https://nextjs.org/"
-                  />
+
                   <TechnologyCard
                     name="React"
                     image="/logos/reactjs.svg"
                     link="https://react.dev/"
+                  />
+
+                  <TechnologyCard
+                    name="NextJS"
+                    image="/logos/next-js.svg"
+                    link="https://nextjs.org/"
                   />
 
                   <TechnologyCard
@@ -74,6 +64,13 @@ export default function About() {
                     image="/logos/tailwindcss.svg"
                     link="https://tailwindcss.com/"
                   />
+
+                  <TechnologyCard
+                    name="Shadcn"
+                    image="/logos/shadcn.png"
+                    link="https://ui.shadcn.com/"
+                  />
+
                   <TechnologyCard
                     name="Html"
                     image="/logos/html5.svg"
@@ -98,11 +95,11 @@ export default function About() {
                     link="https://nodejs.org/en"
                   />
 
-                  {/* <TechnologyCard
-                    name="Mongodb"
-                    image="/logos/mongodb.svg"
-                    link="/"
-                  /> */}
+                  <TechnologyCard
+                    name="Docker"
+                    image="/logos/docker.svg"
+                    link="https://www.docker.com/"
+                  />
 
                   <TechnologyCard
                     name="AWS"
@@ -114,6 +111,12 @@ export default function About() {
                     name="RESTful API"
                     image="/logos/rest-api.svg"
                     link="https://aws.amazon.com/"
+                  />
+
+                  <TechnologyCard
+                    name="Git"
+                    image="/logos/git.svg"
+                    link="https://git-scm.com/"
                   />
 
                   <TechnologyCard
