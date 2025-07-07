@@ -1,6 +1,4 @@
-import { Mail } from "lucide-react";
 import Link from "next/link";
-import { FaLinkedin, FaGithub, FaDribbble, FaGoogle } from "react-icons/fa";
 
 export default function SocialMedia({
   name,

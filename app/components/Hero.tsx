@@ -56,13 +56,13 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* <div className="text-4xl grid place-items-center">
+            <div className="text-4xl grid place-items-center">
               <FaChevronDown
-                // className="pulse"
-                className="text-[#AB5C95]"
+                className="pulse"
+              // className="text-[#AB5C95]"
               />
-              <span className="text-sm pt-2">Scroll Down</span>
-            </div> */}
+              {/* <span className="text-sm pt-2">Scroll Down</span> */}
+            </div>
           </div>
         </div>
       </div>

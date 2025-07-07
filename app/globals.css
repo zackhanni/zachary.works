@@ -49,25 +49,25 @@
   scroll-behavior: smooth;
 }
 
-/* pulse effect for hero bottom */
+/* pulse effect for hero bottom - optimized for performance */
 .pulse {
-  animation: pulse 2s infinite;
+  animation: pulse-optimized 2s ease-in-out infinite;
+  will-change: opacity, transform;
 }
-@keyframes pulse {
+@keyframes pulse-optimized {
   0% {
-    transform: scale(0.9);
-    opacity: 0.2;
+    opacity: 0.3;
+    transform: translateY(0) scale(0.95);
   }
 
-  70% {
-    transform: scale(1);
+  50% {
     opacity: 1;
-    translate: 0px 20px;
+    transform: translateY(10px) scale(1);
   }
 
   100% {
-    transform: scale(0.9);
-    opacity: 0.2;
+    opacity: 0.3;
+    transform: translateY(0) scale(0.95);
   }
 }
 

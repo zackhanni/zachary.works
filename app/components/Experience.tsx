@@ -24,6 +24,71 @@ export default function Experience() {
           <ZackFLoatingCard />
           <div className="space-y-8 w-fit">
             <WorkCard
+              title="React Developer w/ Node JS"
+              employer="Fedstack, Leidos"
+              dateRange="May 2025 - July 2025"
+              bullets={
+                <>
+                  <p className="pb-6">
+                    Developed a sophisticated Single Page Application (SPA) for the Federal Aviation Administration (FAA) in collaboration with Leidos, focused on real-time flight path monitoring, trajectory editing, and airspace management using modern JavaScript and mapping libraries.
+                  </p>
+                  <ul className="space-y-2 list-disc pl-4">
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Built advanced geospatial mapping features
+                      </span>
+                      {` `} using React Leaflet, GeoJSON, and Polylines to display real-time aircraft positions, waypoints, and flight trajectories.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Engineered a mission-critical Reroute Tool
+                      </span>
+                      {` `} enabling air traffic controllers to dynamically reassign flight paths, including drawing alternative routes, conflict detection, and path validation for safety and feasibility.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Developed and maintained custom React Contexts and Hooks for global state management
+                      </span>
+                      {` `} ensuring scalable and maintainable architecture across a large codebase.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Led the migration of key application state logic from React Context to Zustand
+                      </span>
+                      {` `} improving performance and reducing rendering issues.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Designed logic to simulate multiple aircraft movement in real-time
+                      </span>
+                      {` `} using interval-based coordinate updates, optimizing rendering performance and responsiveness.
+                    </li>
+                    <li>
+                      <span className="font-medium text-slate-200">
+                        Debugged and resolved complex rendering issues
+                      </span>
+                      {` `} including click event propagation, race conditions, and improper state updates, contributing to a more robust user interface.
+                    </li>
+                  </ul>
+                </>
+              }
+              description=""
+              tools={[
+                "React",
+                "TypeScript",
+                "JavaScript",
+                "Tailwind",
+                "Node",
+                "React Leaflet",
+                "GeoJSON",
+                "React Context",
+                "Zustand",
+                "Custom Hooks",
+                "WebSockets",
+              ]}
+            />
+
+            <WorkCard
               title="Full-Stack Developer | React Native Developer"
               employer="SM Communications"
               dateRange="August 2023 - Current"
@@ -153,6 +218,9 @@ export default function Experience() {
                 "Javascript",
                 "HTML",
                 "CSS",
+                "Ruby",
+                "Jekyll",
+                "Ruby on Rails",
               ]}
             />
           </div>
@@ -182,20 +250,22 @@ const WorkCard = ({
       className={`border-0 text-slate-400 bg-[#10151E] XXradial-gradient group rounded-2xl`}
     >
       <div className="h-full">
-        <CardHeader className="space-y-1">
-          <CardTitle className="text-slate-300 text-lg">{title}</CardTitle>
-          <CardTitle className="text-slate-300 text-lg">{employer}</CardTitle>
+        <CardHeader className="space-y-0 flex sm:flex-row justify-between">
+          <div className="flex flex-col">
+            <CardTitle className="text-slate-300 text-lg">{title}</CardTitle>
+            <CardTitle className="text-slate-300 text-lg">{employer}</CardTitle>
+          </div>
           <CardDescription className="text-md font-semibold text-[#238493]">
             {dateRange}
             {/* <div className="text-slate-300">{description}</div> */}
           </CardDescription>
         </CardHeader>
+        <hr className="mb-6 opacity-40" />
         <CardContent>
-          <hr className="mb-6 opacity-40" />
           {bullets}
         </CardContent>
         <CardFooter className="mt-auto">
-          {/* <ToolBubbles tools={tools} /> */}
+          <ToolBubbles tools={tools} />
         </CardFooter>
       </div>
     </Card>
