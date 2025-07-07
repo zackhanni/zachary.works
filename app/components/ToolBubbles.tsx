@@ -1,13 +1,9 @@
 import React from "react";
 
-interface ToolBubblesProps {
-  tools?: string[];
-}
-
-export default function ToolBubbles(props: ToolBubblesProps) {
+export default function ToolBubbles({ tools }: { tools: string[] }) {
   return (
     <div className="flex flex-wrap">
-      {props.tools?.map((tool: string) => {
+      {tools?.map((tool: string) => {
         return (
           <div
             className="text-slate-200 text-sm bg-[#514E6D] rounded-full py-[3px] px-2.5 mr-1.5 mb-1.5"
