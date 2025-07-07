@@ -46,15 +46,17 @@ export default function About() {
                 <h3 className="text-center pb-8 text-slate-200">Tech Stack</h3>
 
                 <div className="flex flex-wrap gap-y-4 sm:gap-x-4 max-w-screen-md mx-auto">
-                  <TechnologyCard
-                    name="NextJS"
-                    image="/logos/next-js.svg"
-                    link="https://nextjs.org/"
-                  />
+
                   <TechnologyCard
                     name="React"
                     image="/logos/reactjs.svg"
                     link="https://react.dev/"
+                  />
+
+                  <TechnologyCard
+                    name="NextJS"
+                    image="/logos/next-js.svg"
+                    link="https://nextjs.org/"
                   />
 
                   <TechnologyCard
@@ -74,6 +76,14 @@ export default function About() {
                     image="/logos/tailwindcss.svg"
                     link="https://tailwindcss.com/"
                   />
+
+                  <TechnologyCard
+                    name="Shadcn"
+                    image="/logos/shadcn.png"
+                    link="https://ui.shadcn.com/"
+                  />
+
+
                   <TechnologyCard
                     name="Html"
                     image="/logos/html5.svg"
@@ -98,11 +108,11 @@ export default function About() {
                     link="https://nodejs.org/en"
                   />
 
-                  {/* <TechnologyCard
-                    name="Mongodb"
-                    image="/logos/mongodb.svg"
-                    link="/"
-                  /> */}
+                  <TechnologyCard
+                    name="Docker"
+                    image="/logos/docker.svg"
+                    link="https://www.docker.com/"
+                  />
 
                   <TechnologyCard
                     name="AWS"
@@ -114,6 +124,12 @@ export default function About() {
                     name="RESTful API"
                     image="/logos/rest-api.svg"
                     link="https://aws.amazon.com/"
+                  />
+
+                  <TechnologyCard
+                    name="Git"
+                    image="/logos/git.svg"
+                    link="https://git-scm.com/"
                   />
 
                   <TechnologyCard
