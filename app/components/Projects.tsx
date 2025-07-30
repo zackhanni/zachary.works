@@ -34,7 +34,7 @@ export default function Projects() {
             tools={["Next.js", "Tailwind CSS", "Typescript", "Bootstrap"]}
           />
 
-          <ProjectCard
+          {/* <ProjectCard
             image="/omni-mart.png"
             link="https://omni-mart.vercel.app/"
             title="Omni-Mart"
@@ -51,6 +51,43 @@ export default function Projects() {
               "React Email",
               "Supabase",
               "Bootstrap",
+            ]}
+          /> */}
+
+          <ProjectCard
+            image="/gas-lit-legacy.png"
+            link="https://www.gaslitlegacy.com/"
+            title="Gas Lit Legacy"
+            description="An licensed cannabis e-commerce marketplace"
+            content="Working directly with licensed cultivators, Gas Lit Legacy sells legal cannabis products directly to consumers."
+            footer="Footer text"
+            tools={[
+              "Next.js",
+              "Contentful",
+              "Tailwind",
+              "PostgreSQL",
+              "Node",
+              "Supabase",
+              "Typescript",
+            ]}
+          />
+
+          <ProjectCard
+            image="/hello-window-pet.png"
+            link="https://hello-window-pet.vercel.app/"
+            title="Hello Window Pet"
+            description="Easily share images of window pets"
+            content="Upload and share images of cute animals you find while walking through the city!"
+            footer="Footer text"
+            tools={[
+              "Next.js",
+              "React",
+              "Supabase",
+              "Tailwind",
+              "PostgreSQL",
+              "GraphQL",
+              "Node",
+              "Typescript",
             ]}
           />
 
@@ -91,7 +128,7 @@ export default function Projects() {
             tools={["OpenAI API", "Next.js", "Tailwind CSS", "Typescript"]}
           />
 
-          <ProjectCard
+          {/* <ProjectCard
             image="/kasatoboushi.png"
             link="https://kasatoboushi.vercel.app/"
             title="Kasa と boushi"
@@ -106,7 +143,7 @@ export default function Projects() {
               "Vercel",
               "Responsive Design",
             ]}
-          />
+          /> */}
 
           {/* <ProjectCard
             image="/mood-board.png"
