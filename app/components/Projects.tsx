@@ -25,15 +25,7 @@ interface Project {
 
 const projects: Project[] = [
   {
-    image: "/web-wizard-dev.jpeg",
-    link: "https://www.webwizarddev.com/",
-    title: "Web Wizard Dev",
-    description: "Professional web development company",
-    content: "A freelance software engineering company for building websites, mobile apps, MPVs, and updating existing websites for a diverse client base.",
-    tools: ["Next.js", "Tailwind CSS", "Typescript", "Bootstrap"],
-  },
-  {
-    image: "/gas-lit-legacy.png",
+    image: "/project_images/gas-lit-legacy.jpg",
     link: "https://www.gaslitlegacy.com/",
     title: "Gas Lit Legacy",
     description: "A licensed cannabis e-commerce marketplace",
@@ -49,24 +41,15 @@ const projects: Project[] = [
     ],
   },
   {
-    image: "/hello-window-pet.png",
-    link: "https://hello-window-pet.vercel.app/",
-    title: "Hello Window Pet",
-    description: "Easily share images of window pets",
-    content: "Upload and share images of cute animals you find while walking through the city!",
-    tools: [
-      "Next.js",
-      "React",
-      "Supabase",
-      "Tailwind",
-      "PostgreSQL",
-      "GraphQL",
-      "Node",
-      "Typescript",
-    ],
+    image: "/project_images/web-wizard-dev.jpeg",
+    link: "https://www.webwizarddev.com/",
+    title: "Web Wizard Dev",
+    description: "Professional web development company",
+    content: "A freelance software engineering company for building websites, mobile apps, MPVs, and updating existing websites for a diverse client base.",
+    tools: ["Next.js", "Tailwind CSS", "Typescript", "Bootstrap"],
   },
   {
-    image: "/book-sheldon-price.png",
+    image: "/project_images/book-sheldon-price.png",
     link: "https://www.booksheldonprice.com/",
     title: "Artist EPK React Template",
     description: "A reusable template for creating electronic press kits",
@@ -81,7 +64,7 @@ const projects: Project[] = [
     ],
   },
   {
-    image: "/soma-website.png",
+    image: "/project_images/soma-website.png",
     link: "https://www.soundslikesoma.com/",
     title: "Sounds Like Soma",
     description: "Philadelphia recording studio",
@@ -89,7 +72,7 @@ const projects: Project[] = [
     tools: ["Ruby", "Jekyll", "Bootstrap", "Netlify", "SEO"],
   },
   {
-    image: "/nihongo-ai.png",
+    image: "/project_images/nihongo-ai.png",
     link: "https://nihongo-chatbot.vercel.app/",
     title: "Nihongo",
     description: "AI powered Japanese practice chatbot",
