@@ -58,7 +58,7 @@ export default function Projects() {
             image="/gas-lit-legacy.png"
             link="https://www.gaslitlegacy.com/"
             title="Gas Lit Legacy"
-            description="An licensed cannabis e-commerce marketplace"
+            description="A licensed cannabis e-commerce marketplace"
             content="Working directly with licensed cultivators, Gas Lit Legacy sells legal cannabis products directly to consumers."
             footer="Footer text"
             tools={[
@@ -193,9 +193,8 @@ const ProjectCard = ({
 
   return (
     <Card
-      className={`sm:max-w-[352px] h-full border-0 text-[#94A3B8] bg-[#10151E] #black/50 hover:bg-black/40 group rounded-2xl ${
-        inView ? "show" : "hide"
-      }`}
+      className={`sm:max-w-[352px] h-full border-0 text-[#94A3B8] bg-[#10151E] #black/50 hover:bg-black/40 group rounded-2xl ${inView ? "show" : "hide"
+        }`}
       ref={ref}
     >
       <div className="overflow-hidden rounded-t-2xl">

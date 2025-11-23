@@ -245,7 +245,6 @@ export default function Contact() {
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>
-      ;
     </>
   );
 }

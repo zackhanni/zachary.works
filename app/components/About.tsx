@@ -74,13 +74,13 @@ export default function About() {
                   <TechnologyCard
                     name="Html"
                     image="/logos/html5.svg"
-                    link="https://developer.mozilla.org/en-US/docsWeb/>TML"
+                    link="https://developer.mozilla.org/en-US/docs/Web/HTML"
                   />
 
                   <TechnologyCard
                     name="CSS"
                     image="/logos/css.svg"
-                    link="https://developer.mozilla.org/en-US/docsWeb/>SS"
+                    link="https://developer.mozilla.org/en-US/docs/Web/CSS"
                   />
 
                   <TechnologyCard
@@ -110,7 +110,7 @@ export default function About() {
                   <TechnologyCard
                     name="RESTful API"
                     image="/logos/rest-api.svg"
-                    link="https://aws.amazon.com/"
+                    link="https://restfulapi.net"
                   />
 
                   <TechnologyCard
@@ -122,7 +122,7 @@ export default function About() {
                   <TechnologyCard
                     name="Wordpress"
                     image="/logos/wordpress2.svg"
-                    link="https://restfulapi.net"
+                    link="https://wordpress.org"
                   />
                 </div>
               </div>
