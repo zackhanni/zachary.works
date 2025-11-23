@@ -239,14 +239,7 @@ const WorkCard = ({
   bullets,
   description,
   tools,
-}: {
-  title: string;
-  employer: string;
-  dateRange: string;
-  bullets: ReactNode;
-  description: string;
-  tools: string[];
-}) => {
+}: WorkExperience) => {
   return (
     <Card
       className={`border-0 text-slate-400 bg-[#10151E] XXradial-gradient group rounded-2xl`}
