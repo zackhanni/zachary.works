@@ -172,7 +172,12 @@ const TechnologyCard = ({
   name: string;
 }) => {
   return (
-    <Link href={link} target="_blank" key={name} className="mx-auto">
+    <Link
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      key={name}
+      className="mx-auto">
       <div className="py-1 px-4 bg-white text-primary rounded-2xl flex items-center justify-center h-[65px] w-auto shadow-md hover:shadow-xl duration-200 hover:bg-white/80">
         {/* {technology.name} */}
         <Image

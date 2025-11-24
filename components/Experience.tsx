@@ -222,8 +222,8 @@ export default function Experience() {
         <div className="flex justify-center lg:space-x-8">
           <ZackFLoatingCard />
           <div className="space-y-8 w-fit">
-            {workExperiences.map((experience, index) => (
-              <WorkCard key={index} {...experience} />
+            {workExperiences.map((experience) => (
+              <WorkCard key={experience.title} {...experience} />
             ))}
           </div>
         </div>
@@ -242,7 +242,7 @@ const WorkCard = ({
 }: WorkExperience) => {
   return (
     <Card
-      className={`border-0 text-slate-400 bg-[#10151E] XXradial-gradient group rounded-2xl`}
+      className={`border-0 text-slate-400 bg-[#10151E] group rounded-2xl`}
     >
       <div className="h-full">
         <CardHeader className="space-y-0 flex sm:flex-row justify-between">

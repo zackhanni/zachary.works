@@ -12,7 +12,7 @@ export default function SocialMedia({
   icon: React.ReactNode;
 }) {
   return (
-    <Link key={name} href={link} target="_blank">
+    <Link key={name} href={link} target="_blank" rel="noopener noreferrer">
       <div
         className={`text-3xl text-[#2CA5B8] XXtext-[#AB5C95] duration-300 ${className}`}
       >

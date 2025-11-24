@@ -91,8 +91,8 @@ export default function Projects() {
         <SectionHeader title="Side Projects" />
 
         <div className="place-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 overflow-hidden">
-          {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} />
+          {projects.map((project) => (
+            <ProjectCard key={project.title} {...project} />
           ))}
         </div>
       </div>
@@ -115,12 +115,12 @@ const ProjectCard = ({
 
   return (
     <Card
-      className={`sm:max-w-[352px] h-full border-0 text-[#94A3B8] bg-[#10151E] #black/50 hover:bg-black/40 group rounded-2xl ${inView ? "show" : "hide"
+      className={`sm:max-w-[352px] h-full border-0 text-[#94A3B8] bg-[#10151E] hover:bg-black/40 group rounded-2xl ${inView ? "show" : "hide"
         }`}
       ref={ref}
     >
       <div className="overflow-hidden rounded-t-2xl">
-        <Link href={link} target="_blank">
+        <Link href={link} target="_blank" rel="noopener noreferrer">
           <Image
             src={image}
             height={175}
