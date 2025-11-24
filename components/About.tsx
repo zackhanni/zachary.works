@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Contact from "./Contact";
 import Footer from "./Footer";
 import Link from "next/link";
 import SectionHeader from "./SectionHeader";
