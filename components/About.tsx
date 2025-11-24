@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Contact from "./Contact";
 import Footer from "./Footer";
 import Link from "next/link";
 import SectionHeader from "./SectionHeader";
@@ -74,13 +73,13 @@ export default function About() {
                   <TechnologyCard
                     name="Html"
                     image="/logos/html5.svg"
-                    link="https://developer.mozilla.org/en-US/docsWeb/>TML"
+                    link="https://developer.mozilla.org/en-US/docs/Web/HTML"
                   />
 
                   <TechnologyCard
                     name="CSS"
                     image="/logos/css.svg"
-                    link="https://developer.mozilla.org/en-US/docsWeb/>SS"
+                    link="https://developer.mozilla.org/en-US/docs/Web/CSS"
                   />
 
                   <TechnologyCard
@@ -110,7 +109,7 @@ export default function About() {
                   <TechnologyCard
                     name="RESTful API"
                     image="/logos/rest-api.svg"
-                    link="https://aws.amazon.com/"
+                    link="https://restfulapi.net"
                   />
 
                   <TechnologyCard
@@ -122,7 +121,7 @@ export default function About() {
                   <TechnologyCard
                     name="Wordpress"
                     image="/logos/wordpress2.svg"
-                    link="https://restfulapi.net"
+                    link="https://wordpress.org"
                   />
                 </div>
               </div>
@@ -173,7 +172,12 @@ const TechnologyCard = ({
   name: string;
 }) => {
   return (
-    <Link href={link} target="_blank" key={name} className="mx-auto">
+    <Link
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      key={name}
+      className="mx-auto">
       <div className="py-1 px-4 bg-white text-primary rounded-2xl flex items-center justify-center h-[65px] w-auto shadow-md hover:shadow-xl duration-200 hover:bg-white/80">
         {/* {technology.name} */}
         <Image

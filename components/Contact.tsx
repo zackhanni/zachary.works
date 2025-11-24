@@ -196,6 +196,7 @@ export default function Contact() {
           <a
             href="https://www.figma.com/"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-[#2CA5B8] hover:text-[#AB5C95]"
           >
             Figma
@@ -204,6 +205,7 @@ export default function Contact() {
           <a
             href="https://code.visualstudio.com/"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-[#2CA5B8] hover:text-[#AB5C95]"
           >
             Visual Studio Code
@@ -212,6 +214,7 @@ export default function Contact() {
           <a
             href="https://nextjs.org/"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-[#2CA5B8] hover:text-[#AB5C95]"
           >
             Next.js
@@ -220,6 +223,7 @@ export default function Contact() {
           <a
             href="https://vercel.com/"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-[#2CA5B8] hover:text-[#AB5C95]"
           >
             Vercel
@@ -245,7 +249,6 @@ export default function Contact() {
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>
-      ;
     </>
   );
 }
