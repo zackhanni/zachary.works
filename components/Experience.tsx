@@ -239,6 +239,7 @@ const WorkCard = ({
           <p className="mb-3">{description}</p>
           <button
             onClick={() => setIsOpen((prev) => !prev)}
+            aria-expanded={isOpen}
             className="text-sm text-[#238493] hover:text-[#2CA5B8] transition-colors cursor-pointer"
           >
             {isOpen ? "Show less ↑" : "Read more ↓"}
