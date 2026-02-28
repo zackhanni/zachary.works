@@ -46,7 +46,7 @@ const projects: Project[] = [
     title: "Web Wizard Dev",
     description: "Professional web development company",
     content: "A freelance software engineering company for building websites, mobile apps, MPVs, and updating existing websites for a diverse client base.",
-    tools: ["Next.js", "Tailwind CSS", "Typescript", "Bootstrap"],
+    tools: ["Next.js", "Tailwind CSS", "Typescript", "Shadcn"],
   },
   {
     image: "/project_images/book-sheldon-price.png",

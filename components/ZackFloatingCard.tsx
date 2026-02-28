@@ -20,7 +20,7 @@ export default function ZackFLoatingCard() {
     >
       <div className="flex flex-col bg-white/80 space-y-4 mb-4">
         <h2 className="text-2xl font-semibold">Zack Hanni</h2>
-        <h3 className="text-white bg-[#238493]/70 w-fit py-.5 px-2 rounded-md">
+        <h3 className="text-white bg-[#238493]/70 w-fit py-0.5 px-2 rounded-md">
           Software Engineer
         </h3>
         <p className="">
@@ -68,4 +68,3 @@ export default function ZackFLoatingCard() {
   );
 }
 
-// bg-zinc-950

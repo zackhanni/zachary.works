@@ -16,15 +16,15 @@ export default function About() {
             <div className="max-w-screen-md mx-auto prose text-slate-200 lg:prose-md border-2 border-white p-8 rounded-2xl backdrop-blur-[2px]">
               <h3 className="text-slate-200">🌱 How It Started</h3>
               <p>
-                My journey into software began with late nights on Codecademy, the guidance of a patient mentor, and hands-on learning through freelance gigs. Things took off at Sounds Like Soma, a Philadelphia-based recording studio, where I managed the studio’s website and IT infrastructure. There, I had the unique opportunity to collaborate with global recording artists and record labels—designing promotional landing pages and crafting dynamic electronic press kits that helped bring their stories to life.
+                My journey into software began with late nights on Codecademy, a patient mentor, and hands-on learning through freelance gigs. Things took off at Sounds Like Soma, a Philadelphia-based recording studio, where I built and maintained the studio's web presence and IT infrastructure over five years. There, I collaborated with global recording artists and record labels—designing promotional landing pages and crafting reusable electronic press kit templates that were adopted by 20+ artists and deployed through Vercel.
               </p>
               <h3 className="text-slate-200">👨‍💻 Where I Am Now</h3>
               <p>
-                Most recently, I served as the lead full-stack web and mobile developer at a Philadelphia-based PR agency. The role challenged me to constantly explore new technologies—from real-time data processing and IoT integrations to modern frameworks like React Native and Next.js. It pushed me to grow not just as a developer, but as a creative problem-solver and collaborator.
+                I'm currently a Senior Software Engineer at Leadr, where I build enterprise SaaS products used by managers and organizations to improve performance, communication, and team health. My work spans architecting modular analytics dashboards, designing scalable component systems, and building the custom hooks and caching patterns that power data-heavy features across the platform. Prior to Leadr, I led full-stack development at SmartMark Communications—shipping cross-platform apps in React Native and Next.js—and built a mission-critical flight path monitoring SPA for the FAA as a contractor with Fedstack and Leidos.
               </p>
-              <h3 className="text-slate-200">🔍 What I'm Looking For</h3>
+              <h3 className="text-slate-200">🔍 What I'm About</h3>
               <p>
-                In my next chapter, I'm looking to join a team of curious, motivated professionals building software that has a real-world impact. I thrive in environments that value continuous learning, shared knowledge, and thoughtful engineering. If you're building something meaningful—and need someone who can turn bold ideas into functional, scalable products—I'd love to connect.
+                I specialize in the React and TypeScript ecosystem—building high-performance frontends, reusable design systems, and real-time analytics interfaces that support data-driven decision making at scale. I thrive in collaborative environments that value clean architecture, shared knowledge, and software that genuinely improves people's work. If you're building something meaningful and need someone who can own complex UI problems end to end, I'd love to connect.
               </p>
             </div>
             {/* tech i love */}
